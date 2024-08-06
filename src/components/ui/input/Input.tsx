@@ -4,7 +4,7 @@ import clsx from 'clsx'
 
 import s from './input.module.scss'
 
-import { CircleFill, EyeFill } from '../../assets/icons/components'
+import { CircleFill, EyeFill } from '../../../assets/icons/components'
 
 export type InputProps = {
   defaultValue?: string
