@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgMicrophoneSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#microphone-slash-fill_svg__a)"><path fill="#000" d="M13.336 14.37a.5.5 0 0 1-.706-.034l-1.933-2.125a4.9 4.9 0 0 1-2.197.764V15a.5.5 0 1 1-1 0v-2.025A5.006 5.006 0 0 1 3 8a.5.5 0 1 1 1 0 4.004 4.004 0 0 0 6.013 3.458l-.694-.763A3 3 0 0 1 5 8V5.943L2.63 3.336a.5.5 0 0 1 .74-.672l10 11a.5.5 0 0 1-.033.706m-1.512-3.945a.49.49 0 0 0 .485-.025.5.5 0 0 0 .184-.205A4.95 4.95 0 0 0 13 8a.5.5 0 0 0-1 0 3.96 3.96 0 0 1-.405 1.756.5.5 0 0 0 .23.668m-1.708-1.827a.5.5 0 0 0 .868-.285Q10.999 8.157 11 8V4a3 3 0 0 0-5.75-1.196.5.5 0 0 0 .088.536z" /></g><defs><clipPath id="microphone-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgMicrophoneSlashFill);
+const Memo = memo(ForwardRef);
+export default Memo;

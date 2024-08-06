@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgScreencastFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#screencast-fill_svg__a)"><path fill="#000" d="M3.5 13a.5.5 0 0 1-.515.5.517.517 0 0 1-.485-.515.5.5 0 0 0-.485-.485.52.52 0 0 1-.515-.485.5.5 0 0 1 .5-.515A1.5 1.5 0 0 1 3.5 13M2 9.5a.5.5 0 0 0-.5.54.51.51 0 0 0 .515.46A2.5 2.5 0 0 1 4.5 12.985a.51.51 0 0 0 .46.515.5.5 0 0 0 .54-.5A3.504 3.504 0 0 0 2 9.5m0-2a.5.5 0 0 0-.5.537.514.514 0 0 0 .519.463 4.505 4.505 0 0 1 4.48 4.48.513.513 0 0 0 .463.519.5.5 0 0 0 .538-.5A5.506 5.506 0 0 0 2 7.5m11.5-5h-11a1 1 0 0 0-1 1v2.755a.25.25 0 0 0 .26.25 6.507 6.507 0 0 1 6.736 6.736.25.25 0 0 0 .25.259H13.5a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1" /></g><defs><clipPath id="screencast-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgScreencastFill);
+const Memo = memo(ForwardRef);
+export default Memo;

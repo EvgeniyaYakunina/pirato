@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPottedPlantFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#potted-plant-fill_svg__a)"><path fill="#000" d="M12.5 9H7.706l1.4-1.4a3.7 3.7 0 0 0 1.632.397c.57.001 1.13-.155 1.618-.451 1.483-.898 2.277-2.975 2.125-5.558a.5.5 0 0 0-.47-.47c-2.582-.152-4.66.643-5.558 2.125-.584.966-.6 2.132-.054 3.25l-.9.9-.762-.764c.375-.828.348-1.687-.087-2.405-.68-1.124-2.237-1.723-4.167-1.61a.5.5 0 0 0-.47.47C1.9 5.412 2.5 6.97 3.626 7.65c.376.23.809.351 1.25.35.4-.004.795-.093 1.157-.262l.761.762-.5.5H3.5a.5.5 0 0 0 0 1h.6l.825 3.717a.99.99 0 0 0 .976.783H10.1a.994.994 0 0 0 .977-.783L11.9 10h.599a.5.5 0 1 0 0-1" /></g><defs><clipPath id="potted-plant-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPottedPlantFill);
+const Memo = memo(ForwardRef);
+export default Memo;

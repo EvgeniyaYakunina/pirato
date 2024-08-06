@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgDesktopTowerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#desktop-tower-fill_svg__a)"><path fill="#000" d="M7.5 4.75v7a.25.25 0 0 1-.25.25H6v1h.983a.51.51 0 0 1 .516.467.5.5 0 0 1-.5.533H4.017a.51.51 0 0 1-.517-.467A.5.5 0 0 1 4 13h1v-1H2a1.5 1.5 0 0 1-1.5-1.5V6A1.5 1.5 0 0 1 2 4.5h5.25a.25.25 0 0 1 .25.25m8-1.75v10a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1m-2.756 8.348a.75.75 0 1 0-1.488-.196.75.75 0 0 0 1.488.196M14 6.467A.51.51 0 0 0 13.483 6h-2.966a.51.51 0 0 0-.516.467.5.5 0 0 0 .5.533h3A.5.5 0 0 0 14 6.467m0-2A.51.51 0 0 0 13.483 4h-2.966a.51.51 0 0 0-.517.467.5.5 0 0 0 .5.533h3a.5.5 0 0 0 .5-.533" /></g><defs><clipPath id="desktop-tower-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgDesktopTowerFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgWhatsappLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#whatsapp-logo-fill_svg__a)"><path fill="#000" d="m9.536 9.077 1.438.717A1.5 1.5 0 0 1 9.5 11 4.505 4.505 0 0 1 5 6.5a1.5 1.5 0 0 1 1.206-1.471l.717 1.437-.61.909a.5.5 0 0 0-.046.47A3.53 3.53 0 0 0 8.15 9.728a.5.5 0 0 0 .474-.041zM14.5 8a6.5 6.5 0 0 1-9.555 5.739l-2.128.71a1 1 0 0 1-1.265-1.266l.71-2.128A6.5 6.5 0 1 1 14.5 8M12 9.5a.5.5 0 0 0-.276-.447l-2-1a.5.5 0 0 0-.5.03l-.918.613a2.53 2.53 0 0 1-1-1l.612-.918a.5.5 0 0 0 .031-.5l-1-2A.5.5 0 0 0 6.5 4 2.5 2.5 0 0 0 4 6.5 5.506 5.506 0 0 0 9.5 12 2.5 2.5 0 0 0 12 9.5" /></g><defs><clipPath id="whatsapp-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgWhatsappLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

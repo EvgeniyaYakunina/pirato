@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgSpeakerSimpleSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#speaker-simple-slash-fill_svg__a)"><path fill="#000" d="M13.87 13.164a.499.499 0 0 1-.393.84.5.5 0 0 1-.347-.168l-2.63-2.893v3.038a.52.52 0 0 1-.244.449.5.5 0 0 1-.563-.035L5.328 11H2.5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h2.597L3.13 2.836a.5.5 0 0 1 .74-.672zM12.533 10A.51.51 0 0 0 13 9.485V6.517A.51.51 0 0 0 12.533 6a.5.5 0 0 0-.533.5v3a.5.5 0 0 0 .533.5m-2.47-2.508a.25.25 0 0 0 .437-.169V2.015a.52.52 0 0 0-.18-.4.5.5 0 0 0-.625-.01L6.989 3.709a.25.25 0 0 0-.03.366zM14.467 5a.51.51 0 0 0-.467.517v4.966a.51.51 0 0 0 .467.516.5.5 0 0 0 .533-.5V5.5a.5.5 0 0 0-.533-.5" /></g><defs><clipPath id="speaker-simple-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgSpeakerSimpleSlashFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgSnowflakeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#snowflake-fill_svg__a)"><path fill="#000" d="M8 1.5A6.5 6.5 0 1 0 14.5 8 6.507 6.507 0 0 0 8 1.5m2.648 7.451 1.184-.422a.5.5 0 1 1 .336.942l-.967.345.282 1.055a.5.5 0 1 1-.966.258l-.348-1.3L8.5 8.866v1.927l.854.853a.501.501 0 0 1-.708.708L8 11.707l-.646.647a.5.5 0 0 1-.708-.708l.854-.853V8.866l-1.669.963-.348 1.3a.5.5 0 0 1-.966-.258l.282-1.055-.967-.345a.5.5 0 1 1 .336-.942l1.184.422L7 8l-1.648-.951-1.184.422a.5.5 0 1 1-.336-.943l.967-.344-.282-1.055a.5.5 0 1 1 .966-.258l.348 1.3 1.669.963V5.207l-.854-.853a.5.5 0 1 1 .708-.708L8 4.293l.646-.647a.5.5 0 1 1 .708.708l-.854.853v1.927l1.669-.963.348-1.3a.5.5 0 1 1 .966.258l-.282 1.055.967.345a.5.5 0 1 1-.336.942l-1.184-.422L9 8z" /></g><defs><clipPath id="snowflake-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgSnowflakeFill);
+const Memo = memo(ForwardRef);
+export default Memo;

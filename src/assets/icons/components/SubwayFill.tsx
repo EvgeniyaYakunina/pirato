@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgSubwayFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#subway-fill_svg__a)"><path fill="#000" d="M9.75 11V9.5H11v1a.5.5 0 0 1-.5.5zm-1 0V9.5h-1.5V11zM11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0-.5.5v3h6zm-1.5-4h-3A4.5 4.5 0 0 0 2 6v7a.5.5 0 0 0 .5.5h2.286a.25.25 0 0 0 .224-.138L5.691 12H5.5A1.5 1.5 0 0 1 4 10.5v-5A1.5 1.5 0 0 1 5.5 4h5A1.5 1.5 0 0 1 12 5.5v5a1.5 1.5 0 0 1-1.5 1.5h-.191l.681 1.362a.25.25 0 0 0 .224.138H13.5a.5.5 0 0 0 .5-.5V6a4.5 4.5 0 0 0-4.5-4.5M9.191 12H6.81l-.569 1.138a.25.25 0 0 0 .224.362h3.072a.25.25 0 0 0 .224-.362zM5 10.5a.5.5 0 0 0 .5.5h.75V9.5H5z" /></g><defs><clipPath id="subway-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgSubwayFill);
+const Memo = memo(ForwardRef);
+export default Memo;

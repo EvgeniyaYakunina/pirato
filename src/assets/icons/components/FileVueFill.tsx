@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFileVueFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#file-vue-fill_svg__a)"><path fill="#000" d="m13.354 5.146-3.5-3.5A.5.5 0 0 0 9.5 1.5h-6a1 1 0 0 0-1 1v4.75a.25.25 0 0 0 .25.25h10.5a.25.25 0 0 0 .25-.25V5.5a.5.5 0 0 0-.146-.354M9.5 5.5V2.75l2.75 2.75zM5.46 9.688l-1.243 3.48a.5.5 0 0 1-.943 0l-1.243-3.48a.513.513 0 0 1 .281-.654.5.5 0 0 1 .654.298l.78 2.181.779-2.181a.5.5 0 0 1 .654-.298.514.514 0 0 1 .281.653M11.5 10v.75h.983a.51.51 0 0 1 .516.467.5.5 0 0 1-.5.533H11.5v.75h1.483a.51.51 0 0 1 .516.467.5.5 0 0 1-.5.533H11a.5.5 0 0 1-.5-.5V9.5A.5.5 0 0 1 11 9h1.984a.51.51 0 0 1 .516.467.5.5 0 0 1-.5.533zm-2-.5v2.34c0 .884-.692 1.633-1.576 1.66a1.626 1.626 0 0 1-1.674-1.625V9.517A.51.51 0 0 1 6.717 9a.5.5 0 0 1 .534.5v2.353a.64.64 0 0 0 .578.646.624.624 0 0 0 .671-.625V9.517A.51.51 0 0 1 8.967 9 .5.5 0 0 1 9.5 9.5" /></g><defs><clipPath id="file-vue-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFileVueFill);
+const Memo = memo(ForwardRef);
+export default Memo;

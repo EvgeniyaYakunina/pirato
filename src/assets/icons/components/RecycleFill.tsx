@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgRecycleFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#recycle-fill_svg__a)"><path fill="#000" d="M6 13a.5.5 0 0 1-.5.5h-3a1.5 1.5 0 0 1-1.298-2.25l1.75-3.019-.864-.5a.5.5 0 0 1 .12-.919l2.048-.548a.5.5 0 0 1 .613.354l.55 2.048a.5.5 0 0 1-.734.563l-.867-.5-1.749 3.02a.5.5 0 0 0 .431.75h3a.5.5 0 0 1 .5.5m8.796-1.75-1.447-2.5a.5.5 0 0 0-.865.5l1.447 2.5a.5.5 0 0 1-.43.75H10v-1a.5.5 0 0 0-.855-.354l-1.5 1.5a.5.5 0 0 0 0 .708l1.5 1.5A.5.5 0 0 0 10 14.5v-1h3.5a1.5 1.5 0 0 0 1.298-2.25zM8 2a.49.49 0 0 1 .433.25l1.75 3.019-.864.5a.5.5 0 0 0 .119.913l2.048.55a.5.5 0 0 0 .612-.354l.55-2.05a.5.5 0 0 0-.733-.562l-.868.5L9.298 1.75a1.5 1.5 0 0 0-2.596 0l-1.448 2.5a.5.5 0 0 0 .866.5l1.448-2.5A.49.49 0 0 1 8 2" /></g><defs><clipPath id="recycle-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgRecycleFill);
+const Memo = memo(ForwardRef);
+export default Memo;

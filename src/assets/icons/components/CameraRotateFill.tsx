@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCameraRotateFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#camera-rotate-fill_svg__a)"><path fill="#000" d="M13 3.5h-1.732l-.852-1.277A.5.5 0 0 0 10 2H6a.5.5 0 0 0-.416.223L4.732 3.5H3A1.5 1.5 0 0 0 1.5 5v7A1.5 1.5 0 0 0 3 13.5h10a1.5 1.5 0 0 0 1.5-1.5V5A1.5 1.5 0 0 0 13 3.5m-3.2 6.9a3.01 3.01 0 0 1-3.8-.164v.264a.5.5 0 0 1-1 0V9a.5.5 0 0 1 .5-.5H7a.5.5 0 1 1 0 1h-.322a2.01 2.01 0 0 0 2.521.1.5.5 0 1 1 .602.8M11 7.5a.5.5 0 0 1-.5.5H9a.5.5 0 1 1 0-1h.322A2.01 2.01 0 0 0 6.8 6.9a.5.5 0 1 1-.602-.8A3.01 3.01 0 0 1 10 6.264V6a.5.5 0 0 1 1 0z" /></g><defs><clipPath id="camera-rotate-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCameraRotateFill);
+const Memo = memo(ForwardRef);
+export default Memo;

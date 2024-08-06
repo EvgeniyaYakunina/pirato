@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgRedditLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#reddit-logo-fill_svg__a)"><path fill="#000" d="M15.5 6.5a2 2 0 0 0-3.309-1.512c-1.047-.556-2.297-.892-3.604-.97l.325-1.949 1.107.17a1.5 1.5 0 1 0 .18-.983l-1.625-.25a.5.5 0 0 0-.57.412L7.575 4.01c-1.365.059-2.676.399-3.766.978a2 2 0 0 0-2.662 2.984C1.05 8.306 1 8.652 1 9c0 1.37.75 2.647 2.12 3.593C4.43 13.5 6.162 14 8 14s3.57-.5 4.88-1.407C14.25 11.647 15 10.371 15 9c0-.348-.05-.694-.147-1.028A2 2 0 0 0 15.5 6.5M4.5 8a1 1 0 1 1 2 0 1 1 0 0 1-2 0m5.734 3.442a4.76 4.76 0 0 1-4.468 0 .501.501 0 0 1 .468-.884 3.76 3.76 0 0 0 3.532 0 .5.5 0 1 1 .468.884M10.5 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2" /></g><defs><clipPath id="reddit-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgRedditLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

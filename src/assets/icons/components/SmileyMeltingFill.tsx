@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgSmileyMeltingFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#smiley-melting-fill_svg__a)"><path fill="#000" d="M14.725 11h-.96a6.5 6.5 0 1 0-11.532 0h-.958a.766.766 0 0 0-.775.736.75.75 0 0 0 .75.764H5a.5.5 0 1 1 0 1h-.49a.51.51 0 0 0-.5.396.5.5 0 0 0 .49.604h7.983a.51.51 0 0 0 .516-.467.5.5 0 0 0-.5-.533H9a.5.5 0 0 1 0-1h.487a.52.52 0 0 0 .51-.44.5.5 0 0 0-.497-.56h-1c-.933 0-1.912-.361-2.687-.99C4.966 9.821 4.5 8.93 4.5 8q0-.283.045-.562A.513.513 0 0 1 5.098 7a.5.5 0 0 1 .437.58Q5.5 7.788 5.5 8c0 1.385 1.641 2.5 3 2.5h.965c.844 0 1.554.69 1.534 1.534q-.001.09-.014.177a.25.25 0 0 0 .25.29h3.515a.75.75 0 0 0 .75-.765.766.766 0 0 0-.775-.736M7.994 5.848a.75.75 0 1 1-1.487-.196.75.75 0 0 1 1.487.196m3 3a.75.75 0 1 1-1.489-.196.75.75 0 0 1 1.489.196" /></g><defs><clipPath id="smiley-melting-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgSmileyMeltingFill);
+const Memo = memo(ForwardRef);
+export default Memo;

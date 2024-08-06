@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBellSimpleSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#bell-simple-slash-fill_svg__a)"><path fill="#000" d="M13.865 12a.116.116 0 0 1-.187.018L5.204 2.699a.25.25 0 0 1 .05-.375 4.97 4.97 0 0 1 2.82-.824c2.739.041 4.914 2.319 4.926 5.058.009 2.18.52 3.846.864 4.437A.99.99 0 0 1 13.865 12M10 13.5H6.014a.51.51 0 0 0-.514.467.5.5 0 0 0 .5.533h3.984a.51.51 0 0 0 .516-.467.5.5 0 0 0-.5-.533M3.365 2.164a.5.5 0 1 0-.74.672l1.05 1.155a4.96 4.96 0 0 0-.68 2.51c0 2.192-.509 3.874-.856 4.482a1.03 1.03 0 0 0 .006 1.043.99.99 0 0 0 .85.474h8.419l1.215 1.336a.5.5 0 1 0 .741-.672z" /></g><defs><clipPath id="bell-simple-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBellSimpleSlashFill);
+const Memo = memo(ForwardRef);
+export default Memo;

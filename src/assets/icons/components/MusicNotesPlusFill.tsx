@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgMusicNotesPlusFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#music-notes-plus-fill_svg__a)"><path fill="#000" d="M14.5 3a.5.5 0 0 1-.5.5h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0v1h1a.5.5 0 0 1 .5.5m-4.463 1.866-.422-.422A2.05 2.05 0 0 1 9 3.084c-.01-.248.024-.495.104-.73a.25.25 0 0 0-.297-.32l-3.928.982a.5.5 0 0 0-.38.484v6.881A2.25 2.25 0 1 0 3.277 14.5c1.24-.014 2.224-1.054 2.224-2.294V6.391L9.92 5.285a.25.25 0 0 0 .116-.419m3.132 1.52a2 2 0 0 1-.446.101.25.25 0 0 0-.223.25v1.644a2.25 2.25 0 1 0-1.224 4.119c1.24-.014 2.224-1.054 2.224-2.294V6.625a.25.25 0 0 0-.33-.24" /></g><defs><clipPath id="music-notes-plus-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgMusicNotesPlusFill);
+const Memo = memo(ForwardRef);
+export default Memo;

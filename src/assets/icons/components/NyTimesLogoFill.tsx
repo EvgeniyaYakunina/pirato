@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgNyTimesLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#ny-times-logo-fill_svg__a)"><path fill="#000" d="M10.75 8.5a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m.789-2.047L7.432 4.537A4.5 4.5 0 0 0 3.504 8.83L7.765 6.56A.5.5 0 0 1 8.5 7v6.472a4.48 4.48 0 0 0 3.794-3.125.502.502 0 0 1 .956.303A5.499 5.499 0 1 1 3.234 6.256 2.25 2.25 0 0 1 4.25 2q.11 0 .211.047l7.391 3.449A1.25 1.25 0 0 0 11.75 3a.5.5 0 0 1 0-1 2.25 2.25 0 1 1 0 4.5.5.5 0 0 1-.211-.047M6 13.03V8.633L3.595 9.916A4.51 4.51 0 0 0 6 13.03m.008-9.154-1.86-.87a1.25 1.25 0 0 0-.325 2.419q.056-.068.115-.132a5.5 5.5 0 0 1 2.07-1.417" /></g><defs><clipPath id="ny-times-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgNyTimesLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

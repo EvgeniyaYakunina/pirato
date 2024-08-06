@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFilePyFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#file-py-fill_svg__a)"><path fill="#000" d="m13.354 5.146-3.5-3.5A.5.5 0 0 0 9.5 1.5h-6a1 1 0 0 0-1 1v4.75a.25.25 0 0 0 .25.25h8a.25.25 0 0 1 .25.25v6.5a.25.25 0 0 0 .25.25h1.25a1 1 0 0 0 1-1v-8a.5.5 0 0 0-.146-.354M9.5 5.5V2.75l2.75 2.75zM4 9H3a.5.5 0 0 0-.5.5v3.483a.51.51 0 0 0 .467.517.5.5 0 0 0 .533-.5v-.5h.463c.952 0 1.758-.745 1.786-1.697A1.75 1.75 0 0 0 4 9m-.022 2.5H3.5V10H4a.75.75 0 0 1 .75.822.766.766 0 0 1-.772.678m5.688-1.717L8.5 11.643v1.34a.51.51 0 0 1-.467.516.5.5 0 0 1-.533-.5v-1.356l-1.163-1.86a.514.514 0 0 1 .135-.699.5.5 0 0 1 .702.151L8 10.557l.826-1.322a.5.5 0 0 1 .702-.15.514.514 0 0 1 .135.697z" /></g><defs><clipPath id="file-py-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFilePyFill);
+const Memo = memo(ForwardRef);
+export default Memo;

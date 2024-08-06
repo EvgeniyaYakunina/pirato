@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgArrowsCounterClockwiseFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#arrows-counter-clockwise-fill_svg__a)"><path fill="#000" d="M5.5 6.5h-3A.5.5 0 0 1 2 6V3a.5.5 0 0 1 .854-.354L4 3.794A5.96 5.96 0 0 1 8.125 2.12h.033A5.96 5.96 0 0 1 12.35 3.83a.5.5 0 0 1-.699.715 4.97 4.97 0 0 0-3.493-1.423H8.13A4.97 4.97 0 0 0 4.71 4.5l1.144 1.146A.5.5 0 0 1 5.5 6.5m8 3h-3a.5.5 0 0 0-.354.854l1.145 1.146a4.97 4.97 0 0 1-3.42 1.38h-.029a4.97 4.97 0 0 1-3.493-1.423.5.5 0 1 0-.698.715 5.96 5.96 0 0 0 4.192 1.708h.032A5.96 5.96 0 0 0 12 12.208l1.148 1.147A.5.5 0 0 0 14 13v-3a.5.5 0 0 0-.5-.5" /></g><defs><clipPath id="arrows-counter-clockwise-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgArrowsCounterClockwiseFill);
+const Memo = memo(ForwardRef);
+export default Memo;

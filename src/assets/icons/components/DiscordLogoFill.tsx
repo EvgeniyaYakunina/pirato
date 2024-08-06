@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgDiscordLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#discord-logo-fill_svg__a)"><path fill="#000" d="m15.47 10.9-1.845-7.275a1 1 0 0 0-.812-.743l-2.254-.37a1.014 1.014 0 0 0-1.141.743l-.014.053a.25.25 0 0 0 .205.308 10 10 0 0 1 1.525.351.51.51 0 0 1 .352.607.5.5 0 0 1-.637.352 9.7 9.7 0 0 0-5.675-.006.514.514 0 0 1-.643-.3.5.5 0 0 1 .318-.646 10 10 0 0 1 1.545-.358.25.25 0 0 0 .204-.308l-.013-.053a1.013 1.013 0 0 0-1.142-.742l-2.255.37a1 1 0 0 0-.813.742L.531 10.899a.996.996 0 0 0 .566 1.157l4.187 1.857a1.01 1.01 0 0 0 1.357-.569l.218-.59a.25.25 0 0 0-.204-.335 10 10 0 0 1-1.79-.387.513.513 0 0 1-.35-.605.5.5 0 0 1 .638-.353 9.72 9.72 0 0 0 5.695 0 .5.5 0 0 1 .636.353.51.51 0 0 1-.35.605 10 10 0 0 1-1.789.387.25.25 0 0 0-.204.335l.218.59a1.013 1.013 0 0 0 1.357.569l4.187-1.857a1 1 0 0 0 .566-1.157M5.75 9.5a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m4.5 0a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5" /></g><defs><clipPath id="discord-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgDiscordLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

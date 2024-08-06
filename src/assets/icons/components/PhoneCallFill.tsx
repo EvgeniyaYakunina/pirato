@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPhoneCallFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#phone-call-fill_svg__a)"><path fill="#000" d="M9.017 2.87a.5.5 0 0 1 .612-.353 5.39 5.39 0 0 1 3.854 3.854.5.5 0 1 1-.966.258A4.4 4.4 0 0 0 9.37 3.483a.5.5 0 0 1-.354-.613M8.87 5.483c.862.23 1.416.784 1.646 1.646a.5.5 0 0 0 .966-.258c-.32-1.198-1.156-2.034-2.354-2.354a.5.5 0 1 0-.258.966m4.527 4.92-2.944-1.319-.008-.003a1 1 0 0 0-.995.122L7.929 10.5c-.963-.468-1.958-1.456-2.426-2.407L6.8 6.549l.036-.049a1 1 0 0 0 .082-.94v-.008l-1.323-2.95a1 1 0 0 0-1.038-.595A3.516 3.516 0 0 0 1.5 5.5c0 4.962 4.038 9 9 9a3.52 3.52 0 0 0 3.492-3.058 1 1 0 0 0-.594-1.038" /></g><defs><clipPath id="phone-call-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPhoneCallFill);
+const Memo = memo(ForwardRef);
+export default Memo;

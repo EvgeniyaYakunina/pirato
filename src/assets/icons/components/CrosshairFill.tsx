@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCrosshairFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#crosshair-fill_svg__a)"><path fill="#000" d="M14.5 7.5h-.521A6.01 6.01 0 0 0 8.5 2.021V1.5a.5.5 0 1 0-1 0v.521A6.01 6.01 0 0 0 2.021 7.5H1.5a.5.5 0 1 0 0 1h.521A6.01 6.01 0 0 0 7.5 13.979v.521a.5.5 0 0 0 1 0v-.521A6.01 6.01 0 0 0 13.979 8.5h.521a.5.5 0 0 0 0-1m-6 5.475V12.5a.5.5 0 0 0-1 0v.475A5.01 5.01 0 0 1 3.025 8.5H3.5a.5.5 0 1 0 0-1h-.475A5.01 5.01 0 0 1 7.5 3.025V3.5a.5.5 0 1 0 1 0v-.475A5.01 5.01 0 0 1 12.975 7.5H12.5a.5.5 0 0 0 0 1h.475A5.01 5.01 0 0 1 8.5 12.975M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" /></g><defs><clipPath id="crosshair-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCrosshairFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCompassRoseFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#compass-rose-fill_svg__a)"><path fill="#000" d="m15.621 7.515-1.69-.423A5.99 5.99 0 0 0 8.907 2.07L8.485.382a.5.5 0 0 0-.97 0l-.423 1.69A5.99 5.99 0 0 0 2.07 7.096l-1.687.422a.5.5 0 0 0 0 .97l1.69.423a5.99 5.99 0 0 0 5.024 5.023l.422 1.69a.5.5 0 0 0 .97 0l.423-1.69a5.99 5.99 0 0 0 5.023-5.023l1.69-.423a.5.5 0 0 0 0-.97zm-2.76-.688-2.949-.74-.737-2.948a4.99 4.99 0 0 1 3.686 3.686zM6.825 3.14l-.738 2.947-2.948.738a4.99 4.99 0 0 1 3.686-3.686zM3.137 9.176l2.95.736.738 2.949a4.99 4.99 0 0 1-3.686-3.686zm6.036 3.687.738-2.948 2.948-.738a4.99 4.99 0 0 1-3.684 3.684z" /></g><defs><clipPath id="compass-rose-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCompassRoseFill);
+const Memo = memo(ForwardRef);
+export default Memo;

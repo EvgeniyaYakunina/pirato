@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPentagramFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#pentagram-fill_svg__a)"><path fill="#000" d="M3.761 8.095a.25.25 0 0 1-.384.125l-1.96-1.407a.99.99 0 0 1-.365-1.125A1.02 1.02 0 0 1 2.027 5H4.42a.25.25 0 0 1 .238.328zm-.437 4.592a.98.98 0 0 0 .364 1.118.98.98 0 0 0 1.173 0l2.003-1.441a.25.25 0 0 0 0-.407L4.46 10.233a.25.25 0 0 0-.323.026.25.25 0 0 0-.06.1zM8.952 1.204A.996.996 0 0 0 7.049 1.2L6.25 3.673A.25.25 0 0 0 6.485 4h3.03a.25.25 0 0 0 .238-.327zM10 5H6a.25.25 0 0 0-.237.173l-1.2 3.688a.25.25 0 0 0 .091.28l3.199 2.3a.25.25 0 0 0 .292 0l3.198-2.3a.25.25 0 0 0 .092-.28l-1.197-3.688A.25.25 0 0 0 10 5m4.946.688A1.02 1.02 0 0 0 13.97 5H11.58a.25.25 0 0 0-.238.328l.898 2.768a.25.25 0 0 0 .383.125l1.964-1.413a.98.98 0 0 0 .361-1.12zm-3.41 4.546-2.4 1.727a.25.25 0 0 0 0 .406l2 1.438a1 1 0 0 0 1.542-1.117l-.756-2.33a.25.25 0 0 0-.384-.126z" /></g><defs><clipPath id="pentagram-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPentagramFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCellSignalXFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cell-signal-x-fill_svg__a)"><path fill="#000" d="M13.354 12.146A.502.502 0 0 1 13 13a.5.5 0 0 1-.354-.146L11.5 11.707l-1.146 1.147a.5.5 0 1 1-.708-.708L10.793 11 9.646 9.854a.5.5 0 1 1 .708-.708l1.146 1.147 1.146-1.147a.5.5 0 1 1 .708.708L12.207 11zm-3.516-4.64a2 2 0 0 1 1.495.503.25.25 0 0 0 .334 0 2 2 0 0 1 1.11-.5.25.25 0 0 0 .223-.25V2.53a1.02 1.02 0 0 0-.574-.933 1 1 0 0 0-1.133.197l-10 10a1 1 0 0 0-.199 1.133 1.02 1.02 0 0 0 .935.574h5.85a.25.25 0 0 0 .236-.331 2 2 0 0 1 .394-2 .25.25 0 0 0 0-.334 2 2 0 0 1 1.33-3.327z" /></g><defs><clipPath id="cell-signal-x-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCellSignalXFill);
+const Memo = memo(ForwardRef);
+export default Memo;

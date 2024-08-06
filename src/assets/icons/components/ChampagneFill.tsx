@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgChampagneFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#champagne-fill_svg__a)"><path fill="#000" d="M9.37.846A.5.5 0 0 0 8.893.5H6.107a.5.5 0 0 0-.476.346 28 28 0 0 0-.888 3.73c-.454 2.767-.272 4.736.54 5.855A2.5 2.5 0 0 0 7 11.464V14.5H6a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H8v-3.036a2.5 2.5 0 0 0 1.716-1.033c.813-1.12.995-3.088.542-5.854A28 28 0 0 0 9.369.846M5.862 4c.187-.974.42-1.863.611-2.5h2.052c.192.637.423 1.526.613 2.5zm8.637-.75a.75.75 0 1 1-1.499 0 .75.75 0 0 1 1.499 0m-3-2a.75.75 0 1 1 1.5 0 .75.75 0 0 1-1.5 0m1.5 5a.75.75 0 1 1-1.499 0 .75.75 0 0 1 1.499 0" /></g><defs><clipPath id="champagne-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgChampagneFill);
+const Memo = memo(ForwardRef);
+export default Memo;

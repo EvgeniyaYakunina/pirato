@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFileArchiveFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#file-archive-fill_svg__a)"><path fill="#000" d="m13.354 5.146-3.5-3.5A.5.5 0 0 0 9.5 1.5h-6a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h2.25a.25.25 0 0 0 .25-.25V13h-.483A.51.51 0 0 1 5 12.533.5.5 0 0 1 5.5 12H6v-1h-.483A.51.51 0 0 1 5 10.533.5.5 0 0 1 5.5 10H6V9h-.483A.51.51 0 0 1 5 8.533.5.5 0 0 1 5.5 8H6v-.483A.51.51 0 0 1 6.467 7a.5.5 0 0 1 .533.5v.5h.483A.51.51 0 0 1 8 8.468a.5.5 0 0 1-.5.533h-.5v1h.483a.51.51 0 0 1 .515.467.5.5 0 0 1-.5.533h-.5v1h.484a.51.51 0 0 1 .515.467.5.5 0 0 1-.5.533h-.5v1.25a.25.25 0 0 0 .25.25h5.25a1 1 0 0 0 1-1V5.5a.5.5 0 0 0-.142-.354M9.5 5.5V2.75l2.75 2.75z" /></g><defs><clipPath id="file-archive-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFileArchiveFill);
+const Memo = memo(ForwardRef);
+export default Memo;

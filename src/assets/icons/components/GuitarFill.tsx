@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgGuitarFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#guitar-fill_svg__a)"><path fill="#000" d="m15.604 2.897-2.5-2.5a.5.5 0 0 0-.708.707l.147.146-3.76 3.76c-1.425-.741-3.02-.68-3.986.287a2.6 2.6 0 0 0-.587.898.52.52 0 0 1-.472.305c-.912.03-1.704.358-2.29.945-.755.757-1.073 1.843-.902 3.06.167 1.164.77 2.317 1.704 3.245s2.084 1.535 3.25 1.701q.314.047.631.05c.958 0 1.802-.328 2.423-.948.587-.587.914-1.379.944-2.29a.52.52 0 0 1 .308-.473 2.6 2.6 0 0 0 .898-.587c.965-.966 1.027-2.562.286-3.985l3.76-3.76.146.146a.5.5 0 1 0 .708-.707m-9.75 9.956a.5.5 0 0 1-.707 0l-2-2a.5.5 0 1 1 .707-.707l2 2a.5.5 0 0 1 0 .707m2.634-2.866a1.75 1.75 0 1 1-2.476-2.474 1.75 1.75 0 0 1 2.476 2.474m1.94-3.625a5.336 5.336 0 0 0-.793-.792L11 4.207l.793.793zm2.072-2.07-.793-.792 1.543-1.543.793.793z" /></g><defs><clipPath id="guitar-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgGuitarFill);
+const Memo = memo(ForwardRef);
+export default Memo;

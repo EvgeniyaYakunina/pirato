@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "tsc -b && vite build",
     "format": "prettier --write src",
     "lint": "eslint src --ext .jsx,.js,.tsx,.ts  --no-error-on-unmatched-pattern --fix && stylelint --fix src/{,*/}*.{scss,css} --allow-empty-input",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rename-icons": "node scripts/rename-icons.cjs",
+    "replace-colors": "node scripts/replace-colors.cjs",
+    "generate": "npx @svgr/cli --out-dir src/assets/icons/components --jsx-runtime automatic --typescript --ref --memo -- src/assets/icons/svg"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",

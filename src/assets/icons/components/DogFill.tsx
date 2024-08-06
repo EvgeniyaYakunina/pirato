@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgDogFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#dog-fill_svg__a)"><path fill="#000" d="m14.982 7.812-1.026-5.5a1 1 0 0 0-1.226-.786l-.02.006-3.282.968H6.572l-3.283-.965-.019-.006a1 1 0 0 0-1.226.786L1.018 7.812a.986.986 0 0 0 .57 1.095.968.968 0 0 0 .912-.043V11.5A2.5 2.5 0 0 0 5 14h6a2.5 2.5 0 0 0 2.5-2.5V8.865a.97.97 0 0 0 .492.135c.145 0 .288-.031.42-.092a.985.985 0 0 0 .57-1.096M11 13H8.5v-.793l.854-.854a.5.5 0 0 0-.708-.707L8 11.293l-.646-.647a.5.5 0 0 0-.708.707l.854.854V13H5a1.5 1.5 0 0 1-1.5-1.5V7.694L6.746 3.5h2.508L12.5 7.694V11.5A1.5 1.5 0 0 1 11 13M6.5 8.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m4.5 0a.75.75 0 1 1-1.499 0 .75.75 0 0 1 1.499 0" /></g><defs><clipPath id="dog-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgDogFill);
+const Memo = memo(ForwardRef);
+export default Memo;

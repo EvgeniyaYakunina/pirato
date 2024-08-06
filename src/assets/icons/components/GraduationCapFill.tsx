@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgGraduationCapFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#graduation-cap-fill_svg__a)"><path fill="#000" d="M11 12.952q.518-.204 1-.483V15a.5.5 0 1 1-1 0zm.735-5.526-3.5-1.867a.5.5 0 0 0-.47.882L10.687 8l1.063-.566zm4-1.867-7.5-4a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L2 7.367v3.026c0 .246.09.483.254.666.818.912 2.653 2.44 5.746 2.44a8.1 8.1 0 0 0 3-.547V8.167L10.687 8 8 9.433 2.74 6.625 1.561 6 8 2.567 14.437 6l-1.173.625h-.004l-1.51.809a.5.5 0 0 1 .25.433v4.602a7.2 7.2 0 0 0 1.746-1.41 1 1 0 0 0 .254-.666V7.367l1.735-.926a.5.5 0 0 0 0-.882" /></g><defs><clipPath id="graduation-cap-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgGraduationCapFill);
+const Memo = memo(ForwardRef);
+export default Memo;

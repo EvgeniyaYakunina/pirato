@@ -1,7 +1,9 @@
 import { Provider } from 'react-redux'
 
-import { Router } from './router'
-import { store } from './services/store'
+import { Button } from '@/components/ui/Button'
+import { Input } from '@/components/ui/Input'
+import { Router } from '@/router'
+import { store } from '@/services/store'
 
 export function App() {
   return (
@@ -10,6 +12,8 @@ export function App() {
         <Router />
       </Provider>
       <div>Hello</div>
+      <Button />
+      <Input />
     </>
   )
 }

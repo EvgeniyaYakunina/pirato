@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgUserSwitchFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#user-switch-fill_svg__a)"><path fill="#000" d="M5.25 7.5a2.75 2.75 0 1 1 5.5 0 2.75 2.75 0 0 1-5.5 0m7.885 3.574a.514.514 0 0 0-.679.15 6 6 0 0 1-.345.428 5 5 0 0 0-1.361-1.333.25.25 0 0 0-.303.02 3.74 3.74 0 0 1-4.89 0 .25.25 0 0 0-.307-.02 5 5 0 0 0-1.362 1.332A5.48 5.48 0 0 1 2.523 8.5h.963a.51.51 0 0 0 .418-.205.5.5 0 0 0-.05-.649l-1.5-1.5a.5.5 0 0 0-.708 0l-1.5 1.5a.5.5 0 0 0 .368.854H1.52a6.5 6.5 0 0 0 11.761 3.292.5.5 0 0 0-.145-.718m2.827-3.265A.5.5 0 0 0 15.5 7.5h-1.019A6.5 6.5 0 0 0 2.72 4.208a.5.5 0 0 0 .812.584A5.5 5.5 0 0 1 13.477 7.5H12.5a.5.5 0 0 0-.354.854l1.5 1.5a.5.5 0 0 0 .708 0l1.5-1.5a.5.5 0 0 0 .108-.545" /></g><defs><clipPath id="user-switch-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgUserSwitchFill);
+const Memo = memo(ForwardRef);
+export default Memo;

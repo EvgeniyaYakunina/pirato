@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFadersFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#faders-fill_svg__a)"><path fill="#000" d="M8.5 7.5v6a.5.5 0 0 1-1 0v-6a.5.5 0 1 1 1 0m4 4.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-.5-.5M14 9h-1V2.5a.5.5 0 0 0-1 0V9h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1A.5.5 0 0 0 14 9M3.5 10a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 1 0v-3a.5.5 0 0 0-.5-.5M5 7H4V2.5a.5.5 0 1 0-1 0V7H2a.5.5 0 0 0-.5.5v1A.5.5 0 0 0 2 9h3a.5.5 0 0 0 .5-.5v-1A.5.5 0 0 0 5 7m4.5-3h-1V2.5a.5.5 0 1 0-1 0V4h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5" /></g><defs><clipPath id="faders-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFadersFill);
+const Memo = memo(ForwardRef);
+export default Memo;

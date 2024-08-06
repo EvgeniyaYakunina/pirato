@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBroadcastFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#broadcast-fill_svg__a)"><path fill="#000" d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0M13 8a4.98 4.98 0 0 0-1.273-3.333.5.5 0 1 0-.745.667 4 4 0 0 1 0 5.333.5.5 0 0 0 .745.667A5 5 0 0 0 13 8M5.018 5.334a.5.5 0 1 0-.745-.667 4.996 4.996 0 0 0 0 6.667.5.5 0 0 0 .745-.667 3.997 3.997 0 0 1 0-5.333m9.893-.25a7.5 7.5 0 0 0-1.554-2.334.5.5 0 1 0-.714.7 6.494 6.494 0 0 1 0 9.098.5.5 0 1 0 .714.702 7.51 7.51 0 0 0 1.554-8.17zM2.01 10.53a6.49 6.49 0 0 1 1.346-7.078.5.5 0 1 0-.714-.702 7.49 7.49 0 0 0 0 10.5.501.501 0 1 0 .714-.7 6.5 6.5 0 0 1-1.346-2.02" /></g><defs><clipPath id="broadcast-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBroadcastFill);
+const Memo = memo(ForwardRef);
+export default Memo;

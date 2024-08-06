@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPlugsConnectedFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#plugs-connected-fill_svg__a)"><path fill="#000" d="M5.536 2.188a.5.5 0 1 1 .928-.375l.5 1.25a.5.5 0 0 1-.928.375zM1.812 6.464l1.25.5a.5.5 0 0 0 .375-.928l-1.25-.5a.5.5 0 1 0-.375.928m12.375 3.072-1.25-.5a.5.5 0 1 0-.374.928l1.25.5a.5.5 0 0 0 .374-.928m-4.223 3.027a.501.501 0 0 0-.928.375l.5 1.25a.5.5 0 1 0 .928-.375zM14.87 1.158a.5.5 0 0 0-.718-.012l-3.276 3.276-.336-.336a2 2 0 0 0-2.83 0L6.634 5.159a.25.25 0 0 0 0 .354l3.856 3.853a.25.25 0 0 0 .354 0L11.89 8.32c.38-.372.599-.876.613-1.407a1.99 1.99 0 0 0-.585-1.449l-.337-.335 3.263-3.26a.514.514 0 0 0 .025-.711M5.352 5.646a.5.5 0 0 0-.718.012.514.514 0 0 0 .026.71l.382.382-.958.957A2 2 0 0 0 3.5 9.154c.013.531.232 1.036.61 1.409l.313.308-3.267 3.262a.513.513 0 0 0-.039.694.5.5 0 0 0 .733.027l3.275-3.276.336.337a2.006 2.006 0 0 0 2.83 0l.959-.958.396.397a.5.5 0 1 0 .708-.708z" /></g><defs><clipPath id="plugs-connected-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPlugsConnectedFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBeerBottleFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#beer-bottle-fill_svg__a)"><path fill="#000" d="m15.354 2.646-2-2a.5.5 0 1 0-.708.708l.093.091L9.29 4.032l-2.388.478a.5.5 0 0 0-.256.136L1.437 9.854a1.5 1.5 0 0 0 0 2.12l2.588 2.588a1.5 1.5 0 0 0 2.121 0l5.208-5.207a.5.5 0 0 0 .136-.255l.478-2.389 2.586-3.448.092.092a.5.5 0 0 0 .708-.707zM5.085 14a.5.5 0 0 1-.353-.146l-2.586-2.587a.5.5 0 0 1 0-.707l.354-.353L5.793 13.5l-.356.354a.5.5 0 0 1-.352.146M11.1 6.2a.5.5 0 0 0-.09.202l-.47 2.352-.54.539L6.707 6l.54-.54 2.351-.47A.5.5 0 0 0 9.8 4.9l3.653-2.74.387.387z" /></g><defs><clipPath id="beer-bottle-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBeerBottleFill);
+const Memo = memo(ForwardRef);
+export default Memo;

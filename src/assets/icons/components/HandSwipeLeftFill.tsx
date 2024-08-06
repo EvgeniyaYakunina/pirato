@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgHandSwipeLeftFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-swipe-left-fill_svg__a)"><path fill="#000" d="M13.5 8v3.183c0 1.6-.53 2.496-.553 2.541A.5.5 0 0 1 12.5 14H4a.5.5 0 0 1-.431-.247L1.634 10a1 1 0 0 1 .409-1.39c.478-.25 1.068-.052 1.337.415l1.313 2.277a.38.38 0 0 0 .375.193h.007a.51.51 0 0 0 .425-.511V3.5a1 1 0 0 1 1.048-1c.538.025.952.489.952 1.027V8a.5.5 0 0 0 .533.5.51.51 0 0 0 .467-.515V7a1 1 0 0 1 1.048-1c.538.025.952.489.952 1.027V8.5a.5.5 0 0 0 .533.5.51.51 0 0 0 .467-.515V8.03c0-.538.414-1 .952-1.027A1 1 0 0 1 13.5 8m2-5h-3.293l1.147-1.146a.5.5 0 0 0-.708-.707l-2 2a.5.5 0 0 0 0 .707l2 2a.5.5 0 1 0 .708-.707L12.207 4H15.5a.5.5 0 0 0 0-1" /></g><defs><clipPath id="hand-swipe-left-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgHandSwipeLeftFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCakeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cake-fill_svg__a)"><path fill="#000" d="M13 5.5H8.5v-.563A2.004 2.004 0 0 0 10 3C10 1.25 8.348.13 8.277.084a.5.5 0 0 0-.554 0C7.653.13 6 1.25 6 3a2.004 2.004 0 0 0 1.5 1.937V5.5H3A1.5 1.5 0 0 0 1.5 7v1.458c0 .545.176 1.076.5 1.515V12.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V9.973c.324-.439.5-.97.5-1.515V7A1.5 1.5 0 0 0 13 5.5M7 3c0-.848.625-1.529 1-1.862.375.333 1 1.014 1 1.862a1 1 0 0 1-2 0m6.5 5.458c0 .828-.654 1.52-1.457 1.541A1.5 1.5 0 0 1 10.5 8.5a.5.5 0 0 0-1 0 1.5 1.5 0 0 1-3 0 .5.5 0 0 0-1 0A1.5 1.5 0 0 1 3.958 10C3.154 9.978 2.5 9.287 2.5 8.459V7a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5z" /></g><defs><clipPath id="cake-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCakeFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgDropboxLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#dropbox-logo-fill_svg__a)"><path fill="#000" d="M11.75 7.5 8 5l3.472-2.312a.5.5 0 0 1 .555 0l2.848 1.896a.5.5 0 0 1 0 .832zM4.527 2.688a.5.5 0 0 0-.555 0L1.125 4.584a.5.5 0 0 0 0 .832L4.25 7.5 8 5zm10.348 6.896L11.75 7.5 8 10l3.472 2.313a.5.5 0 0 0 .555 0l2.848-1.897a.5.5 0 0 0 0-.832m-13.75 0a.5.5 0 0 0 0 .832l2.847 1.897a.5.5 0 0 0 .555 0L8 10 4.25 7.5zm9.413 3.31-2.398-1.6a.25.25 0 0 0-.278 0l-2.399 1.6a.25.25 0 0 0 0 .415l2.26 1.504a.5.5 0 0 0 .554 0l2.26-1.507a.25.25 0 0 0 .08-.323.25.25 0 0 0-.08-.09z" /></g><defs><clipPath id="dropbox-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgDropboxLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

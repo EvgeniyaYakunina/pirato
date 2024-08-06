@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgHandWavingFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-waving-fill_svg__a)"><path fill="#000" d="M13.707 6.154a5.5 5.5 0 1 1-9.515 5.52L1.634 7.242a1 1 0 0 1 1.731-1l1.16 2.007a.5.5 0 1 0 .866-.5L2.937 3.5a1 1 0 0 1 1.731-1l2.457 4.25a.5.5 0 1 0 .866-.5L6.116 3a1 1 0 0 1 1.731-1l2.528 4.383A3.02 3.02 0 0 0 9.5 8.5c-.002.65.209 1.282.6 1.8a.5.5 0 1 0 .8-.6 2 2 0 0 1 .412-2.809.5.5 0 0 0 .136-.652L10.732 5a1 1 0 0 1 1.732-1zM11.87 2.59a2.73 2.73 0 0 1 1.675 1.284l.02.036a.5.5 0 1 0 .867-.5l-.02-.036a3.73 3.73 0 0 0-2.284-1.75.5.5 0 0 0-.258.966M4.974 14.108A6.5 6.5 0 0 1 3.37 12.25a.5.5 0 1 0-.867.5 7.5 7.5 0 0 0 1.85 2.143.5.5 0 0 0 .62-.785" /></g><defs><clipPath id="hand-waving-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgHandWavingFill);
+const Memo = memo(ForwardRef);
+export default Memo;

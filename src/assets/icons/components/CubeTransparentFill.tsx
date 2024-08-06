@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCubeTransparentFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cube-transparent-fill_svg__a)"><path fill="#000" d="M6.5 9.5v-3h3v3zM2 3.313V9.25a.25.25 0 0 0 .25.25H5.5V6.207L2.427 3.134A.25.25 0 0 0 2 3.313M13.75 6.5H10.5v3.293l3.073 3.073a.25.25 0 0 0 .427-.178V6.75a.25.25 0 0 0-.25-.25M9.5 2.25A.25.25 0 0 0 9.25 2H3.313a.25.25 0 0 0-.177.427L6.206 5.5H9.5zm3.78 2.823L10.928 2.72a.25.25 0 0 0-.427.177V5.5h2.604a.25.25 0 0 0 .177-.427M9.794 10.5H6.5v3.25a.25.25 0 0 0 .25.25h5.938a.25.25 0 0 0 .176-.427zm-7.074.427 2.354 2.354a.25.25 0 0 0 .427-.177V10.5H2.896a.25.25 0 0 0-.177.427" /></g><defs><clipPath id="cube-transparent-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCubeTransparentFill);
+const Memo = memo(ForwardRef);
+export default Memo;
