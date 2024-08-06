@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCloudSnowFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cloud-snow-fill_svg__a)"><path fill="#000" d="M5.5 12.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0m1.75.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m3-1a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m-6 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m5.5 0a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m4.742-8.528a4.75 4.75 0 0 0-9.486.045A.51.51 0 0 1 4.5 6h-.037A.51.51 0 0 1 4 5.462a6 6 0 0 1 .146-1.032.25.25 0 0 0-.313-.299A3.256 3.256 0 0 0 1.5 7.272C1.513 9.067 3.008 10.5 4.803 10.5H9.75a4.756 4.756 0 0 0 4.742-5.028" /></g><defs><clipPath id="cloud-snow-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCloudSnowFill);
+const Memo = memo(ForwardRef);
+export default Memo;

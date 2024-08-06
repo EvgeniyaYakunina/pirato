@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBootFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#boot-fill_svg__a)"><path fill="#000" d="M12 7H7.017a.51.51 0 0 1-.516-.467A.5.5 0 0 1 7 6h2.75a.25.25 0 0 0 .25-.25v-.5A.25.25 0 0 0 9.75 5H7.017a.51.51 0 0 1-.517-.467A.5.5 0 0 1 7 4h2.75a.25.25 0 0 0 .25-.25V3.5a1 1 0 0 0-1-1H2.014a.5.5 0 0 0-.48.679c.69 1.802.547 5.232-.015 7.183a.5.5 0 0 0-.019.138v2a1 1 0 0 0 1 1h1.632c.155 0 .308-.036.447-.105L5.37 13h1.013l.789.395c.139.069.292.105.447.105h1.764c.155 0 .308-.036.447-.105l.79-.395h1.013l.789.395c.139.069.292.105.447.105H14.5a1 1 0 0 0 1-1v-2A3.5 3.5 0 0 0 12 7m2.5 5.5h-1.632l-.789-.394a1 1 0 0 0-.447-.106h-1.014a1 1 0 0 0-.447.106l-.79.394H7.619l-.789-.394A1 1 0 0 0 6.382 12H5.368a1 1 0 0 0-.447.106l-.79.394H2.5V11h12z" /></g><defs><clipPath id="boot-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBootFill);
+const Memo = memo(ForwardRef);
+export default Memo;

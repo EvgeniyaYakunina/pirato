@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgSneakerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#sneaker-fill_svg__a)"><path fill="#000" d="m14.29 8.07-1.753-.585a.25.25 0 0 0-.165 0l-2.701.983a.5.5 0 0 1-.652-.335.51.51 0 0 1 .325-.609l1.156-.42a.158.158 0 0 0-.004-.3 1.5 1.5 0 0 1-.55-.328.25.25 0 0 0-.26-.057l-1.514.55a.5.5 0 0 1-.653-.336.51.51 0 0 1 .327-.609l1.279-.466a.25.25 0 0 0 .144-.334l-.19-.447a.25.25 0 0 0-.317-.137l-1.593.58a.5.5 0 0 1-.653-.337.51.51 0 0 1 .327-.609l1.5-.545a.25.25 0 0 0 .144-.333L8.149 2.6v-.006a1 1 0 0 0-1.258-.531L2.158 3.78a1 1 0 0 0-.658.94V12a1 1 0 0 0 1 1H15a1 1 0 0 0 1-1v-1.559a2.5 2.5 0 0 0-1.71-2.372M15 12H2.5v-1H15z" /></g><defs><clipPath id="sneaker-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgSneakerFill);
+const Memo = memo(ForwardRef);
+export default Memo;

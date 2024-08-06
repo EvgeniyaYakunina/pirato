@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgTreasureChestFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#treasure-chest-fill_svg__a)"><path fill="#000" d="M15 7.75V12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7.75a.25.25 0 0 1 .25-.25H3.5v4a.5.5 0 0 0 .533.5.51.51 0 0 0 .467-.517V7.5H7v1.25a.25.25 0 0 0 .25.25h1.5A.25.25 0 0 0 9 8.75V7.5h2.5v4a.499.499 0 0 0 .868.334.5.5 0 0 0 .132-.35V7.5h2.25a.25.25 0 0 1 .25.25M11.5 2.5h-7A3.5 3.5 0 0 0 1 6v.25a.25.25 0 0 0 .25.25H3.5V4.017a.51.51 0 0 1 .467-.517.5.5 0 0 1 .533.5v2.5H7v-.75a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25v.75h2.5V4.017a.51.51 0 0 1 .467-.517.5.5 0 0 1 .533.5v2.5h2.25a.25.25 0 0 0 .25-.25V6a3.5 3.5 0 0 0-3.5-3.5" /></g><defs><clipPath id="treasure-chest-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgTreasureChestFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgAppleLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#apple-logo-fill_svg__a)"><path fill="#000" d="M8.014 1.875A2.5 2.5 0 0 1 10.437 0h.063a.5.5 0 1 1 0 1h-.063a1.5 1.5 0 0 0-1.452 1.125.5.5 0 0 1-.969-.25zm5.942 8.724a.5.5 0 0 0-.175-.212C12.721 9.658 12.5 8.415 12.5 7.5c0-1.104.842-2.066 1.344-2.542a.5.5 0 0 0 0-.726C13.05 3.484 11.739 3 10.5 3c-.89 0-1.76.265-2.5.758a4.47 4.47 0 0 0-5.67.568A4.66 4.66 0 0 0 1 7.713a7.94 7.94 0 0 0 2.509 5.608A2.5 2.5 0 0 0 5.224 14h5.48a2.5 2.5 0 0 0 1.82-.786 7.8 7.8 0 0 0 1.114-1.537c.439-.802.383-.927.318-1.078" /></g><defs><clipPath id="apple-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgAppleLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

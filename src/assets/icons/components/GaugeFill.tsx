@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgGaugeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#gauge-fill_svg__a)"><path fill="#000" d="M15 9.5V11a1 1 0 0 1-1 1H7.246a.25.25 0 0 1-.203-.397l3.849-5.29a.513.513 0 0 0-.086-.707.5.5 0 0 0-.71.101l-4.5 6.191A.25.25 0 0 1 5.39 12H2a1 1 0 0 1-1-1V9.57c0-.111 0-.222.008-.332A.25.25 0 0 1 1.258 9H3a.5.5 0 0 0 .5-.533A.51.51 0 0 0 2.983 8H1.495a.25.25 0 0 1-.242-.312c.75-2.74 3.104-4.821 5.97-5.143a.25.25 0 0 1 .277.25V4.5a.5.5 0 0 0 .533.5.51.51 0 0 0 .467-.517V2.792a.25.25 0 0 1 .277-.25 7.01 7.01 0 0 1 5.987 5.146.25.25 0 0 1-.242.312h-1.505a.51.51 0 0 0-.516.467.5.5 0 0 0 .5.533h1.745a.25.25 0 0 1 .25.241q.005.128.004.26" /></g><defs><clipPath id="gauge-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgGaugeFill);
+const Memo = memo(ForwardRef);
+export default Memo;

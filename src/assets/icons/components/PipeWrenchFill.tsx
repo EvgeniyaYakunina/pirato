@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPipeWrenchFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#pipe-wrench-fill_svg__a)"><path fill="#000" d="m13.768 3.438-.011-.011L10.95.784A1 1 0 0 0 9.544.79L6.761 3.554l-.097-.097a1.562 1.562 0 0 0-2.21 2.204l.092.093L3.293 7a1 1 0 0 0 0 1.414l.793.793a1 1 0 0 0 1.412 0l1.245-1.228.757.771-4.043 4.086a1.563 1.563 0 1 0 2.209 2.205l5.541-5.584a1 1 0 0 0 0-1.413l-2.23-2.253.808-.79.006.005 2.334 2.207a1 1 0 0 0 1.408-.006l.232-.232a2.5 2.5 0 0 0 0-3.536zM4.793 8.5 4 7.708l1.25-1.242.793.803zm8.27-2.232-.235.232-.01-.01-2.337-2.209a1.003 1.003 0 0 0-1.4.008l-.808.792-.809-.817L10.25 1.5l.01.01 2.806 2.641a1.5 1.5 0 0 1-.005 2.117z" /></g><defs><clipPath id="pipe-wrench-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPipeWrenchFill);
+const Memo = memo(ForwardRef);
+export default Memo;

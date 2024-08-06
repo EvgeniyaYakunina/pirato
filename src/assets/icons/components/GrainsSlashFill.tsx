@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgGrainsSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#grains-slash-fill_svg__a)"><path fill="#000" d="M13.5 4v5c0 .65-.115 1.295-.34 1.905a.25.25 0 0 1-.314.149.25.25 0 0 1-.105-.07l-2.583-2.84a.25.25 0 0 1 .062-.386 5.5 5.5 0 0 1 2.28-.735V4.528a4.52 4.52 0 0 0-3.147 1.835.5.5 0 0 1-.745.074.51.51 0 0 1-.056-.672 5.5 5.5 0 0 1 1.563-1.444C9.539 3.112 8.465 2.358 8 2.075A6.2 6.2 0 0 0 6.538 3.32a.5.5 0 0 1-.75.017.51.51 0 0 1-.004-.675 7 7 0 0 1 1.991-1.61.5.5 0 0 1 .448 0c.082.041 1.891.964 2.786 2.822a5.5 5.5 0 0 1 1.984-.375.5.5 0 0 1 .507.5m-.13 9.164a.5.5 0 1 1-.74.672l-.806-.887a5.49 5.49 0 0 1-3.791 1.55C4.99 14.518 2.5 11.97 2.5 8.928V4a.5.5 0 0 1 .506-.5q.117-.001.232.005l-.608-.669a.5.5 0 1 1 .74-.673zM8.52 9.315 4.324 4.7a4.5 4.5 0 0 0-.824-.172v2.496A5.51 5.51 0 0 1 8 10.211q.219-.472.52-.896" /></g><defs><clipPath id="grains-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgGrainsSlashFill);
+const Memo = memo(ForwardRef);
+export default Memo;

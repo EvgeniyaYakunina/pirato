@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgHandArrowUpFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-arrow-up-fill_svg__a)"><path fill="#000" d="M14.396 8.816a1.53 1.53 0 0 0-1.328-.264l-2.615.601A1.75 1.75 0 0 0 8.75 7H5.621a2 2 0 0 0-1.414.586L2.793 9H1a1 1 0 0 0-1 1v2.5a1 1 0 0 0 1 1h6.5q.061 0 .121-.015l4-1a1 1 0 0 0 .075-.025l2.429-1.034.027-.012a1.538 1.538 0 0 0 .246-2.598zm-.682 1.697-2.375 1.011-3.902.976H3.5V9.707l1.414-1.414A1 1 0 0 1 5.621 8H8.75a.75.75 0 1 1 0 1.5H7a.5.5 0 1 0 0 1h2a.5.5 0 0 0 .112-.013l4.187-.963.02-.005a.537.537 0 0 1 .393.994zm-4.068-6.66a.5.5 0 0 1 0-.707l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L12.5 2.707V6.5a.5.5 0 0 1-1 0V2.707l-1.146 1.147a.5.5 0 0 1-.708 0" /></g><defs><clipPath id="hand-arrow-up-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgHandArrowUpFill);
+const Memo = memo(ForwardRef);
+export default Memo;

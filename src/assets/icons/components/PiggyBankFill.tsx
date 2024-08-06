@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPiggyBankFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#piggy-bank-fill_svg__a)"><path fill="#000" d="m14.125 5.505-.078-.188a5.5 5.5 0 0 0-1.886-2.312H13.5a.5.5 0 0 0 0-1H7a5.51 5.51 0 0 0-5.482 5.062A2 2 0 0 0 0 9a.5.5 0 1 0 1 0 1 1 0 0 1 .536-.885 5.5 5.5 0 0 0 1.339 3.024l.785 2.197a1 1 0 0 0 .942.664h.795a1 1 0 0 0 .942-.664L6.46 13h3.582l.12.336a1 1 0 0 0 .941.664h.796a1 1 0 0 0 .941-.664l1.013-2.836H14A1.5 1.5 0 0 0 15.5 9V7a1.5 1.5 0 0 0-1.375-1.495M9.5 4.5H7a.5.5 0 1 1 0-1h2.5a.5.5 0 1 1 0 1M11.25 8a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5" /></g><defs><clipPath id="piggy-bank-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPiggyBankFill);
+const Memo = memo(ForwardRef);
+export default Memo;

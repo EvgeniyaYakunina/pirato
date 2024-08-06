@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPixLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#pix-logo-fill_svg__a)"><path fill="#000" d="m14.709 8.705-1.223 1.222a.25.25 0 0 1-.174.073h-2.604l-2-2 2-2h2.605a.25.25 0 0 1 .176.073l1.222 1.222a1 1 0 0 1-.002 1.41M4.19 5H5.5a.5.5 0 0 1 .353.146L8 7.293l2.147-2.147A.5.5 0 0 1 10.5 5h1.313a.25.25 0 0 0 .176-.427L8.71 1.291a1 1 0 0 0-1.41 0L4.013 4.573A.25.25 0 0 0 4.19 5m7.622 6H10.5a.5.5 0 0 1-.353-.146L8 8.707l-2.147 2.147A.5.5 0 0 1 5.5 11H4.188a.25.25 0 0 0-.177.427l3.28 3.282a1 1 0 0 0 1.41 0l3.282-3.282a.25.25 0 0 0-.17-.427M7.296 8l-2-2H2.688a.25.25 0 0 0-.177.073l-1.22 1.222a1 1 0 0 0 0 1.41l1.223 1.222a.25.25 0 0 0 .174.073h2.605z" /></g><defs><clipPath id="pix-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPixLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

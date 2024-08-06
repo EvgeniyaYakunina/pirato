@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPushPinSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#push-pin-slash-fill_svg__a)"><path fill="#000" d="m14.708 6.5-2.976 2.986a.25.25 0 0 1-.362-.009L6.75 4.392a.25.25 0 0 1 .008-.345L9.5 1.294a1 1 0 0 1 1.414 0l3.793 3.792a1 1 0 0 1 0 1.414M3.37 2.164a.5.5 0 0 0-.75.013.51.51 0 0 0 .023.672l1.564 1.723c-.566.121-1.195.389-1.832.905a1 1 0 0 0-.08 1.486l3.017 3.019-2.653 2.652a.51.51 0 0 0-.037.693.5.5 0 0 0 .732.027l2.664-2.666 3.018 3.018a1 1 0 0 0 .708.294h.07a1 1 0 0 0 .728-.396c.297-.387.541-.811.727-1.262l1.36 1.497a.499.499 0 1 0 .74-.673z" /></g><defs><clipPath id="push-pin-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPushPinSlashFill);
+const Memo = memo(ForwardRef);
+export default Memo;

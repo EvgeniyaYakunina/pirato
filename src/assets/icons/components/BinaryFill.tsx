@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBinaryFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#binary-fill_svg__a)"><path fill="#000" d="M10.5 10.5c0 .297-.07.572-.19.757a.49.49 0 0 1-.435.243c-.607 0-.625-.898-.625-1 0-.296.07-.572.19-.757a.49.49 0 0 1 .435-.243c.607 0 .625.898.625 1M14 3v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1M8.803 4.724a.5.5 0 0 0 .67.223l.277-.138V7a.5.5 0 1 0 1 0V4a.5.5 0 0 0-.724-.447l-1 .5a.5.5 0 0 0-.223.67M7 9a.5.5 0 0 0-.724-.447l-1 .5a.5.5 0 0 0 .448.894L6 9.81V12a.5.5 0 0 0 1 0zm1-3.5c0-1.178-.668-2-1.625-2s-1.625.822-1.625 2 .668 2 1.625 2S8 6.678 8 5.5m3.5 5c0-1.178-.668-2-1.625-2s-1.625.822-1.625 2 .668 2 1.625 2 1.625-.822 1.625-2m-5.125-6a.49.49 0 0 0-.437.243c-.122.188-.188.46-.188.757 0 .103.018 1 .625 1a.49.49 0 0 0 .438-.243c.12-.188.187-.46.187-.757 0-.103-.018-1-.625-1" /></g><defs><clipPath id="binary-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBinaryFill);
+const Memo = memo(ForwardRef);
+export default Memo;

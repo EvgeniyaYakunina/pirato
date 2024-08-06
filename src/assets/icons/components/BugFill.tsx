@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBugFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#bug-fill_svg__a)"><path fill="#000" d="M10.5 5.75a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0M6.25 5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5m7.25 4c.001.485-.062.969-.187 1.438l1.39.607A.5.5 0 0 1 14.5 12a.5.5 0 0 1-.2-.042l-1.339-.583a5.5 5.5 0 0 1-9.922 0l-1.339.583a.5.5 0 0 1-.4-.916l1.388-.604A5.5 5.5 0 0 1 2.5 9v-.5H1a.5.5 0 0 1 0-1h1.5V7a5.5 5.5 0 0 1 .188-1.437L1.3 4.958a.5.5 0 1 1 .4-.916l1.339.583a5.5 5.5 0 0 1 9.922 0L14.3 4.04a.5.5 0 0 1 .4.916l-1.387.61c.125.468.188.952.187 1.437v.5H15a.5.5 0 0 1 0 1h-1.5zm-5 0a.5.5 0 0 0-1 0v4a.5.5 0 0 0 1 0zm4-2a4.5 4.5 0 1 0-9 0v.5h9z" /></g><defs><clipPath id="bug-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBugFill);
+const Memo = memo(ForwardRef);
+export default Memo;

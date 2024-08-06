@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgUserCircleGearFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#user-circle-gear-fill_svg__a)"><path fill="#000" d="m14.266 3.942-.292-.168c.035-.181.035-.367 0-.548l.292-.168a.5.5 0 0 0-.5-.866l-.292.169q-.212-.181-.474-.275V1.75a.5.5 0 0 0-1 0v.336a1.5 1.5 0 0 0-.474.275l-.292-.17a.5.5 0 0 0-.5.867l.292.168c-.034.181-.034.367 0 .548l-.292.168a.5.5 0 1 0 .5.866l.292-.169q.212.181.474.275v.336a.5.5 0 0 0 1 0v-.336q.262-.094.474-.275l.292.17a.5.5 0 0 0 .554-.037.5.5 0 0 0-.054-.83M12.5 4a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1M8 4.75a2.75 2.75 0 1 1 0 5.5 2.75 2.75 0 0 1 0-5.5m6.41 2.168A6.496 6.496 0 1 1 9.083 1.59a.5.5 0 0 1-.165.986A5.504 5.504 0 0 0 2.5 8a5.48 5.48 0 0 0 1.39 3.65c.364-.527.825-.979 1.36-1.331a.25.25 0 0 1 .302.02 3.74 3.74 0 0 0 4.892 0 .25.25 0 0 1 .302-.02c.535.352.998.804 1.362 1.332a5.48 5.48 0 0 0 1.316-4.568.5.5 0 1 1 .986-.165" /></g><defs><clipPath id="user-circle-gear-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgUserCircleGearFill);
+const Memo = memo(ForwardRef);
+export default Memo;

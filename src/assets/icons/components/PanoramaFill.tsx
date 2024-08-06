@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPanoramaFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#panorama-fill_svg__a)"><path fill="#000" d="M15.11 3.208a1 1 0 0 0-.867-.174l-.217.06C12.85 3.41 10.663 4 8 4s-4.85-.59-6.026-.907l-.217-.059A1 1 0 0 0 .5 4v8a1 1 0 0 0 1.261.966l.199-.054C3.133 12.593 5.323 12 8 12s4.867.593 6.043.912l.199.054A1.002 1.002 0 0 0 15.5 12V4a1 1 0 0 0-.39-.792M12.75 6a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5M8 11c-2.812 0-5.17.64-6.304.946L1.5 12V9.544l2.896-2.897a.5.5 0 0 1 .708 0l4.414 4.416Q8.786 11 8 11m6.304.946a28 28 0 0 0-3.187-.7L8.913 9.043l.9-.897a.5.5 0 0 1 .706 0l3.806 3.805z" /></g><defs><clipPath id="panorama-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPanoramaFill);
+const Memo = memo(ForwardRef);
+export default Memo;

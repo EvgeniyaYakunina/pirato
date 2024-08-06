@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFolderSimpleStarFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#folder-simple-star-fill_svg__a)"><path fill="#000" d="M8 13a.5.5 0 0 1-.5.5h-5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h3.333c.216 0 .427.07.6.2l1.734 1.3H13.5a1 1 0 0 1 1 1v2a.5.5 0 0 1-1 0v-2H8a.5.5 0 0 1-.3-.1L5.833 4H2.5v8.5h5a.5.5 0 0 1 .5.5m6.977-3.05a.5.5 0 0 0-.438-.348l-1.865-.144-.714-1.656a.5.5 0 0 0-.919 0l-.714 1.656-1.865.144a.5.5 0 0 0-.28.884l1.407 1.162-.428 1.732a.5.5 0 0 0 .739.55l1.6-.941 1.6.942a.5.5 0 0 0 .74-.551l-.429-1.732 1.407-1.162a.5.5 0 0 0 .159-.536" /></g><defs><clipPath id="folder-simple-star-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFolderSimpleStarFill);
+const Memo = memo(ForwardRef);
+export default Memo;

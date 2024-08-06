@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgDroneFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#drone-fill_svg__a)"><path fill="#000" d="M11.854 4.854 10 6.707v2.586l1.854 1.853a.5.5 0 1 1-.708.708L9.293 10H6.707l-1.853 1.854a.5.5 0 0 1-.708-.708L6 9.293V6.707L4.146 4.854a.5.5 0 1 1 .708-.708L6.707 6h2.586l1.853-1.854a.5.5 0 0 1 .708.708M8.96 4.47a.5.5 0 0 0 .638-.304A1.75 1.75 0 1 1 11.833 6.4a.5.5 0 0 0 .167.974q.086 0 .167-.029a2.75 2.75 0 1 0-3.51-3.51.5.5 0 0 0 .304.635m3.206 4.188a.5.5 0 0 0-.334.942A1.75 1.75 0 1 1 9.6 11.835a.5.5 0 0 0-.942.334 2.75 2.75 0 1 0 3.51-3.51m-5.125 2.875a.5.5 0 0 0-.638.304A1.75 1.75 0 1 1 4.17 9.604a.5.5 0 0 0-.334-.942 2.75 2.75 0 1 0 3.51 3.51.5.5 0 0 0-.307-.643zM3.836 7.346a.49.49 0 0 0 .486-.089.5.5 0 0 0-.155-.853A1.75 1.75 0 1 1 6.4 4.17a.5.5 0 1 0 .942-.334 2.75 2.75 0 1 0-3.51 3.51z" /></g><defs><clipPath id="drone-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgDroneFill);
+const Memo = memo(ForwardRef);
+export default Memo;

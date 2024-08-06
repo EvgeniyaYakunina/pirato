@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCoinVerticalFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#coin-vertical-fill_svg__a)"><path fill="#000" d="M12.407 3.506C11.652 2.213 10.62 1.5 9.5 1.5h-3c-1.12 0-2.152.712-2.907 2.006C2.888 4.714 2.5 6.313 2.5 8c0 1.688.388 3.286 1.093 4.494C4.348 13.787 5.38 14.5 6.5 14.5h3c1.12 0 2.153-.713 2.907-2.006C13.112 11.286 13.5 9.688 13.5 8s-.388-3.286-1.093-4.494m.08 3.994h-2a9.6 9.6 0 0 0-.605-3h1.912c.382.836.635 1.875.693 3m-1.288-4H9.404a5.2 5.2 0 0 0-.75-1H9.5c.625 0 1.213.375 1.7 1M9.5 13.5h-.844c.289-.302.54-.638.75-1H11.2c-.489.625-1.076 1-1.701 1m2.294-2H9.882a9.6 9.6 0 0 0 .606-3h2c-.06 1.125-.312 2.164-.694 3" /></g><defs><clipPath id="coin-vertical-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCoinVerticalFill);
+const Memo = memo(ForwardRef);
+export default Memo;

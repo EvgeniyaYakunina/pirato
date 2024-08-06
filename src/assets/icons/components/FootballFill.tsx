@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFootballFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#football-fill_svg__a)"><path fill="#000" d="M14.316 3.368a2.06 2.06 0 0 0-1.684-1.684c-2.024-.343-5.837-.5-8.642 2.306s-2.65 6.619-2.306 8.642a2.06 2.06 0 0 0 1.687 1.684c.709.121 1.427.183 2.146.184 2.005 0 4.503-.5 6.493-2.49 2.806-2.805 2.65-6.619 2.306-8.642M3.535 13.331a1.06 1.06 0 0 1-.866-.866 11.3 11.3 0 0 1-.132-2.931l3.93 3.93c-.98.083-1.965.039-2.932-.133m6.817-6.977-.896.896.396.396a.5.5 0 1 1-.707.707l-.395-.396-.793.793.396.396a.5.5 0 1 1-.706.707l-.397-.397-.896.897a.5.5 0 1 1-.707-.707l.897-.896-.397-.396a.5.5 0 0 1 .707-.706l.396.396.793-.794-.396-.396a.5.5 0 0 1 .706-.707l.397.397.896-.896a.5.5 0 1 1 .707.706m3.111.112-3.93-3.93q.446-.041.933-.042 1.007.003 2 .175a1.06 1.06 0 0 1 .865.866c.172.967.216 1.953.132 2.931" /></g><defs><clipPath id="football-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFootballFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgSmileyNervousFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#smiley-nervous-fill_svg__a)"><path fill="#000" d="M8 1.5A6.5 6.5 0 1 0 14.5 8 6.507 6.507 0 0 0 8 1.5M10.25 6a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5m-4.5 0a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5M11 11c-.625 0-.94-.421-1.15-.7-.187-.25-.245-.3-.35-.3s-.16.047-.35.3c-.21.279-.525.7-1.15.7s-.937-.421-1.15-.7c-.187-.25-.245-.3-.35-.3s-.16.047-.35.3c-.21.279-.525.7-1.15.7a.5.5 0 0 1 0-1c.105 0 .16-.047.35-.3.213-.279.525-.7 1.15-.7s.938.421 1.15.7c.188.25.245.3.35.3s.16-.047.35-.3c.213-.279.525-.7 1.15-.7s.94.421 1.15.7c.188.25.245.3.35.3a.5.5 0 0 1 0 1" /></g><defs><clipPath id="smiley-nervous-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgSmileyNervousFill);
+const Memo = memo(ForwardRef);
+export default Memo;

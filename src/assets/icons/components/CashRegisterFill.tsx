@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCashRegisterFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cash-register-fill_svg__a)"><path fill="#000" d="M14.985 9.879 13.58 4.258a1 1 0 0 0-.97-.758H8.5v-1a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v1h-.61a1 1 0 0 0-.97.758l-1.405 5.62A.5.5 0 0 0 1 10v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2a.5.5 0 0 0-.015-.121M10.5 5.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m0 2h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1 0-1m-2-2a.5.5 0 1 1 0 1h-1a.5.5 0 1 1 0-1zM9 8a.5.5 0 0 1-.5.5h-1a.5.5 0 1 1 0-1h1A.5.5 0 0 1 9 8M5 2.5h2.5v1H5zm-.5 3h1a.5.5 0 1 1 0 1h-1a.5.5 0 1 1 0-1m0 2h1a.5.5 0 1 1 0 1h-1a.5.5 0 1 1 0-1M14 12H2v-1.5h12z" /></g><defs><clipPath id="cash-register-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCashRegisterFill);
+const Memo = memo(ForwardRef);
+export default Memo;

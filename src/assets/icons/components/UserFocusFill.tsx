@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgUserFocusFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#user-focus-fill_svg__a)"><path fill="#000" d="M14 2.5v2.25a.5.5 0 0 1-1 0V3h-1.75a.5.5 0 0 1 0-1h2.25a.5.5 0 0 1 .5.5m-.5 8.25a.5.5 0 0 0-.5.5V13h-1.75a.5.5 0 0 0 0 1h2.25a.5.5 0 0 0 .5-.5v-2.25a.5.5 0 0 0-.5-.5M4.75 13H3v-1.75a.5.5 0 0 0-1 0v2.25a.5.5 0 0 0 .5.5h2.25a.5.5 0 0 0 0-1M2.5 5.25a.5.5 0 0 0 .5-.5V3h1.75a.5.5 0 1 0 0-1H2.5a.5.5 0 0 0-.5.5v2.25a.5.5 0 0 0 .5.5m3.813 3.594c-.68.295-1.27.762-1.713 1.355A.5.5 0 0 0 5 11h6a.5.5 0 0 0 .4-.8 4.25 4.25 0 0 0-1.713-1.356 2.5 2.5 0 1 0-3.37 0z" /></g><defs><clipPath id="user-focus-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgUserFocusFill);
+const Memo = memo(ForwardRef);
+export default Memo;

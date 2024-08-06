@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFileVideoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#file-video-fill_svg__a)"><path stroke="#000" strokeLinecap="round" strokeLinejoin="round" d="M9.5 2v3.5H13" /><path stroke="#000" strokeLinecap="round" strokeLinejoin="round" d="M12 14h.5a.5.5 0 0 0 .5-.5v-8L9.5 2h-6a.5.5 0 0 0-.5.5V7" /><path stroke="#000" strokeLinecap="round" strokeLinejoin="round" d="M7 9.5H3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5" /><path fill="#000" d="M7 9.5H3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5" /><path stroke="#000" strokeLinecap="round" strokeLinejoin="round" d="m7.5 10.75 2-1.25v4l-2-1.25" /></g><defs><clipPath id="file-video-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFileVideoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

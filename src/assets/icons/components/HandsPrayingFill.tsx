@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgHandsPrayingFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hands-praying-fill_svg__a)"><path fill="#000" d="m14.708 11.25-2.265-2.266-2.28-7.518A1.36 1.36 0 0 0 8 .808a1.36 1.36 0 0 0-2.164.658L3.558 8.985 1.293 11.25a1 1 0 0 0 0 1.414l2.043 2.043a1 1 0 0 0 1.414 0l3.018-3.02q.124-.125.232-.268.107.143.233.268l3.017 3.02a1 1 0 0 0 1.414 0l2.043-2.043a1 1 0 0 0 0-1.414M7.5 9.922a1.5 1.5 0 0 1-.437 1.062L5.543 12.5 3.5 10.457l.853-.853a.5.5 0 0 0 .125-.209l2.313-7.639a.361.361 0 0 1 .709.105zm2.965 2.586-1.527-1.525A1.5 1.5 0 0 1 8.5 9.92V1.857a.361.361 0 0 1 .707-.105l2.312 7.64a.5.5 0 0 0 .125.208l.906.906z" /></g><defs><clipPath id="hands-praying-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgHandsPrayingFill);
+const Memo = memo(ForwardRef);
+export default Memo;

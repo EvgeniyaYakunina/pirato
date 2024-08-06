@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgArrowsOutFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#arrows-out-fill_svg__a)"><path fill="#000" d="M13.5 3v3a.5.5 0 0 1-.854.354L11.5 5.207 9.854 6.854a.5.5 0 1 1-.708-.708L10.793 4.5 9.646 3.354A.5.5 0 0 1 10 2.5h3a.5.5 0 0 1 .5.5M6.146 9.146 4.5 10.793 3.354 9.646A.5.5 0 0 0 2.5 10v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .354-.854L5.207 11.5l1.647-1.646a.5.5 0 1 0-.708-.708m7.045.392a.5.5 0 0 0-.545.108L11.5 10.793 9.854 9.146a.5.5 0 1 0-.708.708l1.647 1.646-1.147 1.146A.5.5 0 0 0 10 13.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.309-.462M5.207 4.5l1.147-1.146A.5.5 0 0 0 6 2.5H3a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .854.354L4.5 5.207l1.646 1.647a.5.5 0 1 0 .708-.708z" /></g><defs><clipPath id="arrows-out-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgArrowsOutFill);
+const Memo = memo(ForwardRef);
+export default Memo;

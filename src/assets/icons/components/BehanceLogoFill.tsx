@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBehanceLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#behance-logo-fill_svg__a)"><path fill="#000" d="M5.75 7.5H4V6h1.75a.75.75 0 0 1 0 1.5m.25 1H4v2h2a1 1 0 0 0 0-2m5-1a1.5 1.5 0 0 0-1.414 1h2.828A1.5 1.5 0 0 0 11 7.5m4-4v9a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1m-6 2a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5m-1 4a2 2 0 0 0-.883-1.658A1.75 1.75 0 0 0 5.75 5H3.5a.5.5 0 0 0-.5.5V11a.5.5 0 0 0 .5.5H6a2 2 0 0 0 2-2m5.5-.5a2.5 2.5 0 1 0-.846 1.875.5.5 0 0 0-.662-.75A1.5 1.5 0 0 1 9.586 9.5H13a.5.5 0 0 0 .5-.5" /></g><defs><clipPath id="behance-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBehanceLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPersonSimpleRunFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#person-simple-run-fill_svg__a)"><path fill="#000" d="M7.5 3.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0m6.455 4.63a.5.5 0 0 0-.662-.25c-.016.008-1.67.67-4.512-1.262-3.268-2.221-5.5-.486-5.594-.41a.5.5 0 1 0 .625.78c.016-.014 1.57-1.22 4.004.204-.265.834-.797 1.989-1.578 2.937-1.16 1.405-2.57 2.035-4.187 1.875A.5.5 0 1 0 1.95 13q.291.03.584.03c1.711 0 3.25-.774 4.477-2.262l.105-.131c1.216.319 3.384 1.257 3.384 3.863a.5.5 0 0 0 1 0c0-1.54-.63-2.834-1.822-3.741a6.5 6.5 0 0 0-1.957-.988c.393-.638.717-1.315.967-2.021C10.32 8.756 11.615 9 12.48 9c.76 0 1.19-.187 1.229-.205a.5.5 0 0 0 .245-.665" /></g><defs><clipPath id="person-simple-run-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPersonSimpleRunFill);
+const Memo = memo(ForwardRef);
+export default Memo;

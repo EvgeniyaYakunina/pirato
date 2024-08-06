@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgUserCircleDashedFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#user-circle-dashed-fill_svg__a)"><path fill="#000" d="M6.016 2.313a.5.5 0 0 1 .36-.607 6.5 6.5 0 0 1 3.25 0 .5.5 0 1 1-.25.968 5.5 5.5 0 0 0-2.75 0 .5.5 0 0 1-.61-.361M2.084 6.875a.5.5 0 0 0 .616-.348 5.5 5.5 0 0 1 1.375-2.38.5.5 0 0 0-.713-.7 6.5 6.5 0 0 0-1.625 2.812.5.5 0 0 0 .347.616M13.3 6.528a.5.5 0 1 0 .964-.268 6.5 6.5 0 0 0-1.625-2.812.5.5 0 0 0-.713.7 5.5 5.5 0 0 1 1.374 2.38m.617 2.597a.5.5 0 0 0-.615.349 5.5 5.5 0 0 1-1.188 2.177 5 5 0 0 0-1.363-1.332.25.25 0 0 0-.302.02 3.74 3.74 0 0 1-4.892 0 .25.25 0 0 0-.302-.02 5 5 0 0 0-1.375 1.32 5.5 5.5 0 0 1-1.177-2.166.5.5 0 0 0-.964.267 6.505 6.505 0 0 0 12.529 0 .5.5 0 0 0-.35-.615M8 10.25a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5" /></g><defs><clipPath id="user-circle-dashed-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgUserCircleDashedFill);
+const Memo = memo(ForwardRef);
+export default Memo;

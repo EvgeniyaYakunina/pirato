@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPersonSimpleSwimFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#person-simple-swim-fill_svg__a)"><path fill="#000" d="M9 4.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0m4.18 7.012c-1.989 1.65-3.357.907-4.941.046-1.663-.902-3.548-1.925-6.058.156a.5.5 0 1 0 .638.77c1.99-1.65 3.358-.907 4.942-.047.945.512 1.96 1.062 3.12 1.062.885 0 1.853-.319 2.938-1.218a.5.5 0 0 0-.638-.77m-11-2.298a.5.5 0 1 0 .64.77c1.989-1.649 3.357-.906 4.941-.046.945.512 1.96 1.062 3.12 1.062.885 0 1.853-.32 2.938-1.219a.5.5 0 1 0-.638-.77c-.362.311-.768.565-1.205.755L8.61 6.402A6.46 6.46 0 0 0 4.015 4.5H2.5a.5.5 0 0 0 0 1h1.515a5.5 5.5 0 0 1 2.618.66L4.78 8.01c-.792.075-1.652.418-2.6 1.204" /></g><defs><clipPath id="person-simple-swim-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPersonSimpleSwimFill);
+const Memo = memo(ForwardRef);
+export default Memo;

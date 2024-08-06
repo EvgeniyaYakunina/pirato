@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgTranslateFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#translate-fill_svg__a)"><path fill="#000" d="M10 8.118 10.941 10H9.06l.397-.794zM14 3v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1m-1.053 8.776-2.5-5a.5.5 0 0 0-.894 0l-.824 1.649A3.9 3.9 0 0 1 7.253 7.8 4.98 4.98 0 0 0 8.475 5H9.5a.5.5 0 1 0 0-1H7v-.5a.5.5 0 1 0-1 0V4H3.5a.5.5 0 1 0 0 1h3.968c-.1.789-.433 1.53-.957 2.128a4 4 0 0 1-.562-.85.5.5 0 0 0-.895.445c.191.385.43.746.712 1.071A3.98 3.98 0 0 1 3.5 8.5a.5.5 0 1 0 0 1 4.97 4.97 0 0 0 3.007-1.008c.524.4 1.123.69 1.761.854l-1.216 2.43a.5.5 0 0 0 .896.448L8.558 11h2.883l.611 1.224a.5.5 0 0 0 .672.223.5.5 0 0 0 .223-.67" /></g><defs><clipPath id="translate-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgTranslateFill);
+const Memo = memo(ForwardRef);
+export default Memo;

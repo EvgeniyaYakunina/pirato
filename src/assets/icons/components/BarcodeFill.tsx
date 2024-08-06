@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBarcodeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#barcode-fill_svg__a)"><path fill="#000" d="M14 2.5H2a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h12a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5M2.5 4a.5.5 0 0 1 .5-.5h2a.5.5 0 1 1 0 1H3.5V6a.5.5 0 1 1-1 0zM5 12.5H3a.5.5 0 0 1-.5-.5v-2a.5.5 0 1 1 1 0v1.5H5a.5.5 0 0 1 0 1m1.5-3a.5.5 0 1 1-1 0v-3a.5.5 0 1 1 1 0zm2 0a.5.5 0 1 1-1 0v-3a.5.5 0 1 1 1 0zm1.5.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 1 1 1 0v3a.5.5 0 0 1-.5.5m3.5 2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h1.5V10a.5.5 0 0 1 1 0zm0-6a.5.5 0 0 1-1 0V4.5H11a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5z" /></g><defs><clipPath id="barcode-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBarcodeFill);
+const Memo = memo(ForwardRef);
+export default Memo;

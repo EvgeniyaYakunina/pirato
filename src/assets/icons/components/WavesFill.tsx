@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgWavesFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#waves-fill_svg__a)"><path fill="#000" d="M13 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1m-.675 9.054c-.817.7-1.556.944-2.227.944-.892 0-1.664-.432-2.342-.812-1.151-.645-2.06-1.153-3.431.019a.499.499 0 1 1-.65-.76c1.901-1.625 3.38-.797 4.57-.132 1.15.644 2.062 1.153 3.43-.02a.5.5 0 0 1 .65.76zm0-2.75c-.817.7-1.556.944-2.227.944-.892 0-1.664-.432-2.342-.812-1.151-.645-2.06-1.154-3.431.019a.5.5 0 1 1-.65-.76c1.901-1.625 3.38-.798 4.57-.132 1.15.644 2.062 1.153 3.43-.02a.5.5 0 1 1 .65.76zm0-2.75c-.817.7-1.556.944-2.227.944-.892 0-1.664-.432-2.342-.812-1.151-.645-2.06-1.154-3.431.019a.5.5 0 0 1-.65-.76c1.901-1.624 3.38-.797 4.57-.131 1.15.644 2.062 1.153 3.43-.02a.5.5 0 0 1 .65.76" /></g><defs><clipPath id="waves-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgWavesFill);
+const Memo = memo(ForwardRef);
+export default Memo;

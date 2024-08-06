@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgLassoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g fill="#000" clipPath="url(#lasso-fill_svg__a)"><path d="M5.84 8.507a1.07 1.07 0 0 0-.96.381c.582.41 1.407.708 2.34.817-.32-.747-.863-1.143-1.38-1.198" /><path d="M14 3v10a1 1 0 0 1-1 1H7.978a.25.25 0 0 1-.202-.396c.469-.64.724-1.453.724-2.365q0-.261-.022-.503C11.05 10.583 13 9.216 13 7.5c0-1.822-2.196-3.25-5-3.25S3 5.678 3 7.5c0 1.707 1.926 3.067 4.474 3.233q.026.252.026.506c0 1.101-.478 1.997-1.312 2.457-.377.21-.803.314-1.234.304H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1m-2 4.5c0-1.22-1.832-2.25-4-2.25S4 6.28 4 7.5c.003.234.068.463.188.664a2.1 2.1 0 0 1 1.76-.651c.937.101 1.927.837 2.346 2.23C10.33 9.654 12 8.663 12 7.5" /></g><defs><clipPath id="lasso-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgLassoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

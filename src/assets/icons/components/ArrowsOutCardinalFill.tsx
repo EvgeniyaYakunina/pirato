@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgArrowsOutCardinalFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#arrows-out-cardinal-fill_svg__a)"><path fill="#000" d="M5.538 3.691a.5.5 0 0 1 .108-.545l2-2a.5.5 0 0 1 .708 0l2 2A.5.5 0 0 1 10 4H8.5v2a.5.5 0 0 1-1 0V4H6a.5.5 0 0 1-.462-.309M10 12H8.5v-2a.5.5 0 0 0-1 0v2H6a.5.5 0 0 0-.354.854l2 2a.5.5 0 0 0 .708 0l2-2A.501.501 0 0 0 10 12m4.854-4.354-2-2A.5.5 0 0 0 12 6v1.5h-2a.5.5 0 1 0 0 1h2V10a.5.5 0 0 0 .854.354l2-2a.5.5 0 0 0 0-.708M6 8.5a.5.5 0 0 0 0-1H4V6a.5.5 0 0 0-.854-.354l-2 2a.5.5 0 0 0 0 .708l2 2A.5.5 0 0 0 4 10V8.5z" /></g><defs><clipPath id="arrows-out-cardinal-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgArrowsOutCardinalFill);
+const Memo = memo(ForwardRef);
+export default Memo;

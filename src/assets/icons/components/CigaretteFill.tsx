@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgCigaretteFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cigarette-fill_svg__a)"><path fill="#000" d="M14 8H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1m0 3H6V9h8zm-1.437-7.245c.5-.89.463-1.357.397-1.557a.5.5 0 0 0-.165-.241.5.5 0 1 1 .406-.914 1.4 1.4 0 0 1 .708.84c.21.634.05 1.428-.475 2.362-.5.89-.464 1.357-.398 1.557.03.096.087.18.165.241a.5.5 0 1 1-.406.914 1.4 1.4 0 0 1-.707-.84c-.209-.634-.05-1.43.475-2.362m-2.5 0c.5-.89.463-1.357.397-1.557a.5.5 0 0 0-.165-.241.5.5 0 1 1 .406-.914 1.4 1.4 0 0 1 .708.84c.21.634.05 1.428-.475 2.362-.5.89-.464 1.357-.398 1.557.03.096.087.18.165.241a.5.5 0 1 1-.406.914 1.4 1.4 0 0 1-.707-.84c-.209-.634-.05-1.43.475-2.362" /></g><defs><clipPath id="cigarette-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgCigaretteFill);
+const Memo = memo(ForwardRef);
+export default Memo;

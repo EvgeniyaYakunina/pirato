@@ -8,7 +8,10 @@
     "build": "tsc -b && vite build",
     "format": "prettier --write src",
     "lint": "eslint src --ext .jsx,.js,.tsx,.ts  --no-error-on-unmatched-pattern --fix && stylelint --fix src/{,*/}*.{scss,css} --allow-empty-input",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "rename-icons": "node scripts/rename-icons.cjs",
+    "replace-colors": "node scripts/replace-colors.cjs",
+    "generate": "npx @svgr/cli --out-dir src/assets/icons/components --jsx-runtime automatic --typescript --ref --memo -- src/assets/icons/svg"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
@@ -33,6 +36,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "sass": "^1.77.8",
     "stylelint": "^16.8.1",
     "typescript": "^5.2.2",
     "vite": "^5.3.4"

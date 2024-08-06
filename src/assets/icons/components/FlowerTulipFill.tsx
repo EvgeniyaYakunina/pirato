@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFlowerTulipFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#flower-tulip-fill_svg__a)"><path fill="#000" d="M13 3c-.761 0-1.514.157-2.21.464C9.846 1.88 8.295 1.09 8.224 1.052a.5.5 0 0 0-.448 0c-.071.037-1.625.827-2.566 2.412A5.5 5.5 0 0 0 3 3a.5.5 0 0 0-.5.5V6a5.507 5.507 0 0 0 5 5.477v2.214l-2.276-1.139a.5.5 0 0 0-.448.895l3 1.5a.5.5 0 0 0 .448 0l3-1.5a.5.5 0 0 0-.448-.895L8.5 13.692v-2.215A5.507 5.507 0 0 0 13.5 6V3.5A.5.5 0 0 0 13 3M3.5 6V4.027a4.506 4.506 0 0 1 4 4.473v1.972A4.506 4.506 0 0 1 3.5 6m9 0a4.506 4.506 0 0 1-4 4.472V8.5a4.506 4.506 0 0 1 4-4.473z" /></g><defs><clipPath id="flower-tulip-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFlowerTulipFill);
+const Memo = memo(ForwardRef);
+export default Memo;

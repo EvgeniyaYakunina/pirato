@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgFlagCheckeredFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#flag-checkered-fill_svg__a)"><path fill="#000" d="M14.208 3.047a.5.5 0 0 0-.536.078c-1.75 1.514-3.232.78-4.95-.07-1.78-.883-3.798-1.88-6.05.07A.5.5 0 0 0 2.5 3.5V14a.5.5 0 1 0 1 0v-2.764c1.674-1.323 3.117-.61 4.778.213 1.025.507 2.129 1.053 3.313 1.053.87 0 1.783-.297 2.738-1.125a.5.5 0 0 0 .173-.375V3.5a.5.5 0 0 0-.295-.453M3.5 10.027v-3.16c1.053-.705 2.04-.724 3-.458v3.233c-.946-.238-1.946-.223-3 .386m3-6.848c.578.177 1.163.466 1.778.77.704.348 1.444.715 2.222.91v3.234c.96.266 1.946.246 3-.46v3.133c-1.054.832-2.017.857-3 .556V8.093c-1.351-.375-2.649-1.312-4-1.684z" /></g><defs><clipPath id="flag-checkered-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgFlagCheckeredFill);
+const Memo = memo(ForwardRef);
+export default Memo;

@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgHandFistFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-fist-fill_svg__a)"><path fill="#000" d="M14.5 7.5V8a6.5 6.5 0 0 1-6.523 6.5c-3.375-.012-6.125-2.629-6.445-5.924a.25.25 0 0 1 .347-.25A2.246 2.246 0 0 0 4.5 7.662a2.245 2.245 0 0 0 3.371.145c.203.33.478.607.805.813A3 3 0 0 0 7.5 11a.5.5 0 0 0 .542.5.514.514 0 0 0 .458-.516A2 2 0 0 1 10.5 9a.5.5 0 0 0 .5-.533.51.51 0 0 0-.516-.467H10a1.5 1.5 0 0 1-1.5-1.5v-1h4a2 2 0 0 1 2 2m-11.704 0C3.473 7.475 4 6.898 4 6.22V4.782c0-.68-.527-1.257-1.204-1.282A1.25 1.25 0 0 0 1.5 4.75v1.5A1.25 1.25 0 0 0 2.796 7.5m3.5 0C6.973 7.475 7.5 6.899 7.5 6.22V3.283c0-.678-.527-1.255-1.204-1.28A1.25 1.25 0 0 0 5 3.25v3A1.25 1.25 0 0 0 6.296 7.5M11 3.25A1.25 1.25 0 0 0 9.704 2c-.677.025-1.204.602-1.204 1.28V4.5h2.25a.25.25 0 0 0 .25-.25z" /></g><defs><clipPath id="hand-fist-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgHandFistFill);
+const Memo = memo(ForwardRef);
+export default Memo;

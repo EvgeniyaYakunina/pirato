@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgPinterestLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#pinterest-logo-fill_svg__a)"><path fill="#000" d="M15 8.044c-.024 3.53-2.904 6.42-6.434 6.455a6.5 6.5 0 0 1-1.621-.187.25.25 0 0 1-.182-.304l.54-2.16A3.8 3.8 0 0 0 9 12.25c2.312 0 4.169-2.09 3.988-4.585a4.5 4.5 0 1 0-8.66 2.023.5.5 0 0 0 .672.268.51.51 0 0 0 .25-.656 3.5 3.5 0 1 1 6.741-1.558C12.125 9.65 10.733 11.25 9 11.25c-.51 0-1.01-.14-1.446-.402l.93-3.727a.5.5 0 0 0-.97-.242l-1.678 6.715a.25.25 0 0 1-.357.162A6.5 6.5 0 0 1 2 7.93c.038-3.522 2.918-6.397 6.438-6.43A6.5 6.5 0 0 1 15 8.044" /></g><defs><clipPath id="pinterest-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgPinterestLogoFill);
+const Memo = memo(ForwardRef);
+export default Memo;

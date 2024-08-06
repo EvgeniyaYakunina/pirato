@@ -1,0 +1,6 @@
+import type { SVGProps } from "react";
+import { Ref, forwardRef, memo } from "react";
+const SvgBinocularsFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#binoculars-fill_svg__a)"><path fill="#000" d="M14.826 9.494v-.006l-.004-.014a3 3 0 0 0-.144-.331l-2.599-5.905a.5.5 0 0 0-.104-.153 2 2 0 0 0-2.829 0A.5.5 0 0 0 9 3.438V5H7V3.438a.5.5 0 0 0-.146-.354 2 2 0 0 0-2.829 0 .5.5 0 0 0-.104.152L1.325 9.143a3 3 0 0 0-.149.344v.007a3 3 0 0 0 5.645 2.032c.122-.332.183-.683.181-1.037V6h2v4.49c-.001.353.06.704.182 1.037a3 3 0 0 0 5.645-2.032zM5.88 11.182a2 2 0 0 1-3.762-1.357l.113-.259a2 2 0 0 1 3.77.927v.007a2 2 0 0 1-.12.684zm6.809 1.198A2 2 0 0 1 10 10.5v-.007a2 2 0 0 1 3.77-.923l.113.258a2 2 0 0 1-1.195 2.552" /></g><defs><clipPath id="binoculars-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
+const ForwardRef = forwardRef(SvgBinocularsFill);
+const Memo = memo(ForwardRef);
+export default Memo;
