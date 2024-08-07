@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSunDimFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#sun-dim-fill_svg__a)"><path fill="#000" d="M7.5 2.5V2a.5.5 0 1 1 1 0v.5a.5.5 0 1 1-1 0M8 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8m-4.354.354a.5.5 0 1 0 .708-.708l-.5-.5a.5.5 0 1 0-.708.708zm0 7.292-.5.5a.5.5 0 0 0 .708.708l.5-.5a.501.501 0 0 0-.708-.708M12 4.5a.5.5 0 0 0 .354-.146l.5-.5a.5.5 0 0 0-.708-.708l-.5.5A.5.5 0 0 0 12 4.5m.354 7.146a.5.5 0 0 0-.708.708l.5.5a.501.501 0 0 0 .708-.708zM2.5 7.5H2a.5.5 0 1 0 0 1h.5a.5.5 0 1 0 0-1M8 13a.5.5 0 0 0-.5.5v.5a.5.5 0 0 0 1 0v-.5A.5.5 0 0 0 8 13m6-5.5h-.5a.5.5 0 0 0 0 1h.5a.5.5 0 0 0 0-1" /></g><defs><clipPath id="sun-dim-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSunDimFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,10 +1,10 @@
 import { ChangeEvent, ComponentPropsWithoutRef, forwardRef, useId, useState } from 'react'
 
+import CircleFill from '@/assets/icons/components/CircleFill'
+import EyeFill from '@/assets/icons/components/EyeFill'
 import clsx from 'clsx'
 
 import s from './input.module.scss'
-
-import { CircleFill, EyeFill } from '../../../assets/icons/components'
 
 export type InputProps = {
   defaultValue?: string

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgDiscoBallFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#disco-ball-fill_svg__a)"><path fill="#000" d="M7.5 4.023V1a.5.5 0 0 0-1 0v3.023a5.5 5.5 0 1 0 1 0M11.471 9H9.486C9.39 7.228 8.81 5.978 8.27 5.184A4.51 4.51 0 0 1 11.47 9m-2.986 1C8.36 12.095 7.477 13.31 7 13.818c-.477-.51-1.36-1.724-1.485-3.818zM5.729 5.184C5.188 5.977 4.61 7.227 4.514 9H2.53a4.51 4.51 0 0 1 3.2-3.816M2.53 10h1.985c.095 1.773.675 3.023 1.215 3.816A4.51 4.51 0 0 1 2.53 10M16 5.5a.5.5 0 0 1-.5.5H15v.5a.5.5 0 0 1-1 0V6h-.5a.5.5 0 1 1 0-1h.5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 .5.5m-6.5-3A.5.5 0 0 1 10 2h1V1a.5.5 0 0 1 1 0v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0V3h-1a.5.5 0 0 1-.5-.5" /></g><defs><clipPath id="disco-ball-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgDiscoBallFill);
-const Memo = memo(ForwardRef);
-export default Memo;

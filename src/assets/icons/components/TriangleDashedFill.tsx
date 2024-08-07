@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgTriangleDashedFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#triangle-dashed-fill_svg__a)"><path fill="#000" d="M14.8 11.756 9.335 2.264a1.548 1.548 0 0 0-2.67 0L1.2 11.756a1.47 1.47 0 0 0 0 1.482A1.52 1.52 0 0 0 2.535 14h10.93A1.52 1.52 0 0 0 15 12.497c0-.26-.069-.516-.2-.741m-8.05.744H3.8a.75.75 0 0 1-.65-1.125L4.661 8.75a.5.5 0 0 1 .867.5L4.232 11.5H6.75a.5.5 0 0 1 0 1m-.07-5.25a.5.5 0 1 1-.867-.5L7.35 4.081a.75.75 0 0 1 1.3 0l1.538 2.669a.5.5 0 0 1-.867.5L8 4.957zm6.17 4.875a.75.75 0 0 1-.65.375H9.25a.5.5 0 1 1 0-1h2.518l-1.296-2.25a.5.5 0 1 1 .867-.5l1.511 2.625a.75.75 0 0 1 0 .75" /></g><defs><clipPath id="triangle-dashed-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgTriangleDashedFill);
-const Memo = memo(ForwardRef);
-export default Memo;

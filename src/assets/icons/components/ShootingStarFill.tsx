@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgShootingStarFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#shooting-star-fill_svg__a)"><path fill="#000" d="m14.703 5.274-1.754 1.48.535 2.212a.83.83 0 0 1-.318.87.85.85 0 0 1-.938.042l-1.978-1.19-1.978 1.19a.844.844 0 0 1-1.229-.429.83.83 0 0 1-.027-.483l.535-2.212-1.753-1.48A.837.837 0 0 1 6.276 3.8l2.309-.182.888-2.104a.844.844 0 0 1 1.554 0l.888 2.104 2.309.182a.837.837 0 0 1 .479 1.474m-9.196 1.72a.5.5 0 0 0-.708 0l-3.653 3.652a.5.5 0 0 0 .708.708L5.507 7.7a.5.5 0 0 0 0-.708m-.031 3.824-3.33 3.328a.5.5 0 0 0 .708.708l3.329-3.33a.5.5 0 0 0-.707-.706m4.562-.063-3.393 3.393a.5.5 0 1 0 .708.707l3.392-3.392a.5.5 0 1 0-.707-.708" /></g><defs><clipPath id="shooting-star-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgShootingStarFill);
-const Memo = memo(ForwardRef);
-export default Memo;

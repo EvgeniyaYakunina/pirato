@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgUsersThreeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#users-three-fill_svg__a)"><path fill="#000" d="M4.008 9.238a.25.25 0 0 1-.25.262H1a.5.5 0 0 1-.386-.819 4.24 4.24 0 0 1 1.699-1.337 2.5 2.5 0 1 1 4.153-2.237.25.25 0 0 1-.142.261 4.005 4.005 0 0 0-2.316 3.87m11.375-.557a4.24 4.24 0 0 0-1.695-1.337 2.5 2.5 0 1 0-4.154-2.237.25.25 0 0 0 .142.261A4 4 0 0 1 12 9q.002.12-.008.238a.25.25 0 0 0 .25.262H15a.5.5 0 0 0 .386-.82zM9.82 11.38a3 3 0 1 0-3.648 0 4.5 4.5 0 0 0-2.105 1.87.5.5 0 0 0 .433.75h7a.5.5 0 0 0 .433-.75 4.5 4.5 0 0 0-2.109-1.87z" /></g><defs><clipPath id="users-three-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgUsersThreeFill);
-const Memo = memo(ForwardRef);
-export default Memo;

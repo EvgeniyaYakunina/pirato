@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgHandTapFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-tap-fill_svg__a)"><path fill="#000" d="M4 4a3 3 0 1 1 6 0 .5.5 0 0 1-1 0 2 2 0 0 0-4 0 .5.5 0 1 1-1 0m8.952 3.5c-.538.025-.952.489-.952 1.027v.455a.51.51 0 0 1-.467.516.5.5 0 0 1-.533-.5v-1.47c0-.538-.414-1-.952-1.027A1 1 0 0 0 9 7.5v.983A.51.51 0 0 1 8.533 9a.5.5 0 0 1-.533-.5v-4.47c0-.539-.414-1-.952-1.028A1 1 0 0 0 6 4v7.484a.51.51 0 0 1-.42.51h-.007a.38.38 0 0 1-.375-.193L3.885 9.523c-.269-.466-.859-.66-1.337-.414a1 1 0 0 0-.413 1.391l1.934 3.753a.5.5 0 0 0 .431.247H13a.5.5 0 0 0 .448-.276c.022-.045.552-.941.552-2.54V8.5a1 1 0 0 0-1.048-1" /></g><defs><clipPath id="hand-tap-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgHandTapFill);
-const Memo = memo(ForwardRef);
-export default Memo;

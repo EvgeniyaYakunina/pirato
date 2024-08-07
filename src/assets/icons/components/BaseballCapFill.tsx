@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgBaseballCapFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#baseball-cap-fill_svg__a)"><path fill="#000" d="M8 1.5A6.507 6.507 0 0 0 1.5 8v3.5a1.5 1.5 0 0 0 2.386 1.21c.76-.552 2.089-1.21 4.114-1.21s3.354.658 4.113 1.21A1.5 1.5 0 0 0 14.5 11.5V8A6.507 6.507 0 0 0 8 1.5M2.5 8a5.51 5.51 0 0 1 4.363-5.381A10.44 10.44 0 0 0 5.06 7.416c-.9.262-1.761.646-2.559 1.139zm11 3.5a.49.49 0 0 1-.271.444.5.5 0 0 1-.528-.043C11.822 11.262 10.294 10.5 8 10.5s-3.822.762-4.701 1.401a.5.5 0 0 1-.528.043.49.49 0 0 1-.271-.444V9.754a9.4 9.4 0 0 1 3.183-1.47 9.6 9.6 0 0 1 4.698.016A9.4 9.4 0 0 1 13.5 9.754zm0-2.946a10.4 10.4 0 0 0-2.559-1.138 10.44 10.44 0 0 0-1.804-4.797A5.51 5.51 0 0 1 13.5 8z" /></g><defs><clipPath id="baseball-cap-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgBaseballCapFill);
-const Memo = memo(ForwardRef);
-export default Memo;

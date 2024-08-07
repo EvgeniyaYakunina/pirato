@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGithubLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#github-logo-fill_svg__a)"><path fill="#000" d="M13.5 6.5V7a3.504 3.504 0 0 1-3.027 3.467c.342.438.527.977.527 1.533v2.5a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5v-1H4.5A2.5 2.5 0 0 1 2 11 1.5 1.5 0 0 0 .5 9.5a.5.5 0 0 1 0-1A2.5 2.5 0 0 1 3 11a1.5 1.5 0 0 0 1.5 1.5H6V12c0-.556.185-1.095.527-1.533A3.504 3.504 0 0 1 3.5 7v-.5c.006-.621.172-1.23.48-1.77a3.74 3.74 0 0 1 .337-2.98.5.5 0 0 1 .433-.25 3.73 3.73 0 0 1 3 1.5h1.5a3.73 3.73 0 0 1 3-1.5.5.5 0 0 1 .433.25 3.73 3.73 0 0 1 .336 2.98c.31.539.475 1.149.481 1.77" /></g><defs><clipPath id="github-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGithubLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

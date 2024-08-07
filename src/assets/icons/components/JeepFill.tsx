@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgJeepFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#jeep-fill_svg__a)"><path fill="#000" d="M15.5 6.467A.51.51 0 0 0 14.983 6H14.5a.5.5 0 0 0-.011-.105l-.665-3.104A1.005 1.005 0 0 0 12.846 2H3.155a1.005 1.005 0 0 0-.979.79l-.665 3.105a.5.5 0 0 0-.01.105h-.484a.51.51 0 0 0-.517.467A.5.5 0 0 0 1 7h.5v5.5a1 1 0 0 0 1 1H4a1 1 0 0 0 1-1v-1h1.25a.25.25 0 0 0 .25-.25V8.017a.51.51 0 0 1 .467-.516.5.5 0 0 1 .533.5v3.25a.25.25 0 0 0 .25.25h.5a.25.25 0 0 0 .25-.25V8.017a.51.51 0 0 1 .467-.516.5.5 0 0 1 .533.5v3.25a.25.25 0 0 0 .25.25H11v1a1 1 0 0 0 1 1h1.5a1 1 0 0 0 1-1V7h.5a.5.5 0 0 0 .5-.533M4.25 9a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m7.5 0a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5M2.511 6l.644-3h9.69l.644 3z" /></g><defs><clipPath id="jeep-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgJeepFill);
-const Memo = memo(ForwardRef);
-export default Memo;

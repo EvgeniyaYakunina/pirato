@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgOpenAiLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#open-ai-logo-fill_svg__a)"><path fill="#000" d="M14.02 7.14a3.5 3.5 0 0 0-3.754-4.786 3.5 3.5 0 0 0-6.02.86A3.5 3.5 0 0 0 1.98 8.86a3.5 3.5 0 0 0 2.333 4.702q.447.123.911.125.257 0 .511-.038a3.5 3.5 0 0 0 6.02-.861 3.5 3.5 0 0 0 2.265-5.645zM9 8.577l-1 .578-1-.578V7.422l1-.577 1 .577zm2.428-5.175a2.5 2.5 0 0 1 1.785 3q-.09-.06-.182-.113l-2.781-1.61a.5.5 0 0 0-.5 0L7 6.269V5.113l2.531-1.461a2.49 2.49 0 0 1 1.897-.25M2.553 5.433c.319-.556.84-.967 1.455-1.148A4 4 0 0 0 4 4.5V7.71a.5.5 0 0 0 .25.433L7 9.732l-1 .58-2.531-1.464a2.5 2.5 0 0 1-.915-3.415M8.5 14a2.49 2.49 0 0 1-1.72-.684q.094-.048.188-.102l2.782-1.606a.5.5 0 0 0 .25-.433V8l1 .577V11.5A2.5 2.5 0 0 1 8.5 14" /></g><defs><clipPath id="open-ai-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgOpenAiLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgMicrosoftExcelLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#microsoft-excel-logo-fill_svg__a)"><path fill="#000" d="M12.5 1.5h-8a1 1 0 0 0-1 1V4h-1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h1v1.5a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-11a1 1 0 0 0-1-1m-8 8.5a.5.5 0 0 1-.384-.82L5.099 8l-.983-1.18a.5.5 0 0 1 .768-.64l.866 1.039.866-1.039a.5.5 0 0 1 .768.64L6.401 8l.983 1.18a.5.5 0 0 1-.768.64L5.75 8.781 4.884 9.82A.5.5 0 0 1 4.5 10M8 13.5H4.5V12H8zM8 4H4.5V2.5H8zm4.5 9.5H9V12a1 1 0 0 0 1-1v-.5h2.5zm0-4H10v-3h2.5zm0-4H10V5a1 1 0 0 0-1-1V2.5h3.5z" /></g><defs><clipPath id="microsoft-excel-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgMicrosoftExcelLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgPersonSimpleThrowFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#person-simple-throw-fill_svg__a)"><path fill="#000" d="M6 3.5a2 2 0 1 1 4 0 2 2 0 0 1-4 0m7.812 2.71c-.093-.075-2.326-1.812-5.594.41-2.843 1.933-4.495 1.27-4.51 1.263a.5.5 0 1 0-.415.91c.038.017.468.204 1.23.204.888 0 2.227-.257 3.923-1.33-.143 1.837-.796 5.216-4.59 6.354a.499.499 0 1 0 .288.958c2.177-.653 3.715-2.021 4.575-4.068q.183-.439.318-.895l1.38 1.15-.891 2.676a.5.5 0 1 0 .948.316l1-3a.5.5 0 0 0-.154-.542L9.294 8.928q.161-.941.187-1.896c2.261-1.16 3.688-.053 3.705-.04a.5.5 0 1 0 .625-.78zM4 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2" /></g><defs><clipPath id="person-simple-throw-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgPersonSimpleThrowFill);
-const Memo = memo(ForwardRef);
-export default Memo;

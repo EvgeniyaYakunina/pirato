@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgRainbowCloudFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#rainbow-cloud-fill_svg__a)"><path fill="#000" d="M15.5 10a3.003 3.003 0 0 1-3 3h-3c-1.103 0-2-.922-2-2.056s.897-2.055 2-2.055q.105 0 .209.011A3 3 0 0 1 15.5 10M7 4.5a5.47 5.47 0 0 1 3.834 1.557.5.5 0 0 0 .697-.717A6.5 6.5 0 0 0 .5 10v1a.5.5 0 0 0 1 0v-1A5.506 5.506 0 0 1 7 4.5m0 2a3.47 3.47 0 0 1 2.07.678.5.5 0 1 0 .592-.803A4.5 4.5 0 0 0 2.5 10v1a.5.5 0 0 0 1 0v-1A3.504 3.504 0 0 1 7 6.5m.95 1.67a.5.5 0 0 0-.37-.602A2.5 2.5 0 0 0 4.5 10v1a.5.5 0 0 0 1 0v-1a1.5 1.5 0 0 1 1.848-1.46.5.5 0 0 0 .603-.37" /></g><defs><clipPath id="rainbow-cloud-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgRainbowCloudFill);
-const Memo = memo(ForwardRef);
-export default Memo;

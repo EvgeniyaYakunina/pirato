@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgApertureFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#aperture-fill_svg__a)"><path fill="#000" d="M14.5 8A6.5 6.5 0 1 0 8 14.5h.006A6.5 6.5 0 0 0 14.5 8M3.074 5.558l3.2.584-3.358 3.954a5.52 5.52 0 0 1 .158-4.538m10.01.346a5.53 5.53 0 0 1-.158 4.539l-3.2-.585zm-.505-.95-2.107 2.484-1.745-4.89a5.46 5.46 0 0 1 3.162 1.563q.388.388.69.843M7.653 2.512l1.094 3.062-5.102-.929q.216-.282.467-.534a5.46 5.46 0 0 1 3.541-1.599m-4.231 8.534 2.107-2.483 1.745 4.886a5.5 5.5 0 0 1-3.852-2.405zm4.927 2.442-1.094-3.063 1.442.263 3.658.668a5.47 5.47 0 0 1-4.008 2.132z" /></g><defs><clipPath id="aperture-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgApertureFill);
-const Memo = memo(ForwardRef);
-export default Memo;

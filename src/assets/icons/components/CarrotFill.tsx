@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCarrotFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#carrot-fill_svg__a)"><path fill="#000" d="M14.5 5h-2.035a4 4 0 0 1-.637 4.829c-.532.543-1.226 1.057-1.99 1.532a.25.25 0 0 1-.307-.037L7.353 9.146a.5.5 0 0 0-.718.012.514.514 0 0 0 .026.71l1.867 1.868a.25.25 0 0 1-.062.4c-2.482 1.289-5.153 2.148-5.542 2.27a1 1 0 0 1-1.329-1.33c.17-.544 1.813-5.641 4.054-8.334a.25.25 0 0 1 .369-.016l2.628 2.629a.5.5 0 0 0 .731-.027.51.51 0 0 0-.037-.694L6.755 4.049a.25.25 0 0 1 .04-.386 4 4 0 0 1 4.204-.125V1.5a.5.5 0 0 1 .534-.5.51.51 0 0 1 .467.517v1.776l1.646-1.647a.5.5 0 1 1 .708.708L12.707 4h1.776a.51.51 0 0 1 .517.467.5.5 0 0 1-.5.533" /></g><defs><clipPath id="carrot-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCarrotFill);
-const Memo = memo(ForwardRef);
-export default Memo;

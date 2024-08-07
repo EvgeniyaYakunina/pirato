@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGlobeHemisphereWestFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#globe-hemisphere-west-fill_svg__a)"><path fill="#000" d="M8 1.5A6.5 6.5 0 1 0 14.5 8 6.507 6.507 0 0 0 8 1.5M13.5 8c0 .706-.135 1.405-.4 2.059L10.306 8.34a1 1 0 0 0-.39-.14L8.49 8.01a1.01 1.01 0 0 0-1 .491h-.545l-.238-.491a1 1 0 0 0-.687-.542l-.5-.108.489-.859h1.044c.17 0 .335-.043.483-.125l.766-.423q.101-.056.187-.133l1.682-1.521a.995.995 0 0 0 .204-1.23l-.023-.04A5.51 5.51 0 0 1 13.5 8m-11 0c0-.817.182-1.625.534-2.362l.709 1.891a1 1 0 0 0 .726.625l1.34.289.237.495a1.01 1.01 0 0 0 .9.562h.093l-.452 1.014a1 1 0 0 0 .179 1.086l.008.009L8 12.87l-.121.625A5.507 5.507 0 0 1 2.5 8" /></g><defs><clipPath id="globe-hemisphere-west-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGlobeHemisphereWestFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGiftFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#gift-fill_svg__a)"><path fill="#000" d="M13.5 4.5h-2.193q.038-.03.074-.063A1.85 1.85 0 0 0 12 3.098 2.04 2.04 0 0 0 9.903 1a1.85 1.85 0 0 0-1.34.62c-.234.27-.424.575-.563.904a3.4 3.4 0 0 0-.562-.905A1.85 1.85 0 0 0 6.098 1 2.04 2.04 0 0 0 4 3.099a1.85 1.85 0 0 0 .62 1.34q.035.03.072.062H2.5a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1v4a1 1 0 0 0 1 1h3.75a.25.25 0 0 0 .25-.25V7.5h-5v-2h5v2h1v-2h5v2h-5v5.75a.25.25 0 0 0 .25.25h3.75a1 1 0 0 0 1-1v-4a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1m-8.218-.813A.86.86 0 0 1 5 3.062 1.04 1.04 0 0 1 6.037 2h.03a.86.86 0 0 1 .625.281c.525.593.71 1.575.775 2.183-.61-.065-1.592-.25-2.185-.777m5.437 0c-.593.525-1.577.71-2.187.775.074-.656.28-1.618.78-2.18A.86.86 0 0 1 9.939 2h.03A1.04 1.04 0 0 1 11 3.067a.86.86 0 0 1-.282.62z" /></g><defs><clipPath id="gift-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGiftFill);
-const Memo = memo(ForwardRef);
-export default Memo;

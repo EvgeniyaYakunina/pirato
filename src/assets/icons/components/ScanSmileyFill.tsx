@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgScanSmileyFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#scan-smiley-fill_svg__a)"><path fill="#000" d="M14 2.5v2.25a.5.5 0 0 1-1 0V3h-1.75a.5.5 0 0 1 0-1h2.25a.5.5 0 0 1 .5.5m-.5 8.25a.5.5 0 0 0-.5.5V13h-1.75a.5.5 0 0 0 0 1h2.25a.5.5 0 0 0 .5-.5v-2.25a.5.5 0 0 0-.5-.5M4.75 13H3v-1.75a.5.5 0 0 0-1 0v2.25a.5.5 0 0 0 .5.5h2.25a.5.5 0 0 0 0-1M2.5 5.25a.5.5 0 0 0 .5-.5V3h1.75a.5.5 0 1 0 0-1H2.5a.5.5 0 0 0-.5.5v2.25a.5.5 0 0 0 .5.5M8 12.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9M6.5 8a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5m3.375 1.17a.5.5 0 0 0-.706-.045c-.238.21-.75.375-1.169.375s-.931-.164-1.17-.375a.5.5 0 1 0-.66.75c.489.432 1.271.625 1.83.625s1.341-.193 1.83-.625a.5.5 0 0 0 .045-.706m.375-1.92a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0" /></g><defs><clipPath id="scan-smiley-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgScanSmileyFill);
-const Memo = memo(ForwardRef);
-export default Memo;

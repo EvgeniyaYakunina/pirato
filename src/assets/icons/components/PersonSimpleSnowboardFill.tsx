@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgPersonSimpleSnowboardFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#person-simple-snowboard-fill_svg__a)"><path fill="#000" d="M8.5 3.25a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0m5.48 4.39a.5.5 0 0 1-.621.34L8.417 6.525l-.486.729 2.208.64a.5.5 0 0 1 .276.758l-1.234 1.84 3.18.922a1.58 1.58 0 0 1 1.139 1.51 1.58 1.58 0 0 1-2.022 1.512l-9.84-2.853A1.58 1.58 0 0 1 .5 10.074a1.578 1.578 0 0 1 2.021-1.511l2.796.812 2.095-3.142-2.553-.75a.5.5 0 0 1 .282-.96l8.5 2.5a.5.5 0 0 1 .338.618m-6.631.485L6.324 9.662l1.848.537 1.031-1.537z" /></g><defs><clipPath id="person-simple-snowboard-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgPersonSimpleSnowboardFill);
-const Memo = memo(ForwardRef);
-export default Memo;

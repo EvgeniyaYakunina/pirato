@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgFileIniFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#file-ini-fill_svg__a)"><path fill="#000" d="M3 9.5v3.483a.51.51 0 0 1-.467.517A.5.5 0 0 1 2 13V9.517A.51.51 0 0 1 2.467 9 .5.5 0 0 1 3 9.5M7.467 9A.51.51 0 0 0 7 9.516v1.922L5.418 9.224a.52.52 0 0 0-.5-.217.5.5 0 0 0-.418.492v3.483a.51.51 0 0 0 .467.517.5.5 0 0 0 .533-.5v-1.937l1.593 2.23A.5.5 0 0 0 8 12.984V9.5a.5.5 0 0 0-.533-.5m2.5 0a.51.51 0 0 0-.467.516v3.466a.51.51 0 0 0 .467.516.5.5 0 0 0 .533-.5V9.5a.5.5 0 0 0-.533-.5M13.5 5.5v8.484a.51.51 0 0 1-.426.51A.5.5 0 0 1 12.5 14V7.75a.25.25 0 0 0-.25-.25h-9.5a.25.25 0 0 1-.25-.25V2.5a1 1 0 0 1 1-1h6a.5.5 0 0 1 .354.146l3.5 3.5a.5.5 0 0 1 .146.354m-1.25 0L9.5 2.75V5.5z" /></g><defs><clipPath id="file-ini-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgFileIniFill);
-const Memo = memo(ForwardRef);
-export default Memo;

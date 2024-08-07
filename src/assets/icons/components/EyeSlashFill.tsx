@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgEyeSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#eye-slash-fill_svg__a)"><path fill="#000" d="M6.042 3.617a.25.25 0 0 1 .13-.413A8 8 0 0 1 8 3c2.18 0 4.16.829 5.729 2.397 1.177 1.177 1.706 2.351 1.728 2.4a.5.5 0 0 1 0 .407c-.022.05-.551 1.223-1.728 2.4a9 9 0 0 1-.55.504.25.25 0 0 1-.347-.022zm7.328 9.547a.499.499 0 0 1-.393.84.5.5 0 0 1-.347-.168l-1.38-1.515A7.95 7.95 0 0 1 8 13c-2.18 0-4.16-.829-5.729-2.396C1.094 9.427.562 8.254.543 8.204a.5.5 0 0 1 0-.406c.02-.048.551-1.224 1.728-2.401.47-.472.995-.887 1.563-1.236L2.63 2.836a.5.5 0 1 1 .74-.672zm-4.093-3.016L5.984 6.523a2.5 2.5 0 0 0 3.293 3.625" /></g><defs><clipPath id="eye-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgEyeSlashFill);
-const Memo = memo(ForwardRef);
-export default Memo;

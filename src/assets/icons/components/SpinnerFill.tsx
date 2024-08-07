@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSpinnerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#spinner-fill_svg__a)"><path fill="#000" d="M8 1.5A6.5 6.5 0 1 0 14.5 8 6.507 6.507 0 0 0 8 1.5m2.121 3.672 1.063-1.063a.5.5 0 1 1 .707.708L10.83 5.879a.5.5 0 0 1-.707-.706zM3 8.5a.5.5 0 0 1 0-1h1.5a.5.5 0 0 1 0 1zm2.879 2.328-1.063 1.063a.5.5 0 1 1-.707-.708l1.062-1.062a.5.5 0 0 1 .707.707m0-4.95a.5.5 0 0 1-.707 0L4.109 4.817a.5.5 0 1 1 .71-.705L5.88 5.173a.5.5 0 0 1-.002.706M8.5 13a.5.5 0 0 1-1 0v-1.5a.5.5 0 0 1 1 0zm0-8.5a.5.5 0 1 1-1 0V3a.5.5 0 1 1 1 0zm3.39 7.39a.5.5 0 0 1-.708 0l-1.063-1.063a.5.5 0 0 1 .707-.707l1.063 1.063a.5.5 0 0 1 0 .706M13 8.5h-1.5a.5.5 0 0 1 0-1H13a.5.5 0 0 1 0 1" /></g><defs><clipPath id="spinner-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSpinnerFill);
-const Memo = memo(ForwardRef);
-export default Memo;

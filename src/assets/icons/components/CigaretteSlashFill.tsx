@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCigaretteSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cigarette-slash-fill_svg__a)"><path fill="#000" d="M12.563 3.755c.5-.89.463-1.357.397-1.557a.5.5 0 0 0-.165-.241.5.5 0 1 1 .406-.914 1.4 1.4 0 0 1 .708.84c.21.634.05 1.428-.475 2.362-.5.89-.464 1.357-.398 1.557.03.096.087.18.165.241a.5.5 0 1 1-.406.914 1.4 1.4 0 0 1-.707-.84c-.209-.634-.05-1.43.475-2.362M9.587 6.117a1.4 1.4 0 0 0 .708.84.5.5 0 1 0 .406-.914.5.5 0 0 1-.165-.24c-.066-.2-.102-.669.398-1.558.525-.934.687-1.728.475-2.362a1.4 1.4 0 0 0-.708-.84.5.5 0 1 0-.406.914.5.5 0 0 1 .165.241c.066.2.102.668-.398 1.557-.523.932-.683 1.728-.473 2.362zm3.781 7.047a.501.501 0 0 1-.393.84.5.5 0 0 1-.347-.168L10.961 12H2a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h5.324L2.63 2.836a.5.5 0 1 1 .74-.672zM10.051 11 8.233 9H6v2zM14 8h-2.842a.5.5 0 0 0 0 1H14v2h-.115a.5.5 0 0 0 0 1H14a1 1 0 0 0 1-1V9a1 1 0 0 0-1-1" /></g><defs><clipPath id="cigarette-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCigaretteSlashFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSubtitlesSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#subtitles-slash-fill_svg__a)"><path fill="#000" d="M3.37 2.164a.5.5 0 0 0-.718-.023.514.514 0 0 0-.008.71L2.779 3H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.87l.76.836a.5.5 0 0 0 .708.032.52.52 0 0 0 .019-.72zM6.5 8h.824l.91 1H6.516A.51.51 0 0 1 6 8.533.5.5 0 0 1 6.5 8m-3 0h1a.5.5 0 0 1 .5.533.51.51 0 0 1-.517.467h-.966A.51.51 0 0 1 3 8.533.5.5 0 0 1 3.5 8m6 3H3.517A.51.51 0 0 1 3 10.533.5.5 0 0 1 3.5 10h5.643l.743.818A.5.5 0 0 1 9.5 11M15 4v8a1 1 0 0 1-.324.736.25.25 0 0 1-.357-.015L10.937 9H12.5a.5.5 0 0 0 .5-.533.51.51 0 0 0-.516-.467h-2.456L5.862 3.418A.25.25 0 0 1 6.049 3H14a1 1 0 0 1 1 1" /></g><defs><clipPath id="subtitles-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSubtitlesSlashFill);
-const Memo = memo(ForwardRef);
-export default Memo;

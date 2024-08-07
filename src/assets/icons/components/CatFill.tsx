@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCatFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cat-fill_svg__a)"><path fill="#000" d="M13.927 2.096a1 1 0 0 0-1.157.223l-1.08 1.243a6.96 6.96 0 0 0-7.377 0L3.23 2.32l-.024-.026a1 1 0 0 0-1.134-.197 1.02 1.02 0 0 0-.573.933V8.5c0 3.063 2.504 5.602 5.723 5.958a.25.25 0 0 0 .277-.25v-2l-.839-.84a.514.514 0 0 1-.025-.71.5.5 0 0 1 .718-.012l.646.646.646-.646a.5.5 0 0 1 .718.01.514.514 0 0 1-.025.711l-.839.84v2a.25.25 0 0 0 .278.25C11.996 14.1 14.5 11.562 14.5 8.5V3.029a1.03 1.03 0 0 0-.573-.933M5.25 9.5a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5m1.25-4a.5.5 0 0 1-1 0V4.312a.5.5 0 1 1 1 0zm2 0a.5.5 0 0 1-1 0V4a.5.5 0 1 1 1 0zm1 0V4.312a.5.5 0 1 1 1 0V5.5a.5.5 0 0 1-1 0m1.25 4a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5" /></g><defs><clipPath id="cat-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCatFill);
-const Memo = memo(ForwardRef);
-export default Memo;

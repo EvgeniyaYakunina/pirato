@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgThermometerColdFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#thermometer-cold-fill_svg__a)"><path fill="#000" d="m15.557 4.858-1.25.405.771 1.063a.5.5 0 1 1-.809.587L13.5 5.851l-.771 1.062a.5.5 0 0 1-.809-.587l.771-1.063-1.25-.405a.5.5 0 0 1 .309-.952l1.25.406V3a.5.5 0 0 1 1 0v1.313l1.25-.406a.5.5 0 0 1 .31.951zM11 12a3.501 3.501 0 0 1-6.435 1.904A3.5 3.5 0 0 1 5.5 9.125V2.5a2 2 0 1 1 4 0v6.625A3.51 3.51 0 0 1 11 12m-5.949-.5H9.95A2.5 2.5 0 0 0 8.75 9.834a.5.5 0 0 1-.25-.433V2.5a1 1 0 0 0-2 0v6.901a.5.5 0 0 1-.25.433A2.5 2.5 0 0 0 5.051 11.5" /></g><defs><clipPath id="thermometer-cold-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgThermometerColdFill);
-const Memo = memo(ForwardRef);
-export default Memo;

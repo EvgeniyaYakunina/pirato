@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgPopcornFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#popcorn-fill_svg__a)"><path fill="#000" d="M14.345 4.638a.5.5 0 0 0-.446-.125A2.75 2.75 0 0 0 10.5 2.604a2.75 2.75 0 0 0-5 0 2.75 2.75 0 0 0-3.4 1.907.5.5 0 0 0-.587.603l1.91 8.115a1 1 0 0 0 .973.771h7.208a1 1 0 0 0 .974-.77l1.909-8.116a.5.5 0 0 0-.142-.476M4.396 13 2.682 5.715l2.366.676.88 6.609zM7.63 4.61l-2.156.862-2.41-.688a1.75 1.75 0 0 1 2.506-1.08.5.5 0 0 0 .722-.334 1.75 1.75 0 0 1 3.417 0 .5.5 0 0 0 .722.334 1.75 1.75 0 0 1 2.508 1.08l-2.41.687-2.156-.862a1 1 0 0 0-.743.001M11.604 13H10.07l.882-6.61 2.365-.675z" /></g><defs><clipPath id="popcorn-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgPopcornFill);
-const Memo = memo(ForwardRef);
-export default Memo;

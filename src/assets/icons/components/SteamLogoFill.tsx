@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSteamLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#steam-logo-fill_svg__a)"><path fill="#000" d="M14.495 8.257c-.13 3.375-2.864 6.107-6.238 6.238A6.502 6.502 0 0 1 1.6 6.86a.25.25 0 0 1 .423-.13l2.688 2.687A1.75 1.75 0 0 0 7.36 11.6l3.82-3.115a2.248 2.248 0 0 0-1.542-3.982 2.25 2.25 0 0 0-1.628.816L5.324 8.616 2.188 5.479a.25.25 0 0 1-.048-.287 6.5 6.5 0 0 1 12.356 3.062zm-6.896-.848L5.673 9.771a.74.74 0 0 0-.128.727.76.76 0 0 0 .696.502.74.74 0 0 0 .486-.171l2.361-1.926a2.26 2.26 0 0 1-1.49-1.494m3.395-.534a1.25 1.25 0 1 0-2.489-.25 1.25 1.25 0 0 0 2.489.25" /></g><defs><clipPath id="steam-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSteamLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

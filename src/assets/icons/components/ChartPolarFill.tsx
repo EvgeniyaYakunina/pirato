@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgChartPolarFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#chart-polar-fill_svg__a)"><path fill="#000" d="M7.5 12.471v1.734a.25.25 0 0 1-.279.25A6.514 6.514 0 0 1 1.546 8.78a.25.25 0 0 1 .25-.279H3.53a4.51 4.51 0 0 0 3.97 3.97M11.464 8.5H8.5v2.964A3.51 3.51 0 0 0 11.464 8.5M8.5 4.536V7.5h2.964A3.51 3.51 0 0 0 8.5 4.536M14.205 8.5H12.47A4.51 4.51 0 0 1 8.5 12.47v1.734a.25.25 0 0 0 .279.25 6.514 6.514 0 0 0 5.675-5.675.25.25 0 0 0-.25-.28m-1.734-1h1.734a.25.25 0 0 0 .25-.279A6.514 6.514 0 0 0 8.78 1.546a.25.25 0 0 0-.279.25V3.53a4.51 4.51 0 0 1 3.97 3.97m-5.25-5.954a6.514 6.514 0 0 0-5.675 5.675.25.25 0 0 0 .25.279H3.53a4.51 4.51 0 0 1 3.97-3.971V1.795a.25.25 0 0 0-.278-.249M4.536 7.5H7.5V4.536A3.51 3.51 0 0 0 4.536 7.5M7.5 11.464V8.5H4.536A3.51 3.51 0 0 0 7.5 11.464" /></g><defs><clipPath id="chart-polar-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgChartPolarFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgShuffleAngularFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#shuffle-angular-fill_svg__a)"><path fill="#000" d="M14.854 11.146a.5.5 0 0 1 0 .708l-1.5 1.5A.501.501 0 0 1 12.5 13v-1h-2a.5.5 0 0 1-.407-.21L5.243 5H2a.5.5 0 1 1 0-1h3.5a.5.5 0 0 1 .407.21l4.85 6.79H12.5v-1a.5.5 0 0 1 .854-.354zM8.938 6.687a.5.5 0 0 0 .697-.116l1.125-1.57h1.74V6a.5.5 0 0 0 .854.354l1.5-1.5a.5.5 0 0 0 0-.708l-1.5-1.5A.5.5 0 0 0 12.5 3v1h-2a.5.5 0 0 0-.407.21L8.822 5.988a.5.5 0 0 0 .116.698M7.062 9.312a.5.5 0 0 0-.697.117l-1.123 1.57H2a.5.5 0 0 0 0 1h3.5a.5.5 0 0 0 .407-.209l1.271-1.779a.5.5 0 0 0-.115-.699" /></g><defs><clipPath id="shuffle-angular-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgShuffleAngularFill);
-const Memo = memo(ForwardRef);
-export default Memo;

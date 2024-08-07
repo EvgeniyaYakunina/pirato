@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgHeadCircuitFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g fill="#000" clipPath="url(#head-circuit-fill_svg__a)"><path d="M8 4.997a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M9.5 8.997a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" /><path d="M12.031 10.714a5.52 5.52 0 0 0 1.963-4.483.25.25 0 0 0-.25-.234h-1.51L10.79 7.73a1.5 1.5 0 1 1-.768-.64l1.595-1.914A.5.5 0 0 1 12 5h1.446a.25.25 0 0 0 .236-.334c-.728-2.04-2.628-3.54-4.886-3.66H8.76a.25.25 0 0 0-.259.25v1.827a1.5 1.5 0 1 1-1 0V1.396a.25.25 0 0 0-.306-.245A5.51 5.51 0 0 0 3 6.375L1.597 9.071l-.014.028a1 1 0 0 0 .47 1.294l.015.008 1.432.655v1.938a1 1 0 0 0 1 1H7v.5a.5.5 0 0 0 .5.5h4.486a.5.5 0 0 0 .51-.562z" /></g><defs><clipPath id="head-circuit-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgHeadCircuitFill);
-const Memo = memo(ForwardRef);
-export default Memo;

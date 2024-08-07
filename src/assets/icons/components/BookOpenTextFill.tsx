@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgBookOpenTextFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#book-open-text-fill_svg__a)"><path fill="#000" d="M14.5 3h-4a2 2 0 0 0-2 2v5.483a.51.51 0 0 1-.467.516.5.5 0 0 1-.533-.5V5a2 2 0 0 0-2-2h-4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5H6a1.5 1.5 0 0 1 1.5 1.496.49.49 0 0 0 .32.472.5.5 0 0 0 .68-.468A1.5 1.5 0 0 1 10 13h4.5a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5M13 10.5h-2.483a.51.51 0 0 1-.516-.467.5.5 0 0 1 .5-.533h2.483a.51.51 0 0 1 .516.467.5.5 0 0 1-.5.533m0-2h-2.483A.51.51 0 0 1 10 8.033a.5.5 0 0 1 .5-.533h2.483a.51.51 0 0 1 .516.467.5.5 0 0 1-.5.533m0-2h-2.483A.51.51 0 0 1 10 6.033a.5.5 0 0 1 .5-.533h2.483a.51.51 0 0 1 .517.467.5.5 0 0 1-.5.533" /></g><defs><clipPath id="book-open-text-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgBookOpenTextFill);
-const Memo = memo(ForwardRef);
-export default Memo;

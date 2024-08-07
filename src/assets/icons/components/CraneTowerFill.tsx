@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCraneTowerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g fill="#000" clipPath="url(#crane-tower-fill_svg__a)"><path d="M7.983 13H7v-2.75a.25.25 0 0 0-.25-.25h-4a.25.25 0 0 0-.25.25V13h-.983a.51.51 0 0 0-.517.467.5.5 0 0 0 .5.533H8a.499.499 0 0 0 .334-.868.5.5 0 0 0-.35-.132" /><path d="M14.983 5H6.81L5.448 2.276A.5.5 0 0 0 5 2H3a.5.5 0 0 0-.5.5V5h-.983A.51.51 0 0 0 1 5.467.5.5 0 0 0 1.5 6h1v2.75a.25.25 0 0 0 .25.25h4A.25.25 0 0 0 7 8.75V6h6v5.5h-1v-.483a.51.51 0 0 0-.467-.516.5.5 0 0 0-.533.5v.5a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1V6h1a.5.5 0 0 0 .5-.533.51.51 0 0 0-.517-.467M3.5 5V3h1.191l1 2z" /></g><defs><clipPath id="crane-tower-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCraneTowerFill);
-const Memo = memo(ForwardRef);
-export default Memo;

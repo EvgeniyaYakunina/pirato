@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgAirTrafficControlFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#air-traffic-control-fill_svg__a)"><path fill="#000" d="M14.32 4.426A1 1 0 0 0 13.5 4h-5V2h1a.5.5 0 0 0 0-1h-3a.5.5 0 0 0 0 1h1v2h-5a1 1 0 0 0-.938 1.342l1.637 4.5a1 1 0 0 0 .938.658h7.727a1 1 0 0 0 .937-.658l1.637-4.5a1 1 0 0 0-.119-.916M6.406 9.492a.5.5 0 0 1-.41-.108.5.5 0 0 1-.17-.295l-.64-3.5a.5.5 0 0 1 .985-.178l.636 3.5a.5.5 0 0 1-.4.58m4.406-3.903-.637 3.5a.5.5 0 1 1-.984-.178l.636-3.5a.5.5 0 0 1 .985.178M10 11.75v2.75a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-2.75a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25" /></g><defs><clipPath id="air-traffic-control-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgAirTrafficControlFill);
-const Memo = memo(ForwardRef);
-export default Memo;

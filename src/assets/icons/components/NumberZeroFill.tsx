@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgNumberZeroFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#number-zero-fill_svg__a)"><path fill="#000" d="M9.855 5.524c.416.633.645 1.513.645 2.476s-.229 1.842-.645 2.476C9.409 11.156 8.785 11.5 8 11.5s-1.41-.344-1.855-1.024C5.729 9.842 5.5 8.963 5.5 8s.229-1.843.645-2.476C6.591 4.844 7.215 4.5 8 4.5s1.41.344 1.855 1.024M13.5 2.5v11a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1m-2 5.5c0-1.156-.287-2.23-.809-3.024C10.057 4.01 9.125 3.5 8 3.5s-2.057.51-2.691 1.476C4.787 5.77 4.5 6.844 4.5 8s.287 2.23.809 3.024C5.942 11.99 6.875 12.5 8 12.5s2.057-.51 2.691-1.476c.521-.794.809-1.868.809-3.024" /></g><defs><clipPath id="number-zero-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgNumberZeroFill);
-const Memo = memo(ForwardRef);
-export default Memo;

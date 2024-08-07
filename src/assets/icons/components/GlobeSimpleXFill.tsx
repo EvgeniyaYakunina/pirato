@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGlobeSimpleXFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#globe-simple-x-fill_svg__a)"><path fill="#000" d="M13.854 10.854 12.707 12l1.147 1.146a.5.5 0 0 1-.708.708L12 12.707l-1.146 1.147a.5.5 0 0 1-.708-.708L11.293 12l-1.147-1.146a.5.5 0 1 1 .708-.708L12 11.293l1.146-1.147a.5.5 0 1 1 .708.708M14.5 8a.5.5 0 0 1-.5.5H6.016c.187 3.358 2.208 5.038 2.298 5.11A.5.5 0 0 1 8 14.5 6.5 6.5 0 1 1 14.5 8M9.276 2.65c.72.954 1.599 2.568 1.71 4.85h2.49a5.51 5.51 0 0 0-4.2-4.85M6.014 7.5h3.972C9.84 4.9 8.596 3.306 8 2.688c-.596.618-1.841 2.211-1.986 4.812" /></g><defs><clipPath id="globe-simple-x-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGlobeSimpleXFill);
-const Memo = memo(ForwardRef);
-export default Memo;

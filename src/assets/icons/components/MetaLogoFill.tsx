@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgMetaLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#meta-logo-fill_svg__a)"><path fill="#000" d="M13.5 2.5h-11a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1m-.923 8.141c-.352.563-.896.859-1.573.859-1.295 0-2.175-1.582-3.107-3.257C7.217 7.021 6.37 5.5 5.663 5.5 4.886 5.5 4 7.305 4 8.888c0 .516.094.938.271 1.223.167.264.397.389.725.389.38 0 .845-.437 1.42-1.344a.5.5 0 0 1 .844.537C6.24 11.294 5.514 11.5 4.996 11.5c-.677 0-1.221-.297-1.573-.859C3.146 10.2 3 9.592 3 8.891a6.45 6.45 0 0 1 .688-2.825C4.208 5.056 4.91 4.5 5.663 4.5c1.296 0 2.176 1.582 3.108 3.257.68 1.222 1.526 2.743 2.233 2.743.329 0 .559-.125.725-.39.177-.282.271-.706.271-1.222 0-1.583-.886-3.388-1.663-3.388q-.321 0-.734.43a.5.5 0 1 1-.721-.693c.477-.496.952-.737 1.455-.737.75 0 1.454.556 1.976 1.566.441.876.676 1.841.688 2.822-.001.704-.147 1.31-.424 1.753" /></g><defs><clipPath id="meta-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgMetaLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;
