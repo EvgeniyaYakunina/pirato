@@ -6,6 +6,8 @@ import {
   createBrowserRouter,
 } from 'react-router-dom'
 
+import { Dashboard } from '@/pages'
+
 import { SignInPage } from './pages/signIn-page/signIn-page'
 import { SignUpPage } from './pages/signUp-page/signUp-page'
 export const publicRoutesList = {
@@ -18,6 +20,10 @@ export const publicRoutesList = {
       element: <SignUpPage />,
       path: '/sign-up',
     },
+    {
+      element: <Dashboard />,
+      index: true,
+    },
   ],
 }
 const publicRoutes: RouteObject[] = [
@@ -29,7 +35,7 @@ const publicRoutes: RouteObject[] = [
 
 const privateRoutes: RouteObject[] = [
   {
-    element: <div>hello</div>,
+    element: <Dashboard />,
     path: '/',
   },
 ]

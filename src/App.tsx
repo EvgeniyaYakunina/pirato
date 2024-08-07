@@ -9,7 +9,6 @@ export function App() {
       <Provider store={store}>
         <Router />
       </Provider>
-      <div>Hello</div>
     </div>
   )
 }
