@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
-import { SignUp } from '@/components/auth/sign-up'
-import { FormWrapper } from '@/components/common/form-wrapper'
-import { useNavigateSearch } from '@/components/hooks/useNavigateSearch'
-import { useSignUpMutation } from '@/services/auth/auth.service'
+import { SignUp } from '../../components/auth/sign-up/sign-up'
+import { FormWrapper } from '../../components/common/form-wrapper/form-wrapper'
+import { useNavigateSearch } from '../../components/hooks/useNavigateSearch'
+import { useSignUpMutation } from '../../services/auth/auth.service'
 
 export type SignUpData = Pick<SignUpBody, 'email' | 'password'>
 
