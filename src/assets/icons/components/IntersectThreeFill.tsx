@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgIntersectThreeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#intersect-three-fill_svg__a)"><path fill="#000" d="M12.243 6q.007-.122.007-.25A4.25 4.25 0 1 0 3.757 6 4.25 4.25 0 1 0 8 13.353a4.249 4.249 0 0 0 5.577-6.283A4.25 4.25 0 0 0 12.242 6M8 12.092A3.24 3.24 0 0 1 7 9.88c.655.159 1.339.159 1.994 0A3.24 3.24 0 0 1 8 12.09M6.202 8.456A3.26 3.26 0 0 1 4.87 6.625a3.24 3.24 0 0 1 2.3.205 4.26 4.26 0 0 0-.968 1.626m2.629-1.63a3.24 3.24 0 0 1 2.299-.201 3.26 3.26 0 0 1-1.332 1.834 4.26 4.26 0 0 0-.967-1.632M8 2.5a3.254 3.254 0 0 1 3.25 3.12A4.23 4.23 0 0 0 8 6.146a4.23 4.23 0 0 0-3.247-.528A3.254 3.254 0 0 1 8 2.5M2.5 9.75a3.25 3.25 0 0 1 1.452-2.706A4.27 4.27 0 0 0 6.007 9.5a4.234 4.234 0 0 0 1.162 3.173A3.25 3.25 0 0 1 2.5 9.75M10.25 13c-.492 0-.977-.111-1.42-.327A4.23 4.23 0 0 0 9.993 9.5a4.27 4.27 0 0 0 2.056-2.458A3.25 3.25 0 0 1 10.25 13" /></g><defs><clipPath id="intersect-three-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgIntersectThreeFill);
-const Memo = memo(ForwardRef);
-export default Memo;

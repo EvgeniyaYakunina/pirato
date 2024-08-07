@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgRacquetFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#racquet-fill_svg__a)"><path fill="#000" d="M14.375 1.628c-1.75-1.745-4.904-1.43-7.037.703-1.987 1.987-2.396 4.86-1.032 6.656l-1.848 1.847-.042-.042a1 1 0 0 0-1.415 0L1.293 12.5a1 1 0 0 0 0 1.415l.793.793a1 1 0 0 0 1.415 0L5.209 13a1 1 0 0 0 0-1.414l-.043-.043 1.847-1.848c.706.536 1.578.8 2.5.8 1.42 0 2.953-.626 4.159-1.832 2.13-2.134 2.446-5.288.703-7.035m-.36 4.872h-1.511v-2h2a4.5 4.5 0 0 1-.49 2M8.5 9.35A2.76 2.76 0 0 1 6.65 7.5H8.5zm-2-2.85c.008-.696.176-1.38.491-2h1.51v2zm3-2h2v2h-2zm4.855-1h-1.851V1.643a2.76 2.76 0 0 1 1.854 1.853zm-2.864-2h.01v2h-2V1.985a4.5 4.5 0 0 1 1.993-.491zM8.5 2.63v.867h-.866A5.6 5.6 0 0 1 8.5 2.63m1 6.87V7.5h2v1.51a4.5 4.5 0 0 1-1.998.49zm3-1.134V7.5h.874a6 6 0 0 1-.41.458q-.22.216-.461.407z" /></g><defs><clipPath id="racquet-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgRacquetFill);
-const Memo = memo(ForwardRef);
-export default Memo;

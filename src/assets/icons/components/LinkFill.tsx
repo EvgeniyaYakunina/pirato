@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgLinkFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#link-fill_svg__a)"><path fill="#000" d="M13 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1M7.231 12.03A2.707 2.707 0 0 1 3.794 7.88l1.585-1.586a2.71 2.71 0 0 1 4.45.965.5.5 0 0 1-.937.35A1.708 1.708 0 0 0 6.086 7L4.5 8.586a1.707 1.707 0 0 0 2.168 2.619.5.5 0 1 1 .562.826zm4.976-3.909L10.62 9.707a2.69 2.69 0 0 1-1.914.793 2.71 2.71 0 0 1-2.533-1.758.5.5 0 1 1 .938-.35 1.71 1.71 0 0 0 2.247.979c.207-.086.395-.212.553-.371L11.5 7.414a1.707 1.707 0 0 0-2.168-2.619.5.5 0 1 1-.562-.826 2.707 2.707 0 0 1 3.438 4.152z" /></g><defs><clipPath id="link-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgLinkFill);
-const Memo = memo(ForwardRef);
-export default Memo;

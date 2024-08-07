@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgPencilRulerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#pencil-ruler-fill_svg__a)"><path fill="#000" d="M14 3v10a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1v-1.75a.25.25 0 0 1 .25-.25h2.25a.499.499 0 0 0 .334-.868.5.5 0 0 0-.35-.132H9.25A.25.25 0 0 1 9 9.75v-1a.25.25 0 0 1 .25-.25h2.25a.5.5 0 0 0 .5-.533.51.51 0 0 0-.516-.467H9.25A.25.25 0 0 1 9 7.25v-1A.25.25 0 0 1 9.25 6h2.25a.5.5 0 0 0 .5-.533.51.51 0 0 0-.517-.467H9.25A.25.25 0 0 1 9 4.75V3a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1m-7.146.646A.5.5 0 0 1 7 4v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a.5.5 0 0 1 .146-.354l2-2a.5.5 0 0 1 .708 0zM3 5v6.5h1V5zm2 0v6.5h1V5zM3.207 4h2.586L4.5 2.707z" /></g><defs><clipPath id="pencil-ruler-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgPencilRulerFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCommandFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#command-fill_svg__a)"><path fill="#000" d="M7.25 7.25h1.5v1.5h-1.5zM5.375 4.5a.875.875 0 0 0 0 1.75h.875v-.875a.875.875 0 0 0-.875-.875m6.125.875a.875.875 0 0 0-1.75 0v.875h.875a.875.875 0 0 0 .875-.875m-7 5.25a.875.875 0 1 0 1.75 0V9.75h-.875a.875.875 0 0 0-.875.875M14 3v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1M9.75 8.75v-1.5h.875A1.875 1.875 0 1 0 8.75 5.375v.875h-1.5v-.875A1.875 1.875 0 1 0 5.375 7.25h.875v1.5h-.875a1.875 1.875 0 1 0 1.875 1.875V9.75h1.5v.875a1.875 1.875 0 1 0 1.875-1.875zm0 1.875a.875.875 0 1 0 .875-.875H9.75z" /></g><defs><clipPath id="command-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCommandFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgEarSlashFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#ear-slash-fill_svg__a)"><path fill="#000" d="M13.37 13.164a.5.5 0 1 1-.74.672l-.642-.707q.395-.308.739-.673zM4.013 2.87l-.643-.706a.5.5 0 1 0-.74.672l.643.708q.344-.366.74-.674m8.714 9.586L4.013 2.87a6.496 6.496 0 0 1 8.714 9.586M9.937 6.5a2 2 0 0 0-1.254-1.38.5.5 0 0 0-.341.937 1 1 0 0 1 .625.687.5.5 0 0 0 .97-.244M12 7a4 4 0 0 0-5.368-3.76.5.5 0 0 0 .342.937A3 3 0 0 1 11 7a.5.5 0 0 0 1 0m-2.75 3.5A1.25 1.25 0 0 1 8 9.25q0-.223.063-.438L6.784 7.406A.494.494 0 0 1 6 7a2 2 0 0 1 .043-.41l-.769-.845A3 3 0 0 0 5 7c0 .744.42 1.281.864 1.85.437.557.886 1.134.886 1.9a1.25 1.25 0 0 0 2.125.893.5.5 0 1 1 .7.714A2.25 2.25 0 0 1 5.75 10.75c0-.421-.312-.821-.674-1.285C4.596 8.852 4 8.088 4 7c0-.719.194-1.425.563-2.041l-1.29-1.415a6.496 6.496 0 0 0 8.715 9.585L9.563 10.46q-.154.04-.313.04" /></g><defs><clipPath id="ear-slash-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgEarSlashFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSnapchatLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#snapchat-logo-fill_svg__a)"><path fill="#000" d="M15.342 11.859c-.444.417-1.104.482-1.743.545-.394.039-.802.08-1.024.202-.21.116-.428.413-.638.7-.338.464-.72.988-1.327 1.143a1.7 1.7 0 0 1-.415.051c-.43 0-.856-.145-1.244-.277-.347-.118-.675-.23-.95-.23-.276 0-.604.112-.951.23-.512.175-1.092.375-1.659.226-.607-.155-.99-.679-1.327-1.142-.21-.288-.428-.585-.638-.701-.223-.125-.63-.163-1.024-.202-.639-.063-1.3-.128-1.743-.545a.5.5 0 0 1 .173-.835c.005 0 .802-.304 1.585-1.188A5.9 5.9 0 0 0 3.526 7.95l-1.214-.485a.5.5 0 0 1 .375-.928l1.116.447A9.5 9.5 0 0 0 4 5a4 4 0 0 1 8 0 9.3 9.3 0 0 0 .2 1.983l1.113-.447a.5.5 0 1 1 .374.928l-1.206.483c.88 2.397 2.665 3.068 2.688 3.077a.5.5 0 0 1 .173.835" /></g><defs><clipPath id="snapchat-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSnapchatLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

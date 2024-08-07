@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSyringeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#syringe-fill_svg__a)"><path fill="#000" d="M14.854 4.85a.5.5 0 0 1-.708 0L13 3.703 11.206 5.5l2.147 2.147a.5.5 0 0 1-.707.707l-.396-.4L7 13.204a1 1 0 0 1-.71.296H3.205L1.85 14.854a.5.5 0 0 1-.733-.027.513.513 0 0 1 .039-.694l1.34-1.341V9.705A1 1 0 0 1 2.79 9l.95-.949a.25.25 0 0 1 .353 0l1.802 1.8a.5.5 0 1 0 .707-.707L4.8 7.342a.25.25 0 0 1 0-.354l.687-.687a.25.25 0 0 1 .354 0l1.802 1.802a.5.5 0 1 0 .708-.707L6.55 5.59a.25.25 0 0 1 0-.353L8.04 3.746l-.397-.397a.5.5 0 0 1 .012-.718.514.514 0 0 1 .71.026L10.5 4.789l1.793-1.793-1.147-1.147a.5.5 0 0 1 .01-.718.515.515 0 0 1 .711.025l2.987 2.987a.5.5 0 0 1 0 .707" /></g><defs><clipPath id="syringe-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSyringeFill);
-const Memo = memo(ForwardRef);
-export default Memo;

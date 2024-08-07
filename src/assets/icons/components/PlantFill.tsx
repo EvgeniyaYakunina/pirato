@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgPlantFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#plant-fill_svg__a)"><path fill="#000" d="M12.838 9.942c-.6.364-1.288.556-1.99.554a4.5 4.5 0 0 1-1.71-.354 3.47 3.47 0 0 0-.638 2.015V14a.5.5 0 0 1-.533.5.51.51 0 0 1-.467-.516v-.777l-2.414-2.414A3.3 3.3 0 0 1 3.965 11a2.86 2.86 0 0 1-1.495-.417C1.108 9.756.375 7.851.517 5.487a.5.5 0 0 1 .47-.47c2.364-.14 4.269.591 5.094 1.953.324.534.465 1.159.403 1.78a.25.25 0 0 1-.43.152l-1.2-1.256a.5.5 0 0 0-.708.706l3.368 3.454.013-.146a4.3 4.3 0 0 1 1.165-2.466l3.162-3.342a.5.5 0 0 0-.707-.707L8.084 8.384a.25.25 0 0 1-.423-.109c-.297-1.093-.166-2.18.4-3.114 1.116-1.842 3.713-2.829 6.948-2.639a.5.5 0 0 1 .47.47c.188 3.236-.798 5.834-2.64 6.95" /></g><defs><clipPath id="plant-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgPlantFill);
-const Memo = memo(ForwardRef);
-export default Memo;

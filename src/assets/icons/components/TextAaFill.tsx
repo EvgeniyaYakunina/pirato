@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgTextAaFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#text-aa-fill_svg__a)"><path fill="#000" d="M12.5 9.75c0 .406-.458.75-1 .75s-1-.344-1-.75.458-.75 1-.75 1 .344 1 .75m2-6.25v9a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1v-9a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1m-5.54 7.305-2.75-6.5a.5.5 0 0 0-.92 0l-2.75 6.5a.5.5 0 1 0 .92.39L4.179 9.5h3.145l.716 1.695a.5.5 0 1 0 .922-.39M13.5 7.75c0-.965-.898-1.75-2-1.75a2.18 2.18 0 0 0-1.299.418.5.5 0 1 0 .598.801c.204-.146.45-.223.701-.219.535 0 .988.335 1 .735v.5a2.2 2.2 0 0 0-1-.235c-1.102 0-2 .785-2 1.75s.898 1.75 2 1.75c.37.002.733-.09 1.058-.266A.5.5 0 0 0 13.5 11zm-8.9.75h2.3L5.75 5.783z" /></g><defs><clipPath id="text-aa-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgTextAaFill);
-const Memo = memo(ForwardRef);
-export default Memo;

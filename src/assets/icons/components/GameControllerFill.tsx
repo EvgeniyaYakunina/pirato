@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGameControllerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#game-controller-fill_svg__a)"><path fill="#000" d="M15.465 10.86v-.01l-1.024-5.26v-.011A3.756 3.756 0 0 0 10.75 2.5H5.242a3.74 3.74 0 0 0-3.687 3.095l-1.02 5.256v.008a2.25 2.25 0 0 0 3.807 1.982l.021-.023L6.845 10h2.313l2.481 2.818.022.023a2.249 2.249 0 0 0 3.803-1.982zM6.5 7H6v.5a.5.5 0 1 1-1 0V7h-.5a.5.5 0 0 1 0-1H5v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 1 1 0 1M9 6.5a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H9.5a.5.5 0 0 1-.5-.5m5.273 5.467a1.24 1.24 0 0 1-1.393.477 1.25 1.25 0 0 1-.505-.3L10.488 10h.262a3.75 3.75 0 0 0 3.188-1.774l.546 2.813a1.24 1.24 0 0 1-.21.928" /></g><defs><clipPath id="game-controller-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGameControllerFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgHandPointingFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-pointing-fill_svg__a)"><path fill="#000" d="M14 6.5v3.183c0 2.888-2.303 5.285-5.187 5.317a5.23 5.23 0 0 1-3.775-1.537C3.674 12.02 2.134 8.5 2.134 8.5a1 1 0 0 1 .409-1.39c.478-.25 1.068-.052 1.337.415l1.313 2.277a.38.38 0 0 0 .375.193h.007A.51.51 0 0 0 6 9.484V2a1 1 0 0 1 1.048-1c.538.025.952.489.952 1.027V6.5a.5.5 0 0 0 .533.5A.51.51 0 0 0 9 6.485V5.5a1 1 0 0 1 1.048-1c.538.025.952.489.952 1.027V7a.5.5 0 0 0 .533.5.51.51 0 0 0 .467-.515V6.53c0-.539.414-1 .952-1.027A1 1 0 0 1 14 6.5" /></g><defs><clipPath id="hand-pointing-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgHandPointingFill);
-const Memo = memo(ForwardRef);
-export default Memo;

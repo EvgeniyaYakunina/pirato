@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgApplePodcastsLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#apple-podcasts-logo-fill_svg__a)"><path fill="#000" d="M9.987 9.489a1.23 1.23 0 0 1 .224 1.065l-.761 3a1.26 1.26 0 0 1-1.228.946h-.445a1.26 1.26 0 0 1-1.227-.946l-.761-3a1.23 1.23 0 0 1 .223-1.065 1.26 1.26 0 0 1 1-.489h1.97a1.26 1.26 0 0 1 1.005.489M9.75 7.25a1.75 1.75 0 1 0-3.5 0 1.75 1.75 0 0 0 3.5 0m1.625 1.688a.499.499 0 1 0 .963.268 4.5 4.5 0 1 0-8.671 0 .5.5 0 0 0 .958-.268 3.5 3.5 0 1 1 6.75 0M8 1.5a6.5 6.5 0 0 0-3.614 11.904.5.5 0 0 0 .556-.832 5.5 5.5 0 1 1 6.115 0 .5.5 0 1 0 .557.832A6.5 6.5 0 0 0 8 1.5" /></g><defs><clipPath id="apple-podcasts-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgApplePodcastsLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

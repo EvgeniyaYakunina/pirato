@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgOrangeSliceFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#orange-slice-fill_svg__a)"><path fill="#000" d="M3.199 9.094A5.97 5.97 0 0 1 2 5.5q-.002-.132.006-.263A.25.25 0 0 1 2.256 5h4.432a.25.25 0 0 1 .176.427zM7.5 11.48V6.207L3.864 9.843A5.98 5.98 0 0 0 7.5 11.48m5.301-2.385A5.97 5.97 0 0 0 14 5.5q.002-.132-.006-.263a.25.25 0 0 0-.25-.237H9.313a.25.25 0 0 0-.177.427zM15.5 5h-.255a.25.25 0 0 0-.25.259q.002.12.004.241A7 7 0 0 1 1 5.5q-.001-.12.004-.241A.25.25 0 0 0 .754 5H.5a.5.5 0 0 0-.5.5 8 8 0 0 0 16 0 .5.5 0 0 0-.5-.5m-7 1.207v5.272a5.98 5.98 0 0 0 3.636-1.636z" /></g><defs><clipPath id="orange-slice-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgOrangeSliceFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgScribbleFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#scribble-fill_svg__a)"><path fill="#000" d="M13 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1m-.896 8.604-.5.5a.56.56 0 0 0 0 .792l.25.25a.501.501 0 0 1-.708.708l-.25-.25a1.563 1.563 0 0 1 0-2.208l.5-.5a.56.56 0 0 0 0-.792.56.56 0 0 0-.792 0l-3 3a1.563 1.563 0 0 1-2.208-2.208l4.5-4.5a.563.563 0 0 0 0-.792.56.56 0 0 0-.792 0l-3 3a1.562 1.562 0 0 1-2.208-2.208l1.75-1.75a.5.5 0 1 1 .708.708l-1.75 1.75a.56.56 0 0 0 0 .792.56.56 0 0 0 .792 0l3-3a1.562 1.562 0 0 1 2.208 2.208l-4.5 4.5a.56.56 0 0 0 0 .792.56.56 0 0 0 .792 0l3-3a1.562 1.562 0 0 1 2.208 2.208" /></g><defs><clipPath id="scribble-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgScribbleFill);
-const Memo = memo(ForwardRef);
-export default Memo;

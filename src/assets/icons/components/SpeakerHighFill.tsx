@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgSpeakerHighFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#speaker-high-fill_svg__a)"><path fill="#000" d="M10 2.016V13.98a.52.52 0 0 1-.244.449.5.5 0 0 1-.563-.035l-4.098-3.188A.25.25 0 0 1 5 11.01V4.99a.25.25 0 0 1 .097-.197l4.098-3.187a.5.5 0 0 1 .805.41M3.75 5H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1.75a.25.25 0 0 0 .25-.25v-5.5A.25.25 0 0 0 3.75 5m7.923 1.303a.5.5 0 0 0-.045.706 1.5 1.5 0 0 1 0 1.982.5.5 0 1 0 .75.662 2.5 2.5 0 0 0 0-3.305.5.5 0 0 0-.707-.045zm2.556-1.636a.5.5 0 1 0-.745.666 4 4 0 0 1 0 5.334.499.499 0 1 0 .745.666 5 5 0 0 0 0-6.666" /></g><defs><clipPath id="speaker-high-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgSpeakerHighFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGraphFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#graph-fill_svg__a)"><path fill="#000" d="M12.5 9.5a2 2 0 0 0-1.22.417L9.835 8.792c.11-.25.165-.52.165-.792q.001-.07-.005-.138l.827-.276a2 2 0 1 0-.317-.948l-.827.276a2 2 0 0 0-2.007-.887l-.428-.965a2 2 0 1 0-.913.41l.427.963a1.995 1.995 0 0 0-.536 2.477L4.615 10.34a2.004 2.004 0 1 0 .664.75l1.607-1.428a1.99 1.99 0 0 0 2.335-.077l1.444 1.125A2 2 0 1 0 12.5 9.5m0-4a1 1 0 1 1 0 2 1 1 0 0 1 0-2M5 3.5a1 1 0 1 1 2 0 1 1 0 0 1-2 0M3.5 13a1 1 0 1 1 0-2.001A1 1 0 0 1 3.5 13m9-.5a1 1 0 1 1 0-2.001 1 1 0 0 1 0 2.001" /></g><defs><clipPath id="graph-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGraphFill);
-const Memo = memo(ForwardRef);
-export default Memo;

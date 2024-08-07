@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCoffeeBeanFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#coffee-bean-fill_svg__a)"><path fill="#000" d="M4.451 11.904a6.8 6.8 0 0 1-2.115.573.25.25 0 0 1-.243-.125c-.542-.955-.72-2.143-.5-3.447.28-1.683 1.193-3.367 2.57-4.744s3.063-2.29 4.744-2.57c1.424-.237 2.71 0 3.706.663a.25.25 0 0 1-.079.451 7.6 7.6 0 0 0-1.363.467c-1.361.618-3.1 1.94-3.658 4.73-.382 1.893-1.411 3.24-3.062 4.002m9.456-8.255a.25.25 0 0 0-.243-.125 6.8 6.8 0 0 0-2.115.572c-1.65.763-2.68 2.109-3.059 4-.558 2.79-2.297 4.113-3.657 4.731a7.6 7.6 0 0 1-1.364.467.25.25 0 0 0-.077.456c.742.495 1.645.75 2.647.75a6.5 6.5 0 0 0 1.057-.09c1.682-.28 3.367-1.193 4.744-2.57s2.29-3.063 2.57-4.744c.215-1.304.039-2.492-.503-3.447" /></g><defs><clipPath id="coffee-bean-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCoffeeBeanFill);
-const Memo = memo(ForwardRef);
-export default Memo;

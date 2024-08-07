@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCowFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cow-fill_svg__a)"><path fill="#000" d="M6.5 12a.5.5 0 0 1-.5.5H5a.5.5 0 0 1 0-1h1a.5.5 0 0 1 .5.5m4.5-.5h-1a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1m4.274-3.867A1 1 0 0 1 14.5 8h-2v2a2.5 2.5 0 0 1-1.5 4.5H5A2.5 2.5 0 0 1 3.5 10V8h-2a1 1 0 0 1-.98-1.187A3.51 3.51 0 0 1 3.95 4h.103A3.5 3.5 0 0 1 3 1.5a.5.5 0 1 1 1 0A2.5 2.5 0 0 0 6.5 4h3A2.5 2.5 0 0 0 12 1.5a.5.5 0 0 1 1 0A3.5 3.5 0 0 1 11.946 4h.103a3.51 3.51 0 0 1 3.432 2.813.99.99 0 0 1-.207.82M9 7.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0m-3.5 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0M3.5 7v-.5c-.001-.541.175-1.068.5-1.5h-.05A2.506 2.506 0 0 0 1.5 7zm9 5a1.5 1.5 0 0 0-1.5-1.5H5a1.5 1.5 0 1 0 0 3h6a1.5 1.5 0 0 0 1.5-1.5m2-5a2.505 2.505 0 0 0-2.45-2H12c.325.432.5.959.5 1.5V7z" /></g><defs><clipPath id="cow-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCowFill);
-const Memo = memo(ForwardRef);
-export default Memo;

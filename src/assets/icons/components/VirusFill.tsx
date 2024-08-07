@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgVirusFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#virus-fill_svg__a)"><path fill="#000" d="M15 7.5h-1.021a5.97 5.97 0 0 0-1.4-3.372l.775-.774a.5.5 0 0 0-.708-.708l-.771.775A5.97 5.97 0 0 0 8.5 2.02V1a.5.5 0 0 0-1 0v1.021a5.97 5.97 0 0 0-3.372 1.4l-.774-.775a.5.5 0 1 0-.708.708l.775.774a5.97 5.97 0 0 0-1.4 3.375H1a.5.5 0 1 0 0 1h1.021a5.97 5.97 0 0 0 1.4 3.372l-.775.771a.5.5 0 0 0 .708.708l.774-.775a5.97 5.97 0 0 0 3.375 1.4V15a.5.5 0 0 0 1 0v-1.021a5.97 5.97 0 0 0 3.372-1.4l.774.775a.5.5 0 1 0 .708-.708l-.778-.771a5.97 5.97 0 0 0 1.4-3.375H15a.5.5 0 0 0 0-1M5 6.75a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0M8 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2m3-3a1 1 0 1 1 0-2 1 1 0 0 1 0 2" /></g><defs><clipPath id="virus-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgVirusFill);
-const Memo = memo(ForwardRef);
-export default Memo;

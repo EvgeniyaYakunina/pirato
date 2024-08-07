@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgMaskHappyFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#mask-happy-fill_svg__a)"><path fill="#000" d="M13.563 2.175a1 1 0 0 0-.927-.107c-.877.341-2.647.914-4.636.914s-3.76-.573-4.638-.914A1 1 0 0 0 2 3v3.486c0 2.24.603 4.353 1.699 5.948C4.834 14.088 6.36 14.997 8 14.997s3.166-.91 4.301-2.563C13.397 10.84 14 8.727 14 6.487V3a1 1 0 0 0-.437-.825M4.874 8.333a.502.502 0 1 1-.75-.667C4.485 7.268 5.136 7 5.75 7s1.266.268 1.625.666a.502.502 0 0 1-.75.667C6.457 8.146 6.072 8 5.75 8s-.71.146-.875.333m5.656 2.991a3.304 3.304 0 0 1-5.057 0 .5.5 0 1 1 .758-.649 2.305 2.305 0 0 0 3.536 0 .5.5 0 0 1 .76.65zm1.303-2.949a.5.5 0 0 1-.707-.04c-.167-.187-.553-.332-.875-.332s-.71.146-.875.333a.503.503 0 1 1-.752-.67C8.982 7.268 9.634 7 10.25 7s1.266.268 1.625.666a.5.5 0 0 1-.041.709" /></g><defs><clipPath id="mask-happy-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgMaskHappyFill);
-const Memo = memo(ForwardRef);
-export default Memo;

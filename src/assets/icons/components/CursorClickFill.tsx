@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCursorClickFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cursor-click-fill_svg__a)"><path fill="#000" d="M13.78 11.927a.75.75 0 0 1 0 1.062l-.792.792a.75.75 0 0 1-1.063 0L8.39 10.245l-1.202 3.136q-.001.01-.009.02a.99.99 0 0 1-.912.599h-.05a.99.99 0 0 1-.9-.687L2.05 3.307A1 1 0 0 1 3.308 2.05l10.005 3.267a1 1 0 0 1 .088 1.862l-.02.009-3.136 1.204zM6 2a.5.5 0 0 0 .5-.5V1a.5.5 0 0 0-1 0v.5A.5.5 0 0 0 6 2M1 6.5h.5a.5.5 0 1 0 0-1H1a.5.5 0 0 0 0 1m6.776-4.052a.5.5 0 0 0 .672-.224l.5-1a.5.5 0 0 0-.895-.448l-.5 1a.5.5 0 0 0 .223.672m-6 5.105-1 .5a.5.5 0 1 0 .448.895l1-.5a.5.5 0 1 0-.448-.895" /></g><defs><clipPath id="cursor-click-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCursorClickFill);
-const Memo = memo(ForwardRef);
-export default Memo;

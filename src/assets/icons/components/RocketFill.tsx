@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgRocketFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#rocket-fill_svg__a)"><path fill="#000" d="M9.5 14a.5.5 0 0 1-.5.5H7a.5.5 0 1 1 0-1h2a.5.5 0 0 1 .5.5m4.476-4.26-.772 3.476a1 1 0 0 1-1.595.57L9.907 12.5H6.094l-1.703 1.286a1 1 0 0 1-1.595-.57L2.024 9.74a1 1 0 0 1 .207-.856L4.016 6.74c.06-.787.24-1.56.536-2.292.806-2.02 2.25-3.289 2.836-3.74a1 1 0 0 1 1.225 0c.583.451 2.029 1.72 2.835 3.74a7.7 7.7 0 0 1 .536 2.292l1.785 2.142a1 1 0 0 1 .207.856m-8.702 2.124Q4.268 10.031 4.052 8.26L3 9.523 3.773 13l.01-.008zM8.75 6.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0M13 9.523 11.948 8.26q-.213 1.767-1.222 3.606l1.49 1.125.011.008z" /></g><defs><clipPath id="rocket-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgRocketFill);
-const Memo = memo(ForwardRef);
-export default Memo;

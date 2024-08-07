@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGenderTransgenderFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#gender-transgender-fill_svg__a)"><path fill="#000" d="M7.995 9.375a1.5 1.5 0 1 1-2.99.24 1.5 1.5 0 0 1 2.99-.24M13.5 2.5v11a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1v-11a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1m-1.5 2a.5.5 0 0 0-.5-.5H9.767a.51.51 0 0 0-.517.467.5.5 0 0 0 .5.533h.543L9.25 6.043l-.646-.647a.5.5 0 0 0-.718.011.514.514 0 0 0 .025.711l.632.632-.668.665a2.5 2.5 0 1 0 .71.71l.665-.668.646.647a.5.5 0 0 0 .732-.027.513.513 0 0 0-.037-.694l-.634-.633L11 5.707v.526a.51.51 0 0 0 .467.516.5.5 0 0 0 .533-.5z" /></g><defs><clipPath id="gender-transgender-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGenderTransgenderFill);
-const Memo = memo(ForwardRef);
-export default Memo;

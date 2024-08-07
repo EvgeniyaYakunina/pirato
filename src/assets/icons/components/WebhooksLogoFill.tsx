@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgWebhooksLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#webhooks-logo-fill_svg__a)"><path fill="#000" d="m3.135 10 2.432-4.214-.14-.243a3 3 0 1 1 5.316-2.76.51.51 0 0 1-.2.65.5.5 0 0 1-.71-.233 2 2 0 1 0-3.542 1.84l.864 1.496a.5.5 0 0 1 0 .5L4.866 11a1 1 0 0 1-1.731-1m8.812-2.5h-.771l-2.31-4a1 1 0 0 0-1.731 1l2.164 3.75a.5.5 0 0 0 .433.25h2.227c1.118 0 2.06.915 2.041 2.033a2 2 0 0 1-1.98 1.967.515.515 0 0 0-.518.458.5.5 0 0 0 .5.542 3.003 3.003 0 0 0 3-3.058C14.968 8.799 13.592 7.5 11.95 7.5zM13 10.452c-.025-.538-.489-.952-1.027-.952H7.176a.5.5 0 0 0-.433.25l-1.01 1.75A2 2 0 1 1 2.39 9.312a.513.513 0 0 0-.058-.687.5.5 0 0 0-.732.073A3 3 0 1 0 6.597 12l.289-.5H12a1 1 0 0 0 1-1.048" /></g><defs><clipPath id="webhooks-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgWebhooksLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

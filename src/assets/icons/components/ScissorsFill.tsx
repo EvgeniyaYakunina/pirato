@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgScissorsFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#scissors-fill_svg__a)"><path fill="#000" d="M14.783 11.693 5.845 5.576a2.25 2.25 0 1 0-.899 1.08L6.283 8.01 4.947 9.346a2.244 2.244 0 1 0 .899 1.08l1.681-1.151 3.098 3.14a2.02 2.02 0 0 0 1.676.569h.017l2.267-.382a.5.5 0 0 0 .2-.907zM4.633 5.631A1.25 1.25 0 1 1 5 4.75c0 .331-.132.649-.366.883zm0 6.5a1.25 1.25 0 1 1 .272-.402 1.3 1.3 0 0 1-.271.405zm3.813-6.344 2.175-2.2a2.01 2.01 0 0 1 1.678-.57h.017l2.25.379a.51.51 0 0 1 .38.276.5.5 0 0 1-.166.632l-4.37 2.99a.25.25 0 0 1-.283 0L8.484 6.17a.25.25 0 0 1-.034-.38z" /></g><defs><clipPath id="scissors-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgScissorsFill);
-const Memo = memo(ForwardRef);
-export default Memo;

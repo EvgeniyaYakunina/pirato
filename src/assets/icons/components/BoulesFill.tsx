@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgBoulesFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#boules-fill_svg__a)"><path fill="#000" d="M14.5 8c0 3.54-2.961 6.5-6.5 6.5a6.5 6.5 0 0 1-1.97-.306.25.25 0 0 1-.101-.415l7.85-7.85a.25.25 0 0 1 .415.1c.203.638.306 1.302.306 1.971m-1.01-3.476a7 7 0 0 0-.379-.535.25.25 0 0 0-.375-.02l-8.767 8.77a.25.25 0 0 0 .02.375q.258.202.535.378a.25.25 0 0 0 .313-.033l8.62-8.622a.25.25 0 0 0 .033-.313M12.01 2.89a6 6 0 0 0-.534-.379.25.25 0 0 0-.313.034l-8.62 8.62a.25.25 0 0 0-.033.312q.176.277.379.535a.25.25 0 0 0 .375.02l8.767-8.77a.25.25 0 0 0-.02-.372M9.97 1.806A6.5 6.5 0 0 0 8 1.5C4.461 1.5 1.5 4.46 1.5 8c0 .669.103 1.333.306 1.97a.25.25 0 0 0 .415.102l7.85-7.85a.25.25 0 0 0-.1-.416" /></g><defs><clipPath id="boules-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgBoulesFill);
-const Memo = memo(ForwardRef);
-export default Memo;

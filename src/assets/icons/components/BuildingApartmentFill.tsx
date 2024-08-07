@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgBuildingApartmentFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#building-apartment-fill_svg__a)"><path fill="#000" d="M15 13h-.5V4.5A.5.5 0 0 0 14 4h-2.5V2.5A.5.5 0 0 0 11 2H5a.5.5 0 0 0-.5.5V6H2a.5.5 0 0 0-.5.5V13H1a.5.5 0 0 0 0 1h14a.5.5 0 0 0 0-1M5 11H4a.5.5 0 0 1 0-1h1a.5.5 0 0 1 0 1m0-2H4a.5.5 0 1 1 0-1h1a.5.5 0 1 1 0 1m4 4H7v-2.5h2zm-.5-4h-1a.5.5 0 1 1 0-1h1a.5.5 0 1 1 0 1m0-2h-1a.5.5 0 1 1 0-1h1a.5.5 0 1 1 0 1m0-2h-1a.5.5 0 1 1 0-1h1a.5.5 0 1 1 0 1m3.5 6h-1a.5.5 0 0 1 0-1h1a.5.5 0 0 1 0 1m0-2h-1a.5.5 0 0 1 0-1h1a.5.5 0 0 1 0 1m0-2h-1a.5.5 0 0 1 0-1h1a.5.5 0 0 1 0 1" /></g><defs><clipPath id="building-apartment-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgBuildingApartmentFill);
-const Memo = memo(ForwardRef);
-export default Memo;

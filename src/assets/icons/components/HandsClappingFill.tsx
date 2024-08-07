@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgHandsClappingFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hands-clapping-fill_svg__a)"><path fill="#000" d="M11.804 4.063a1.127 1.127 0 1 0-1.953 1.125L8.335 2.563a1.126 1.126 0 0 0-1.951 1.124l-.359-.624a1.126 1.126 0 0 0-1.951 1.124l.209.361a1.625 1.625 0 0 0-1.8 2.39l.188.325A1.625 1.625 0 0 0 1.47 9.688L3.673 13.5a5.008 5.008 0 0 0 9.345-2.473 4.5 4.5 0 0 0 .107-4.678zm.075 7.972A4.008 4.008 0 0 1 4.541 13L2.336 9.188a.625.625 0 1 1 1.084-.626l1.268 2.188a.5.5 0 1 0 .866-.5L3.351 6.438a.627.627 0 1 1 1.087-.625L6.426 9.25a.5.5 0 0 0 .867-.5L5.668 5.938a.626.626 0 0 1 1.084-.625L9.033 9.25a.5.5 0 0 0 .867-.5l-.787-1.36a.625.625 0 0 1 1.102-.577L11.48 9a3.97 3.97 0 0 1 .4 3.036zM10.014 1.5v-1a.5.5 0 0 1 1 0v1a.5.5 0 0 1-1 0m2.076.375.5-.819a.5.5 0 1 1 .855.52l-.5.82a.5.5 0 0 1-.855-.521m2.813 2.104-.941.303a.51.51 0 0 1-.48-.095.5.5 0 0 1 .172-.857l.942-.303a.5.5 0 0 1 .307.952" /></g><defs><clipPath id="hands-clapping-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgHandsClappingFill);
-const Memo = memo(ForwardRef);
-export default Memo;

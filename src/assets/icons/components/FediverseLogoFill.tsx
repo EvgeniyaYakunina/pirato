@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgFediverseLogoFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#fediverse-logo-fill_svg__a)"><path fill="#000" d="M13.25 6a1.7 1.7 0 0 0-.657.125l-1.906-2.379a1.75 1.75 0 1 0-3.178-.812l-2.904 1.21a1.75 1.75 0 1 0-1.788 2.801l.116 2.9a1.75 1.75 0 1 0 2.046 2.588l3.02.846a1.75 1.75 0 1 0 3.071-1.174l1.701-2.672A1.75 1.75 0 1 0 13.25 6m-8.8.522 2.657 1.54-2.59 2.014a1.8 1.8 0 0 0-.585-.272l-.115-2.899a1.75 1.75 0 0 0 .632-.383M9.347 4.5q.29-.016.559-.125l1.905 2.379c-.121.174-.21.37-.26.576l-2.911.139zM5.13 10.866l2.62-2.037.996 2.989a1.8 1.8 0 0 0-.475.5L5.25 11.47a1.8 1.8 0 0 0-.12-.604m4.62.634h-.056L8.683 8.467l2.916-.139c.073.207.185.397.33.562l-1.701 2.672a1.8 1.8 0 0 0-.478-.062M7.895 3.856c.134.164.297.302.48.409L7.669 7.23 4.952 5.657a1.8 1.8 0 0 0 .038-.59z" /></g><defs><clipPath id="fediverse-logo-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgFediverseLogoFill);
-const Memo = memo(ForwardRef);
-export default Memo;

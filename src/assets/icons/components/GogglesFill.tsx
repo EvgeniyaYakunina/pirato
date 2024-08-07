@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGogglesFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#goggles-fill_svg__a)"><path fill="#000" d="M11.5 4h-7A4.505 4.505 0 0 0 0 8.5a1.5 1.5 0 0 0 1.063 1.438C1.44 11.21 3.414 12 4.5 12a2.504 2.504 0 0 0 2.45-2h2.1a2.504 2.504 0 0 0 2.45 2c1.083 0 3.056-.791 3.438-2.062A1.5 1.5 0 0 0 16 8.5 4.505 4.505 0 0 0 11.5 4m-5.937 6.563a.5.5 0 0 1-.707 0L3.32 9.028a.5.5 0 0 1 .707-.707l1.535 1.532a.5.5 0 0 1 0 .71m7.47-.031a.5.5 0 0 1-.707 0l-1.588-1.588a.5.5 0 0 1 .707-.707l1.588 1.588a.5.5 0 0 1-.003.705zm1.825-1.679C14.334 7.703 12.52 7 11.5 7a2.504 2.504 0 0 0-2.45 2h-2.1A2.504 2.504 0 0 0 4.5 7c-1.021 0-2.834.703-3.355 1.851A.5.5 0 0 1 1 8.5 3.504 3.504 0 0 1 4.5 5h7A3.504 3.504 0 0 1 15 8.5a.5.5 0 0 1-.145.351z" /></g><defs><clipPath id="goggles-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGogglesFill);
-const Memo = memo(ForwardRef);
-export default Memo;

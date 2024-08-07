@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgBridgeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#bridge-fill_svg__a)"><path fill="#000" d="M14.5 10H14V7.531q.153.075.313.142a.5.5 0 0 0 .374-.927A3.49 3.49 0 0 1 12.5 3.5a.5.5 0 0 0-1 0 3.5 3.5 0 1 1-7 0 .5.5 0 1 0-1 0 3.49 3.49 0 0 1-2.187 3.246.5.5 0 0 0 .375.926q.159-.065.312-.14V10h-.462a.503.503 0 0 0-.392.854A.5.5 0 0 0 1.5 11h2v1.5a.5.5 0 0 0 1 0V11h7v1.5a.5.5 0 0 0 1 0V11h2a.5.5 0 0 0 0-1m-10-.5a.5.5 0 1 1-1 0V6.508a.5.5 0 1 1 1 0zm2.5 0a.5.5 0 1 1-1 0V8.27a.5.5 0 1 1 1 0zm3 0a.5.5 0 1 1-1 0V8.27a.5.5 0 1 1 1 0zm2.5 0a.5.5 0 0 1-1 0V6.508a.5.5 0 0 1 1 0z" /></g><defs><clipPath id="bridge-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgBridgeFill);
-const Memo = memo(ForwardRef);
-export default Memo;

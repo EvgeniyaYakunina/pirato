@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgGearSixFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#gear-six-fill_svg__a)"><path fill="#000" d="M14.871 6.7a.5.5 0 0 0-.243-.337L12.764 5.3l-.008-2.1a.5.5 0 0 0-.177-.38 7 7 0 0 0-2.295-1.293.5.5 0 0 0-.403.037L8 2.615 6.117 1.562a.5.5 0 0 0-.405-.037 7 7 0 0 0-2.292 1.297.5.5 0 0 0-.177.38l-.01 2.102L1.37 6.367a.5.5 0 0 0-.243.337c-.17.858-.17 1.74 0 2.598a.5.5 0 0 0 .243.337l1.864 1.063.008 2.102a.5.5 0 0 0 .177.38 7 7 0 0 0 2.295 1.292.5.5 0 0 0 .404-.037L8 13.384l1.883 1.053a.5.5 0 0 0 .404.037 7 7 0 0 0 2.292-1.296.5.5 0 0 0 .177-.38l.01-2.103 1.864-1.062a.5.5 0 0 0 .243-.338c.17-.856.17-1.738-.002-2.595m-6.87 3.8a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5" /></g><defs><clipPath id="gear-six-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgGearSixFill);
-const Memo = memo(ForwardRef);
-export default Memo;

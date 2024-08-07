@@ -1,10 +1,11 @@
 import { ChangeEvent, ComponentPropsWithoutRef, forwardRef, useId, useState } from 'react'
 
+import CircleFill from '@/assets/icons/components/CircleFill'
+import EyeFill from '@/assets/icons/components/EyeFill'
+import { Typography } from '@/components/ui'
 import clsx from 'clsx'
 
 import s from './input.module.scss'
-
-import { CircleFill, EyeFill } from '../../../assets/icons/components'
 
 export type InputProps = {
   defaultValue?: string
@@ -50,9 +51,14 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
     return (
       <div>
         {label && (
-          <label className={clsx(s.label, className)} htmlFor={finalId}>
+          <Typography
+            as={'label'}
+            className={clsx(s.label, className)}
+            htmlFor={finalId}
+            variant={'body2'}
+          >
             {label}
-          </label>
+          </Typography>
         )}
         <div className={`${s.inputContainer} ${disabled ? s.disabled : ''} ${className}`}>
           <input

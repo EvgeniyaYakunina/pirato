@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgEarFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#ear-fill_svg__a)"><path fill="#000" d="M8 1.5A6.5 6.5 0 1 0 14.5 8 6.507 6.507 0 0 0 8 1.5m1.25 8a.3.3 0 0 0 .083-.014.5.5 0 0 1 .334.943A1.25 1.25 0 0 1 8 9.25c0-.553.298-.952.563-1.304C8.798 7.633 9 7.359 9 7a1 1 0 1 0-2 0 .5.5 0 1 1-1 0 2 2 0 0 1 4 0c0 .692-.354 1.164-.637 1.544C9.137 8.845 9 9.04 9 9.25a.25.25 0 0 0 .25.25m2.25-2A.5.5 0 0 1 11 7a3 3 0 0 0-6 0c0 .744.42 1.281.864 1.85.437.558.886 1.134.886 1.9a1.25 1.25 0 0 0 2.125.893.5.5 0 1 1 .7.714A2.25 2.25 0 0 1 5.75 10.75c0-.421-.312-.821-.674-1.284C4.596 8.852 4 8.088 4 7a4 4 0 0 1 8 0 .5.5 0 0 1-.5.5" /></g><defs><clipPath id="ear-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgEarFill);
-const Memo = memo(ForwardRef);
-export default Memo;

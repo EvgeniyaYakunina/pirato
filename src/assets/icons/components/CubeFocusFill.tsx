@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCubeFocusFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#cube-focus-fill_svg__a)"><path fill="#000" d="M14.5 3v2.5a.5.5 0 0 1-1 0v-2h-2a.5.5 0 0 1 0-1H14a.5.5 0 0 1 .5.5m-10 9.5h-2v-2a.5.5 0 0 0-1 0V13a.5.5 0 0 0 .5.5h2.5a.5.5 0 0 0 0-1M14 10a.5.5 0 0 0-.5.5v2h-2a.5.5 0 0 0 0 1H14a.5.5 0 0 0 .5-.5v-2.5a.5.5 0 0 0-.5-.5M2 6a.5.5 0 0 0 .5-.5v-2h2a.5.5 0 1 0 0-1H2a.5.5 0 0 0-.5.5v2.5A.5.5 0 0 0 2 6m9.12-.793L8.25 3.566a.5.5 0 0 0-.496 0L4.88 5.206a.25.25 0 0 0 0 .438L8 7.424l3.12-1.783a.25.25 0 0 0 0-.434M4 6.72V10a.5.5 0 0 0 .25.438l2.875 1.641a.25.25 0 0 0 .375-.216V8.29L4.375 6.504A.25.25 0 0 0 4 6.72M12 10V6.72a.25.25 0 0 0-.25-.25.25.25 0 0 0-.125.034L8.5 8.29v3.57a.25.25 0 0 0 .375.216l2.875-1.639A.5.5 0 0 0 12 10" /></g><defs><clipPath id="cube-focus-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCubeFocusFill);
-const Memo = memo(ForwardRef);
-export default Memo;

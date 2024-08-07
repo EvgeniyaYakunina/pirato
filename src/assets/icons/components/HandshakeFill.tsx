@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgHandshakeFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#handshake-fill_svg__a)"><path fill="#000" d="m15.894 6.744-1.595-3.19a1 1 0 0 0-1.342-.448l-1.555.777-3.274-.866a.5.5 0 0 0-.256 0l-3.275.866-1.554-.777a1 1 0 0 0-1.342.447L.106 6.743a1 1 0 0 0 .447 1.343l1.688.844 3.468 2.477a.5.5 0 0 0 .17.078l4 1a.5.5 0 0 0 .474-.131l2.5-2.5.943-.943 1.65-.825a1 1 0 0 0 .448-1.342m-3.43 2.086-2.152-1.722a.5.5 0 0 0-.667.038c-1.113 1.12-2.354.979-3.145.479L9.202 5h1.989l1.7 3.4zm-2.618 2.616-3.632-.908-3.075-2.196 1.75-3.5L8 4.018l.612.161L5.8 6.91l-.005.006a1 1 0 0 0 .17 1.55c1.285.821 2.836.688 4.057-.312l1.728 1.388zM8.24 13.621a.5.5 0 0 1-.607.364l-2.606-.652a.5.5 0 0 1-.17-.078L3.21 12.079a.5.5 0 0 1 .582-.813l1.569 1.121 2.515.628a.5.5 0 0 1 .364.606" /></g><defs><clipPath id="handshake-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgHandshakeFill);
-const Memo = memo(ForwardRef);
-export default Memo;

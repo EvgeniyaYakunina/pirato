@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgCalendarStarFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#calendar-star-fill_svg__a)"><path fill="#000" d="M13 2h-1.5v-.5a.5.5 0 0 0-1 0V2h-5v-.5a.5.5 0 1 0-1 0V2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1M4.5 4v-.5a.5.5 0 1 1 1 0V4a.5.5 0 1 1-1 0m6.66 3.794L9.63 9.056l.467 1.882a.25.25 0 0 1-.093.26.25.25 0 0 1-.274.015L8 10.2l-1.727 1.017a.25.25 0 0 1-.37-.278l.466-1.885-1.528-1.26a.25.25 0 0 1 .14-.442l2.015-.155L7.77 5.4a.25.25 0 0 1 .458 0l.775 1.795 2.015.155a.25.25 0 0 1 .14.443M11.5 4a.5.5 0 0 1-1 0v-.5a.5.5 0 0 1 1 0z" /></g><defs><clipPath id="calendar-star-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgCalendarStarFill);
-const Memo = memo(ForwardRef);
-export default Memo;

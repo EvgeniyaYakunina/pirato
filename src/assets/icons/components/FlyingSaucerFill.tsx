@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgFlyingSaucerFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#flying-saucer-fill_svg__a)"><path fill="#000" d="M11.474 13.342a.5.5 0 0 1-.948.316l-.5-1.5a.502.502 0 0 1 .51-.657.5.5 0 0 1 .438.34zM8 11.5a.5.5 0 0 0-.5.5v2a.5.5 0 1 0 1 0v-2a.5.5 0 0 0-.5-.5m-2.342.026a.5.5 0 0 0-.632.316l-.5 1.5a.5.5 0 0 0 .948.316l.5-1.5a.5.5 0 0 0-.316-.632M15.5 7c0 1.014-.836 1.93-2.353 2.58-1.383.594-3.21.92-5.147.92s-3.764-.326-5.147-.92C1.336 8.93.5 8.015.5 7c0-.523.23-1.3 1.323-2.031.71-.476 1.684-.86 2.824-1.116a3.978 3.978 0 0 1 6.166-.7q.323.32.569.706C13.964 4.443 15.5 5.61 15.5 7M11 6a3 3 0 0 0-.379-1.46l-.004-.005A3 3 0 0 0 7.96 3C6.328 3.021 5 4.39 5 6.052v.187a.495.495 0 0 0 .383.485c.86.19 1.737.282 2.617.276.88.007 1.757-.085 2.616-.273A.495.495 0 0 0 11 6.242z" /></g><defs><clipPath id="flying-saucer-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgFlyingSaucerFill);
-const Memo = memo(ForwardRef);
-export default Memo;

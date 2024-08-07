@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgHandCoinsFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#hand-coins-fill_svg__a)"><path fill="#000" d="M8.006 3.586a2.25 2.25 0 0 1 3.448-1.739.25.25 0 0 1-.035.438 3.25 3.25 0 0 0-1.912 3.183.25.25 0 0 1-.374.235 2.25 2.25 0 0 1-1.127-2.117M15 10.038a1.53 1.53 0 0 1-.85 1.375l-.027.012-2.427 1.034a.4.4 0 0 1-.075.025l-4 1a.5.5 0 0 1-.121.016H1a1 1 0 0 1-1-1V10a1 1 0 0 1 1-1h1.793l1.414-1.415A2 2 0 0 1 5.62 7H8.75a1.75 1.75 0 0 1 1.703 2.153l2.615-.601A1.538 1.538 0 0 1 15 10.038m-1 0a.538.538 0 0 0-.68-.519l-.019.005-4.187.963a.5.5 0 0 1-.112.013H7a.5.5 0 0 1 0-1h1.75a.75.75 0 0 0 0-1.5H5.621a1 1 0 0 0-.707.293L3.5 9.707V12.5h3.938l3.901-.976 2.375-1.011a.54.54 0 0 0 .286-.475M10.5 5.25a2.25 2.25 0 1 0 4.5 0 2.25 2.25 0 0 0-4.5 0" /></g><defs><clipPath id="hand-coins-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgHandCoinsFill);
-const Memo = memo(ForwardRef);
-export default Memo;

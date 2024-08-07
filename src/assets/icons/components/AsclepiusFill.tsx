@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgAsclepiusFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#asclepius-fill_svg__a)"><path fill="#000" d="M8.5 8v4.5h.726a.766.766 0 0 0 .774-.717.75.75 0 0 0-.37-.68.26.26 0 0 1-.13-.217v-.55a.25.25 0 0 1 .329-.238A1.75 1.75 0 0 1 11 11.732c.01.972-.812 1.768-1.787 1.768H8.5v1a.5.5 0 0 1-1 0v-1H6a.499.499 0 0 1-.334-.868.5.5 0 0 1 .35-.132H7.5V8h-.971c-.538 0-1 .412-1.028.95a1 1 0 0 0 .805 1.031.246.246 0 0 1 .194.243v.526a.25.25 0 0 1-.25.25A2.25 2.25 0 0 1 4 8.696C4.03 7.468 5.063 6.5 6.293 6.5H7.5v-5a.5.5 0 1 1 1 0v5h2a1 1 0 0 0 1-1.05c-.027-.538-.491-.95-1.029-.95H9.75a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25h.951c1.539 0 2.825 1.26 2.798 2.798A2.75 2.75 0 0 1 10.75 8zM5.791 4.5h.459a.25.25 0 0 0 .25-.25v-1.5a.25.25 0 0 0-.25-.25H4A2.5 2.5 0 0 0 1.5 5v.5A.5.5 0 0 0 2 6h1.5a2.5 2.5 0 0 0 2.291-1.5" /></g><defs><clipPath id="asclepius-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgAsclepiusFill);
-const Memo = memo(ForwardRef);
-export default Memo;

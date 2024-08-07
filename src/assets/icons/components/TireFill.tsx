@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgTireFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#tire-fill_svg__a)"><path fill="#000" d="M11.5 8c0 1.38-.447 2.5-1 2.5s-1-1.12-1-2.5.447-2.5 1-2.5 1 1.12 1 2.5m3.5 6a.5.5 0 0 1-.5.5H5.75C3.648 14.5 2 11.645 2 8s1.648-6.5 3.75-6.5h4.5C12.352 1.5 14 4.355 14 8c0 2.342-.68 4.358-1.724 5.5H14.5a.5.5 0 0 1 .5.5M3.617 6.988a.5.5 0 0 0 .29-.093L5 6.115l.83.592a.5.5 0 0 0 .581-.812l-1.12-.802a.5.5 0 0 0-.582 0l-1.383.988a.5.5 0 0 0 .29.907m2.917 2.993L5.29 9.093a.5.5 0 0 0-.582 0L3.5 9.956a.5.5 0 1 0 .581.812L5 10.114l.952.68a.5.5 0 1 0 .582-.812m5.575 2.023C12.683 10.942 13 9.521 13 8s-.317-2.943-.891-4.004C11.586 3.03 10.926 2.5 10.25 2.5s-1.336.531-1.859 1.496C7.817 5.056 7.5 6.479 7.5 8s.317 2.943.891 4.004c.523.965 1.183 1.496 1.859 1.496s1.336-.531 1.859-1.496" /></g><defs><clipPath id="tire-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgTireFill);
-const Memo = memo(ForwardRef);
-export default Memo;

@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgConfettiFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#confetti-fill_svg__a)"><path fill="#000" d="M6.968 3.29a.987.987 0 0 0-1.625.36l-3.28 9.024A.99.99 0 0 0 2.985 14a1 1 0 0 0 .341-.062l9.023-3.282a.986.986 0 0 0 .362-1.625zm-2.897 6.78 1.2-3.299L9.23 10.73l-3.3 1.2zM10 4.5c.01-.338.091-.67.24-.974.331-.662.956-1.026 1.76-1.026.419 0 .688-.143.853-.45.087-.173.137-.361.147-.554a.5.5 0 0 1 1 .004c0 .804-.533 2-2 2-.419 0-.687.143-.853.45-.087.173-.137.361-.147.554a.5.5 0 1 1-1-.004m-1.5-2V1a.5.5 0 0 1 1 0v1.5a.5.5 0 1 1-1 0m6.354 5.146a.5.5 0 0 1-.708.707l-1-1a.5.5 0 0 1 .708-.707zm.304-2.672-1.5.5a.5.5 0 0 1-.316-.948l1.5-.5a.5.5 0 0 1 .316.948" /></g><defs><clipPath id="confetti-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgConfettiFill);
-const Memo = memo(ForwardRef);
-export default Memo;

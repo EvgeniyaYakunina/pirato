@@ -1,6 +1,0 @@
-import type { SVGProps } from "react";
-import { Ref, forwardRef, memo } from "react";
-const SvgPlanetFill = (props: SVGProps<SVGSVGElement>, ref: Ref<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} fill="none" ref={ref} {...props}><g clipPath="url(#planet-fill_svg__a)"><path fill="#000" d="M15.32 3.793c-.479-.825-1.741-1.01-3.657-.542A6 6 0 0 0 2.051 8.77C.318 10.562.343 11.625.68 12.207 1 12.76 1.665 13 2.54 13a7.8 7.8 0 0 0 1.8-.25 5.999 5.999 0 0 0 9.61-5.516c.782-.812 1.302-1.584 1.48-2.245.122-.457.085-.86-.11-1.196m-.856.937c-.382 1.424-3.04 3.582-5.47 4.978-4.238 2.437-7.102 2.595-7.448 2-.091-.157-.04-.453.139-.813q.268-.507.642-.94.159.458.39.886a.25.25 0 0 0 .25.132 8 8 0 0 0 1.06-.207c1.326-.347 2.914-1.03 4.47-1.924s2.937-1.916 3.902-2.884q.381-.378.707-.805a.25.25 0 0 0 .01-.282 6 6 0 0 0-.568-.78c.888-.146 1.71-.135 1.906.203q.086.149.01.437z" /></g><defs><clipPath id="planet-fill_svg__a"><path fill="currentcolor" d="M0 0h16v16H0z" /></clipPath></defs></svg>;
-const ForwardRef = forwardRef(SvgPlanetFill);
-const Memo = memo(ForwardRef);
-export default Memo;
