@@ -1,5 +1,6 @@
 .sidebar {
-  width: 300px;
+  grid-row: span 3 / span 3;
+  background: #2c79d4;
   height: fit-content;
 }
 

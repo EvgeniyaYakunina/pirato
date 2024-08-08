@@ -6,11 +6,11 @@ import s from './button.module.scss'
 
 export type ButtonProps = {
   fullWidth?: boolean
-  variant?: 'icon' | 'primary' | 'secondary'
+  variant?: 'black' | 'icon' | 'light' | 'primary' | 'secondary'
 } & ComponentPropsWithoutRef<'button'>
 
 export const Button = (props: ButtonProps) => {
-  const { children, className, fullWidth, variant = 'primary', ...rest } = props
+  const { children, className, fullWidth, variant = 'black', ...rest } = props
 
   const classNames = {
     button: clsx(s.button, s[variant], fullWidth && s.fullWidth, className),

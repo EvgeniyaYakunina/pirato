@@ -108,3 +108,15 @@
     box-shadow: $shadow;
   }
 }
+
+.black {
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-s);
+  background: var(--color-common);
+  line-height: var(--line-height-s);
+  padding: 6px 12px;
+  color: var(--color-common-background);
+  border-radius: 8px;
+  cursor: pointer;
+}

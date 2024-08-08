@@ -1,6 +1,8 @@
 .header {
+  grid-column: span 4 / span 4;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   min-width: 160px;
   padding-inline: 24px;
@@ -10,8 +12,29 @@
   font-family: var(--font-family-secondary), serif;
 }
 
-.rightItems{
+.rightItems {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  column-gap: 58px;
+}
 
+.headerActions {
+  display: flex;
+  flex-direction: row;
+  column-gap: 26px;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconAction {
+  cursor: pointer;
+  align-self: flex-end;
+}
+.notificationIcon {
+}
+
+.menuUsers {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
 }
