@@ -409,14 +409,6 @@ packages:
     resolution: {integrity: sha512-WxSyRLc4CL5qdQVAQ4o1iGMDxdGG0eeju7/F0c3j66YBaBei1d6IxCmmIDgAl2S8SlRLONh/reEEamAZ2mnNew==}
     dev: false
 
-  /@fontsource/inter@5.0.20:
-    resolution: {integrity: sha512-rtw2F7xfM7rJmmnncXnR4ADr5wXsp4GyN1O1jmQJ1PMjAK+bm620/ZkQkeOYOkGoa09OksGinOeMA+Mkt6K9PQ==}
-    dev: false
-
-  /@fontsource/onest@5.0.4:
-    resolution: {integrity: sha512-WxSyRLc4CL5qdQVAQ4o1iGMDxdGG0eeju7/F0c3j66YBaBei1d6IxCmmIDgAl2S8SlRLONh/reEEamAZ2mnNew==}
-    dev: false
-
   /@hookform/resolvers@3.9.0(react-hook-form@7.52.2):
     resolution: {integrity: sha512-bU0Gr4EepJ/EQsH/IwEzYLsT/PEj5C0ynLQ4m+GSHS+xKH4TfSelhluTgOaoc4kA5s7eCsQbM4wvZLzELmWzUg==}
     peerDependencies:
