@@ -6,10 +6,8 @@ import {
   createBrowserRouter,
 } from 'react-router-dom'
 
-import { Dashboard } from '@/pages'
+import { Dashboard, SignInPage, SignUpPage } from '@/pages'
 
-import { SignInPage } from './pages/signIn-page/signIn-page'
-import { SignUpPage } from './pages/signUp-page/signUp-page'
 export const publicRoutesList = {
   openRoutes: [
     {

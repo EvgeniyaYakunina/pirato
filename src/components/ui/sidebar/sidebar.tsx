@@ -10,7 +10,7 @@ export const Sidebar = () => {
           <span>
             <SkullFill />
           </span>
-          <span>Pirato</span>
+          <span>Pirate</span>
         </div>
         <div className={s.menu}>
           <div>Dashboard</div>
