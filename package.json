@@ -14,6 +14,8 @@
     "generate": "npx @svgr/cli --out-dir src/assets/icons/components --jsx-runtime automatic --typescript --ref --memo -- src/assets/icons/svg"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.0.20",
+    "@fontsource/onest": "^5.0.4",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-checkbox": "^1.1.1",
     "@radix-ui/react-dialog": "^1.0.5",

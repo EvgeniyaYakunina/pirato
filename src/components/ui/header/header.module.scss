@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 160px;
+  padding-inline: 24px;
+  padding-block: 16px;
+  background: var(--color-common-background);
+
+  font-family: var(--font-family-secondary), serif;
+}
+
+.rightItems{
+  display: flex;
+  justify-content: space-between;
+
+}
