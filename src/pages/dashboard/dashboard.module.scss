@@ -1,9 +1,12 @@
 .container {
   display: grid;
   grid-template-columns: 300px 1fr 1fr 1fr 345px;
-  grid-template-rows: 64px 1fr 1fr;
+  grid-template-rows: var(--height-header) 1fr 1fr;
   gap: 0;
   height: 1114px;
+  border-radius: 24px;
+  background: var(--color-common-background);
+  color: var(--color-common);
 }
 
 .content {
@@ -14,9 +17,4 @@
   background: #81898f;
 }
 
-.activity {
-  grid-row: span 2 / span 2;
-  grid-column-start: 5;
-  grid-row-start: 2;
-  background: aqua;
-}
+
