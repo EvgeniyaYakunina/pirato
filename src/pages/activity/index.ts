@@ -1,1 +1,1 @@
-export * from 'src/pages/activity/Activity'
+export * from './Activity'

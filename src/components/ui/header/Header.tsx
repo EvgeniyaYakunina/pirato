@@ -1,47 +1,57 @@
-// eslint-disable-next-line import/no-unresolved
 import { BellRingingFill } from '@/assets/icons/components/BellRingingFill'
 import { CaretDownFill } from '@/assets/icons/components/CaretDownFill'
 import { MagnifyingGlassFill } from '@/assets/icons/components/Magnifying-glass-fill'
-import { Button } from '@/components'
+import { SquareHalfFill } from '@/assets/icons/components/Square-half-fill'
+import { Button, Typography } from '@/components'
+import {
+  Dropdown,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
 
 import s from './header.module.scss'
 
-import { SquareHalfFill } from '../../../assets/icons/components/Square-half-fill'
-import { Typography } from '../typography/typography'
-
-export const Header = () => {
-  const classNames = {
-    header: s.header,
-    headerActions: s.headerActions,
-    iconAction: s.iconAction,
-    menu: s.menuUsers,
-    notificationIcon: s.notificationIcon,
-    rightItems: s.rightItems,
-  }
-
+type HeaderProps = {
+  // name: string
+}
+export const Header = ({}: HeaderProps) => {
   return (
-    <header className={classNames.header}>
+    <header className={s.header}>
       <Typography as={'a'} variant={'link1'}>
         Home
       </Typography>
-      <div className={classNames.rightItems}>
+      <div className={s.rightItems}>
         <Button variant={'black'}>Create new task</Button>
-        <div className={classNames.headerActions}>
-          <div className={classNames.iconAction}>
+        <div className={s.headerActions}>
+          <div className={s.iconAction}>
             <SquareHalfFill />
           </div>
-          <div className={classNames.iconAction}>
+          <div className={s.iconAction}>
             <MagnifyingGlassFill />
           </div>
-          <div className={classNames.iconAction}>
+          <div className={s.iconAction}>
             <BellRingingFill />
           </div>
-          <div className={classNames.menu}>
-            <div>Anton Ivanov</div>
-            <div className={classNames.iconAction}>
-              <CaretDownFill />
-            </div>
-          </div>
+          <Dropdown modal={false}>
+            <DropdownMenuTrigger asChild>
+              <div className={s.trigger}>
+                {/*{name}*/}
+                <Typography>Anton Ivanov</Typography>
+                <CaretDownFill />
+              </div>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className={s.menu}>
+              <DropdownMenuItem className={s.item}>
+                <div>Option 1</div>
+              </DropdownMenuItem>
+              <DropdownMenuSeparator />
+              <DropdownMenuItem className={s.item}>
+                <div>Option 2</div>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </Dropdown>
         </div>
       </div>
     </header>

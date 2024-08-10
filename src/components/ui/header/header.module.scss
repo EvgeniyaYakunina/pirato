@@ -1,41 +1,70 @@
 .header {
-  grid-column: span 4 / span 4;
   display: flex;
+  grid-column: span 4 / span 4;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
   min-width: 160px;
-  padding-inline: 24px;
   padding-block: 16px;
-  background: var(--color-common-background);
-  border: 1px solid var(--color-common-dividing-line);
+  padding-inline: 24px;
 
   font-family: var(--font-family-secondary), serif;
+
+  background: var(--color-common-background);
+  border: 1px solid var(--color-common-dividing-line);
 }
 
 .rightItems {
   display: flex;
-  align-items: center;
   column-gap: 58px;
+  align-items: center;
 }
 
 .headerActions {
   display: flex;
   flex-direction: row;
   column-gap: 26px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .iconAction {
   cursor: pointer;
   align-self: flex-end;
 }
-.notificationIcon {
+
+.trigger {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
-.menuUsers {
-  display: flex;
-  flex-direction: row;
-  column-gap: 8px;
+.menu {
+  z-index: 10;
+
+  min-width: 180px; /* Минимальная ширина меню */
+  margin-top: 4px; /* Отступ между триггером и меню */
+  padding: 8px 0;
+
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+}
+
+.item {
+  cursor: pointer;
+
+  padding: 8px 16px;
+
+  font-size: 14px;
+
+  background-color: white;
+
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: lightgray;
+  }
 }
