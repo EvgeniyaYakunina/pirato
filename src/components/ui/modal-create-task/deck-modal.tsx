@@ -12,7 +12,7 @@ type DeckModalProps = {
   children?: ReactNode
   deckToUpdate?: any
   handleDataCreate?: (data: FormValues) => void
-  handleDataUpdate?: (updatedData: any) => void
+  // handleDataUpdate?: (updatedData: any) => void
   onOpenChange: (open: boolean) => void
   open: boolean
   title?: string
@@ -27,7 +27,7 @@ type FormValues = z.infer<typeof deckScheme>
 export const DeckModal = ({
   deckToUpdate,
   handleDataCreate,
-  handleDataUpdate,
+  // handleDataUpdate,
   onOpenChange,
   title,
   ...restProps
@@ -48,12 +48,12 @@ export const DeckModal = ({
   const onSubmit = (data: FormValues) => {
     handleDataCreate?.({ ...data })
 
-    if (deckToUpdate) {
-      handleDataUpdate?.({
-        id: deckToUpdate?.id,
-        ...data,
-      })
-    }
+    // if (deckToUpdate) {
+    //   handleDataUpdate?.({
+    //     id: deckToUpdate?.id,
+    //     ...data,
+    //   })
+    // }
 
     onOpenChange(false)
     reset()

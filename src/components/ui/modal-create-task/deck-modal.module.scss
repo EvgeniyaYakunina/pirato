@@ -13,20 +13,8 @@
     }
   }
 
-  button: {
-    box-sizing: border-box;
-  }
-
   & label:first-child {
     color: var(--color-common);
-  }
-
-  & button[role='checkbox'] {
-    background: transparent;
-  }
-
-  & button[data-state='checked'] {
-    border-color: transparent;
   }
 }
 
