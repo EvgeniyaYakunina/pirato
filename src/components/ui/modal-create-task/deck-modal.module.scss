@@ -1,0 +1,41 @@
+.form {
+  input {
+    box-sizing: border-box;
+    width: 484px;
+
+    color: var(--color-common);
+
+    border: 1px solid var(--color-common);
+    border-radius: 8px;
+
+    &:focus {
+      color: var(--color-common);
+    }
+  }
+
+  button: {
+    box-sizing: border-box;
+  }
+
+  & label:first-child {
+    color: var(--color-common);
+  }
+
+  & button[role='checkbox'] {
+    background: transparent;
+  }
+
+  & button[data-state='checked'] {
+    border-color: transparent;
+  }
+}
+
+.subitnBtnWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.inputLabel {
+  color: var(--color-common);
+}

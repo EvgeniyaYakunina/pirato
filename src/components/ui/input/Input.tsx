@@ -1,6 +1,6 @@
 import { ChangeEvent, ComponentPropsWithoutRef, forwardRef, useId, useState } from 'react'
 
-import CircleFill from '@/assets/icons/components/CircleFill'
+import CircleFill from '@/assets/icons/components/Close'
 import EyeFill from '@/assets/icons/components/EyeFill'
 import { Typography } from '@/components/ui'
 import clsx from 'clsx'

@@ -1,11 +1,10 @@
 import { ComponentPropsWithoutRef, ElementRef, ReactNode, forwardRef } from 'react'
 
+import Close from '@/assets/icons/components/Close'
 import * as Dialog from '@radix-ui/react-dialog'
 import clsx from 'clsx'
 
 import s from './modal.module.scss'
-
-import closeIcon from './close.svg'
 
 export const ModalRoot = Dialog.Root
 
@@ -28,7 +27,7 @@ export const ModalContent = forwardRef<ElementRef<typeof Dialog.Content>, ModalC
             <div className={s.headerWrapper}>
               <Dialog.Title className={s.modalTitle}>{modalTitle}</Dialog.Title>
               <Dialog.Close aria-label={'Close'} onClick={onCloseHandler}>
-                <img alt={'close'} src={closeIcon} />
+                <Close />
               </Dialog.Close>
             </div>
             <div className={s.contentWrapper}>{children}</div>
