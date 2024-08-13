@@ -9,56 +9,47 @@ import { SquaresFourFill } from '@/assets/icons/components/SquaresFourFill'
 import s from './sidebar.module.scss'
 
 export const Sidebar = () => {
-  const classNames = {
-    item: s.item,
-    logo: s.logo,
-    menuItems: s.menuItems,
-    rightItems: s.rightItems,
-    showSidebar: s.showSidebar,
-    sidebar: s.sidebar,
-  }
-
   return (
-    <div className={classNames.sidebar}>
-      <div className={classNames.showSidebar}>
-        <div className={classNames.logo}>
+    <div className={s.sidebar}>
+      <div className={s.showSidebar}>
+        <div className={s.logo}>
           <span>
             <SkullFill />
           </span>
           <span>Pirato</span>
         </div>
-        <ul className={classNames.menuItems}>
-          <li className={classNames.item}>
+        <ul className={s.menuItems}>
+          <li className={s.item}>
             <div>
               <SquaresFourFill />
             </div>
             <div>Dashboard</div>
           </li>
-          <li className={classNames.item}>
+          <li className={s.item}>
             <div>
               <GearFineFill />
             </div>
             <div>Settings</div>
           </li>
-          <li className={classNames.item}>
+          <li className={s.item}>
             <div>
               <LegoFill />
             </div>
             <div>CI/CD</div>
           </li>
-          <li className={classNames.item}>
+          <li className={s.item}>
             <div>
               <CerlesThreeFill />
             </div>
             <div>Modules</div>
           </li>
-          <li className={classNames.item}>
+          <li className={s.item}>
             <div>
               <ListBulletsFill />
             </div>
             <div>Documentation</div>
           </li>
-          <li className={classNames.item}>
+          <li className={s.item}>
             <div>
               <SquareHalfFill />
             </div>

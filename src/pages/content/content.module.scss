@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+
+  font-family: var(--font-family-secondary) sans-serif;
+  font-size: var(--font-size-l);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-l);
+}
+
+.projectWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.cells {
+  gap: 8px;
+  width: 100%;
+  height: 36px;
+  padding: 8px 0;
+}
+
+.projectLogo {
+  padding-right: 8px;
+}
+
+.button {
+  display: flex;
+  gap: 8px;
+
+  width: 69px;
+  height: 32px;
+  padding: 6px 12px;
+
+  border-radius: 8px;
+}

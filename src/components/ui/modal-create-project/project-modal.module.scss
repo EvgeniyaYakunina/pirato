@@ -1,0 +1,76 @@
+.form {
+  width: 500px;
+  height: 346px;
+  border-radius: 16px;
+
+  input {
+    box-sizing: border-box;
+    color: var(--color-common);
+    border: 1px solid var(--color-common);
+    border-radius: 8px;
+
+    &:focus {
+      color: var(--color-common);
+    }
+  }
+
+  & label:first-child {
+    color: var(--color-common);
+  }
+}
+
+.projectDetails {
+}
+
+.rolesContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  & a {
+    text-decoration: underline;
+  }
+}
+
+.inviteUsers {
+}
+
+.inviteUsersBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.select {
+  display: flex;
+  gap: 8px;
+
+  width: 206px;
+  height: 36px;
+  padding: 8px 12px;
+
+  border: 1px solid var(--color-common);
+  border-radius: 8px;
+}
+
+.removeButton {
+  display: flex;
+  gap: 8px;
+
+  width: 40px;
+  height: 36px;
+  padding: 8px 12px;
+
+  border-radius: 8px;
+}
+
+.subitnBtnWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.inputLabel {
+  color: var(--color-common);
+}

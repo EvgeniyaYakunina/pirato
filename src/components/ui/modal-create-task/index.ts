@@ -1,1 +1,1 @@
-export * from './deck-modal'
+export * from './task-modal'

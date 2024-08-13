@@ -6,7 +6,7 @@ import { FormInput } from '@/components/ui/controlled'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 
-import s from './deck-modal.module.scss'
+import s from './task-modal.module.scss'
 
 type DeckModalProps = {
   children?: ReactNode
@@ -24,7 +24,7 @@ const deckScheme = z.object({
 
 type FormValues = z.infer<typeof deckScheme>
 
-export const DeckModal = ({
+export const TaskModal = ({
   deckToUpdate,
   handleDataCreate,
   // handleDataUpdate,
@@ -85,7 +85,7 @@ export const DeckModal = ({
         <FormInput
           className={classNames.inputLabel}
           control={control}
-          label={'Something'}
+          label={'Description'}
           name={'name'}
         />
         <div className={s.subitnBtnWrapper}>

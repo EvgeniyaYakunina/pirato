@@ -12,7 +12,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
-import { DeckModal } from '@/components/ui/modal-create-task'
+import { TaskModal } from '@/components/ui/modal-create-task'
 
 import s from './header.module.scss'
 
@@ -35,7 +35,7 @@ export const Header = ({}: HeaderProps) => {
         <Button onClick={handleOpenModal} variant={'black'}>
           Create new task
         </Button>
-        <DeckModal
+        <TaskModal
           handleDataCreate={handleCreateTask}
           onOpenChange={setOpenModal}
           open={openModal}

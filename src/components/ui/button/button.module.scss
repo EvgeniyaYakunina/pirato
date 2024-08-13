@@ -8,7 +8,7 @@
 
   padding: 6px 28px;
 
-  font-family: var(--font-family-primary);
+  font-family: var(--font-family-primary) sans-serif;
   font-size: var(--font-size-s);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-m);
@@ -56,15 +56,17 @@
 .primary {
   @include button;
 
-  background-color: var(--color-accent-500);
-  box-shadow: 0 4px 18px 0 rgb(140 97 255 / 35%);
+  background-color: var(--color-common-background);
+  border: 1px solid var(--color-common);
+
+  //box-shadow: 0 4px 18px 0 rgb(140 97 255 / 35%);
 
   &:active {
-    background-color: var(--color-accent-700);
+    background-color: lightgray;
   }
 
   &:hover {
-    background-color: var(--color-accent-300);
+    background-color: lightgray;
   }
 
   &:focus {
@@ -110,13 +112,16 @@
 }
 
 .black {
-  font-family: var(--font-family-secondary);
-  font-weight: var(--font-weight-regular);
-  font-size: var(--font-size-s);
-  background: var(--color-common);
-  line-height: var(--line-height-s);
-  padding: 6px 12px;
-  color: var(--color-common-background);
-  border-radius: 8px;
   cursor: pointer;
+
+  padding: 6px 12px;
+
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-s);
+  color: var(--color-common-background);
+
+  background: var(--color-common);
+  border-radius: 8px;
 }
