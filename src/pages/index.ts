@@ -1,4 +1,5 @@
 export * from './activity'
+export * from './content'
 export * from './dashboard'
 export * from './signIn-page'
 export * from './signUp-page'

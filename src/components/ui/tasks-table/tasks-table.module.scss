@@ -1,0 +1,21 @@
+.tasksTable {
+  display: flex;
+  flex-direction: column;
+}
+
+.filtersContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input {
+  gap: 8px;
+
+  width: 250px;
+  height: 32px;
+  padding: 6px 12px;
+
+  border: 1px solid rgb(229 229 229 / 100%);
+  border-radius: 8px;
+}

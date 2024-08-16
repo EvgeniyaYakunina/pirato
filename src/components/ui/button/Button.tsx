@@ -6,7 +6,7 @@ import s from './button.module.scss'
 
 export type ButtonProps = {
   fullWidth?: boolean
-  variant?: 'black' | 'icon' | 'light' | 'primary' | 'secondary'
+  variant?: 'black' | 'ghost' | 'icon' | 'light' | 'outline' | 'primary' | 'secondary'
 } & ComponentPropsWithoutRef<'button'>
 
 export const Button = (props: ButtonProps) => {

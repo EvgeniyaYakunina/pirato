@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { Button } from '@/components'
+import { Button, ProjectTable } from '@/components'
 import { ProjectModal } from '@/components/ui/modal-create-project'
 
 import s from './content.module.scss'
@@ -30,6 +30,7 @@ export const Content = () => {
       </div>
       <div className={s.cells}>My tasks</div>
       <div className={s.cells}>Last tasks</div>
+      <ProjectTable />
     </div>
   )
 }
